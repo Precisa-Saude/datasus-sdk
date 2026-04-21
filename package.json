@@ -1,0 +1,66 @@
+{
+  "name": "@precisa-saude/datasus",
+  "version": "0.1.0",
+  "description": "Toolkit alto-nível para microdados DATASUS — FTP cliente, schemas tipados, labeling (CID-10, IBGE, CBO, SIGTAP) e agregações",
+  "keywords": [
+    "datasus",
+    "sih",
+    "sinan",
+    "cnes",
+    "sus",
+    "microdados",
+    "brasil",
+    "saúde",
+    "cid-10"
+  ],
+  "homepage": "https://github.com/Precisa-Saude/datasus-brasil/tree/main/packages/core#readme",
+  "bugs": "https://github.com/Precisa-Saude/datasus-brasil/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Precisa-Saude/datasus-brasil.git",
+    "directory": "packages/core"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf dist .turbo",
+    "lint": "eslint src/ --max-warnings 0",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@precisa-saude/datasus-dbc": "workspace:*"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "~5.7.3",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
