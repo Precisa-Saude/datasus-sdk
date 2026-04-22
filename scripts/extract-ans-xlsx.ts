@@ -14,7 +14,7 @@
  * Uso:
  *   pnpm -F @precisa-saude/datasus run build:ans-mapping
  *
- * Saída: `packages/core/data/ans-tuss-sigtap-oficial.json`
+ * Saída: `packages/core/src/terminology/data/ans-tuss-sigtap.json`
  *
  * Colunas do "Mapeamento ativos" (sheet1):
  *   A  Código TUSS (8 dígitos)
@@ -39,8 +39,8 @@ import { fileURLToPath } from 'node:url';
 const CORE_ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const MONOREPO_ROOT = resolve(CORE_ROOT, '..', '..');
 const CACHE_DIR = join(MONOREPO_ROOT, '.cache', 'ans-tuss-sigtap');
-const DATA_DIR = join(CORE_ROOT, 'data');
-const OUT_PATH = join(DATA_DIR, 'ans-tuss-sigtap-oficial.json');
+const TERMINOLOGY_DATA_DIR = join(CORE_ROOT, 'src', 'terminology', 'data');
+const OUT_PATH = join(TERMINOLOGY_DATA_DIR, 'ans-tuss-sigtap.json');
 
 const ANS_ZIP_URL =
   'https://www.gov.br/ans/pt-br/arquivos/assuntos/prestadores/' +
@@ -66,7 +66,7 @@ interface AnsRow {
 
 async function main(): Promise<void> {
   await mkdir(CACHE_DIR, { recursive: true });
-  await mkdir(DATA_DIR, { recursive: true });
+  await mkdir(TERMINOLOGY_DATA_DIR, { recursive: true });
 
   const zipPath = await downloadZip();
   const xlsxPath = await extractXlsxFromZip(zipPath);

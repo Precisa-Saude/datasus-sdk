@@ -31,21 +31,52 @@ console.log(JSON.stringify(top10, null, 2));
 
 - **CNES** — Cadastro Nacional de Estabelecimentos de Saúde (ST = estabelecimentos, PF = profissionais)
 
-Outros datasets (SIA-SUS — exames ambulatoriais faturados pelo SUS via códigos SIGTAP) estão no roadmap; o mapeamento LOINC/TUSS/SIGTAP necessário já foi construído (ver abaixo).
+Outros datasets (SIA-SUS — exames ambulatoriais faturados pelo SUS via códigos SIGTAP) estão no roadmap; o mapeamento LOINC↔TUSS↔SIGTAP necessário já é consumível (ver abaixo).
 
-## Dados derivados em `data/`
+## Terminologia LOINC ↔ TUSS ↔ SIGTAP
 
-Artefatos de terminologia extraídos de fontes oficiais e comprometidos ao pacote para uso pela biblioteca, CLI e downstream:
+Módulo `terminology` fecha a ponte entre o catálogo de biomarcadores LOINC do `@precisa-saude/fhir`, o padrão TUSS da saúde suplementar (ANS) e os códigos SIGTAP faturáveis pelo SUS.
 
-| Arquivo                              | Conteúdo                                                                                                   |
-| ------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| `ans-tuss-sigtap-oficial.json`       | Mapeamento **oficial** TUSS ↔ SIGTAP publicado pela ANS (6919 linhas)                                      |
-| `sigtap.json`                        | Tabela SIGTAP completa (4982 procedimentos) da competência SIGTAP mais recente                             |
-| `loinc-tuss-sigtap.json`             | Mapeamento derivado Biomarcador (LOINC) → TUSS → SIGTAP para os 164 biomarcadores do `@precisa-saude/fhir` |
-| `loinc-tuss-sigtap.report.md`        | Relatório humano-legível do mapeamento acima, pra revisão manual                                           |
-| `fhir-brasil-tuss-audit.md`          | Auditoria do `BRTUSSProcedimentosLabVS.fsh` do fhir-brasil vs ANS oficial                                  |
-| `BRTUSSProcedimentosLabVS.fixed.fsh` | Versão corrigida do VS fhir-brasil com códigos TUSS alinhados à ANS                                        |
-| `BRTUSSProcedimentosLabVS.diff.md`   | Diff resumido das correções aplicadas                                                                      |
+```ts
+import { listBiomarkers, loincToSigtap, lookupSigtap, lookupTuss } from '@precisa-saude/datasus';
+
+// Biomarcador FHIR → procedimento SUS
+const m = loincToSigtap('2085-9'); // Colesterol HDL
+// → { loinc: '2085-9', biomarker: { code: 'HDL', display: 'Colesterol HDL' },
+//     sigtap: '0202010279', tuss: '40301583', confidence: 'high',
+//     source: 'llm-refined', reasoning: '...', noMatchReason: null }
+
+// Nome pt-BR do procedimento SUS
+lookupSigtap(m!.sigtap!); // { code: '0202010279', name: 'DOSAGEM DE COLESTEROL HDL' }
+
+// Detalhes TUSS + lista de SIGTAPs equivalentes segundo a ANS
+lookupTuss(m!.tuss!);
+// → { code: '40301583', name: 'Colesterol (HDL) — pesquisa e/ou dosagem',
+//     sigtapEquivalents: [{ code: '0202010279', name: '...', equivalencia: '3' }] }
+
+// Percorrer todos os 164 biomarcadores do catálogo
+for (const entry of listBiomarkers()) {
+  /* ... */
+}
+```
+
+`loincToSigtap` aceita tanto o código LOINC canônico (`2085-9`) quanto o código curto do biomarcador (`HDL`). Quando o LLM não conseguiu decidir, `sigtap`/`tuss` vêm `null` e `noMatchReason` traz a explicação — útil pra listar biomarcadores sem procedimento SUS equivalente.
+
+## Dados derivados de fontes oficiais
+
+Artefatos de terminologia embutidos no pacote, extraídos de fontes abertas:
+
+| Arquivo                              | Localização             | Conteúdo                                                                                                            |
+| ------------------------------------ | ----------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| `ans-tuss-sigtap.json`               | `src/terminology/data/` | Mapeamento **oficial** TUSS ↔ SIGTAP publicado pela ANS (6919 linhas)                                               |
+| `sigtap.json`                        | `src/terminology/data/` | Tabela SIGTAP completa (4982 procedimentos) da competência mais recente                                             |
+| `loinc-biomarkers.json`              | `src/terminology/data/` | Mapeamento Biomarcador (LOINC) → TUSS → SIGTAP para os 164 biomarcadores do `@precisa-saude/fhir`, refinado por LLM |
+| `loinc-tuss-sigtap.json`             | `data/`                 | Mapeamento fuzzy (sem LLM) — mantido pra auditoria                                                                  |
+| `loinc-tuss-sigtap.report.md`        | `data/`                 | Relatório humano-legível do mapeamento fuzzy, pra revisão manual                                                    |
+| `loinc-tuss-sigtap.llm.report.md`    | `data/`                 | Relatório do refinamento LLM (modelo, prompts, decisões)                                                            |
+| `fhir-brasil-tuss-audit.md`          | `data/`                 | Auditoria do `BRTUSSProcedimentosLabVS.fsh` do fhir-brasil vs ANS oficial                                           |
+| `BRTUSSProcedimentosLabVS.fixed.fsh` | `data/`                 | Versão corrigida do VS fhir-brasil com TUSS alinhados à ANS                                                         |
+| `BRTUSSProcedimentosLabVS.diff.md`   | `data/`                 | Diff resumido das correções aplicadas                                                                               |
 
 ### Fontes oficiais
 

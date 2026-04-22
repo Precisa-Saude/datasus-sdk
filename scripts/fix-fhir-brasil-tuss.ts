@@ -8,7 +8,7 @@
  * (provavelmente usou numeração CBHPM ou portal de laboratório privado).
  * Este script mantém os nomes exibíveis declarados pelo fhir-brasil mas
  * substitui cada código pelo TUSS oficial correspondente, encontrado via
- * matching fuzzy por nome contra `ans-tuss-sigtap-oficial.json`.
+ * matching fuzzy por nome contra `src/terminology/data/ans-tuss-sigtap.json`.
  *
  * ## Saída
  *
@@ -24,7 +24,7 @@
  *
  *   pnpm -F @precisa-saude/datasus run fix:fhir-brasil-tuss
  *
- * Pré-requisito: `data/ans-tuss-sigtap-oficial.json` gerado por
+ * Pré-requisito: `src/terminology/data/ans-tuss-sigtap.json` gerado por
  * `scripts/extract-ans-xlsx.ts`.
  */
 
@@ -36,6 +36,7 @@ const CORE_ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const MONOREPO_ROOT = resolve(CORE_ROOT, '..', '..');
 const PRECISA_ROOT = resolve(MONOREPO_ROOT, '..');
 const DATA_DIR = join(CORE_ROOT, 'data');
+const TERMINOLOGY_DATA_DIR = join(CORE_ROOT, 'src', 'terminology', 'data');
 const TUSS_VS_FSH = join(
   PRECISA_ROOT,
   'fhir-brasil',
@@ -45,7 +46,7 @@ const TUSS_VS_FSH = join(
   'valuesets',
   'BRTUSSProcedimentosLabVS.fsh',
 );
-const ANS_OFFICIAL_JSON = join(DATA_DIR, 'ans-tuss-sigtap-oficial.json');
+const ANS_OFFICIAL_JSON = join(TERMINOLOGY_DATA_DIR, 'ans-tuss-sigtap.json');
 const OUT_FSH = join(DATA_DIR, 'BRTUSSProcedimentosLabVS.fixed.fsh');
 const OUT_DIFF = join(DATA_DIR, 'BRTUSSProcedimentosLabVS.diff.md');
 

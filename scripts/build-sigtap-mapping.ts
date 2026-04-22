@@ -42,15 +42,15 @@
  *
  * ## Saída
  *
- *   packages/core/data/sigtap.json                   SIGTAP completo
- *   packages/core/data/loinc-tuss-sigtap.json        mapeamento
- *   packages/core/data/loinc-tuss-sigtap.report.md   resumo revisão
- *   packages/core/data/fhir-brasil-tuss-audit.md     mismatches no fhir-brasil
+ *   packages/core/src/terminology/data/sigtap.json              SIGTAP completo (runtime)
+ *   packages/core/data/loinc-tuss-sigtap.json                  mapeamento fuzzy (audit)
+ *   packages/core/data/loinc-tuss-sigtap.report.md             resumo revisão
+ *   packages/core/data/fhir-brasil-tuss-audit.md               mismatches no fhir-brasil
  *
  * Uso: `pnpm -F @precisa-saude/datasus run build:sigtap-mapping`
  *
- * Pré-requisito (one-shot): `data/ans-tuss-sigtap-oficial.json` gerado
- * via `python3 scripts/extract-ans-xlsx.py .cache/.../xlsx OUTPUT`. Rode
+ * Pré-requisito (one-shot): `src/terminology/data/ans-tuss-sigtap.json`
+ * gerado via `pnpm -F @precisa-saude/datasus run build:ans-mapping`. Rode
  * quando a ANS publicar nova competência.
  */
 
@@ -67,6 +67,7 @@ const MONOREPO_ROOT = resolve(CORE_ROOT, '..', '..');
 const PRECISA_ROOT = resolve(MONOREPO_ROOT, '..');
 const CACHE_DIR = join(MONOREPO_ROOT, '.cache', 'sigtap');
 const DATA_DIR = join(CORE_ROOT, 'data');
+const TERMINOLOGY_DATA_DIR = join(CORE_ROOT, 'src', 'terminology', 'data');
 const BIOMARKERS_TS = join(PRECISA_ROOT, 'fhir-brasil', 'packages', 'core', 'src', 'biomarkers.ts');
 const TUSS_VS_FSH = join(
   PRECISA_ROOT,
@@ -77,7 +78,7 @@ const TUSS_VS_FSH = join(
   'valuesets',
   'BRTUSSProcedimentosLabVS.fsh',
 );
-const ANS_OFFICIAL_JSON = join(DATA_DIR, 'ans-tuss-sigtap-oficial.json');
+const ANS_OFFICIAL_JSON = join(TERMINOLOGY_DATA_DIR, 'ans-tuss-sigtap.json');
 
 const PROC_OFFSETS = {
   code: [0, 10] as const,
@@ -139,12 +140,16 @@ interface MappingEntry {
 async function main(): Promise<void> {
   await mkdir(CACHE_DIR, { recursive: true });
   await mkdir(DATA_DIR, { recursive: true });
+  await mkdir(TERMINOLOGY_DATA_DIR, { recursive: true });
 
   const zipPath = await downloadLatestSigtap();
   const extractDir = await extractZip(zipPath);
   const procedures = await parseProcedures(extractDir);
   console.error(`[sigtap] ${procedures.length} procedimentos parseados.`);
-  await writeFile(join(DATA_DIR, 'sigtap.json'), `${JSON.stringify(procedures, null, 2)}\n`);
+  await writeFile(
+    join(TERMINOLOGY_DATA_DIR, 'sigtap.json'),
+    `${JSON.stringify(procedures, null, 2)}\n`,
+  );
 
   const ansEnvelope = await loadAnsOfficial();
   const ansRows = ansEnvelope.rows;
