@@ -1,6 +1,6 @@
 {
   "name": "@precisa-saude/datasus",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Toolkit alto-nível para microdados DATASUS — FTP cliente, schemas tipados, labeling (IBGE, TP_UNID) e agregações",
   "keywords": [
     "datasus",
