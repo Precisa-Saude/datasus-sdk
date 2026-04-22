@@ -1,0 +1,2781 @@
+{
+  "_source": {
+    "competence": "2017-04",
+    "extracted_at": "2026-04-21T20:53:59.112Z",
+    "extractor": "packages/core/scripts/extract-ans-xlsx.ts",
+    "file": "MAPEAMENTO TUSS x SIGTAP 2017 04.xlsx",
+    "landing_page": "https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss/padrao-tiss-tabelas-relacionadas",
+    "license": "Dado aberto — Lei de Acesso à Informação (Lei 12.527/2011)",
+    "notice": "Trabalho conjunto ANS (Agência Nacional de Saúde Suplementar) + COPISS + Ministério da Saúde, conduzido de 2015 a 2017 (baseado em ISO/TR 12300:2014). A versão em uso é a competência 2017-04.",
+    "publisher": "Agência Nacional de Saúde Suplementar (ANS)",
+    "url": "https://www.gov.br/ans/pt-br/arquivos/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-tiss/padrao-tiss-tabelas-relacionadas/padraotiss_mapeamento_tuss_sigtap.zip"
+  },
+  "mapping": [
+    {
+      "biomarker_code": "ApoB",
+      "biomarker_display": "Apolipoproteína B",
+      "candidates": [],
+      "category": "coracao",
+      "loinc": "1884-6",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "HDL",
+      "biomarker_display": "Colesterol HDL",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010279",
+          "sigtap_name": "DOSAGEM DE COLESTEROL HDL",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "coracao",
+      "loinc": "2085-9",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301583",
+      "tuss_match_score": 1,
+      "tuss_name": "Colesterol (HDL) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "HDL_Large",
+      "biomarker_display": "HDL Grande",
+      "candidates": [],
+      "category": "coracao",
+      "loinc": "43729-3",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "CRP",
+      "biomarker_display": "Proteína C-Reativa",
+      "candidates": [
+        {
+          "equivalencia": "4",
+          "sigtap": "0202030202",
+          "sigtap_name": "DOSAGEM DE PROTEINA C REATIVA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "coracao",
+      "loinc": "1988-5",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40304507",
+      "tuss_match_score": 0.76,
+      "tuss_name": "Proteína C - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "LDL",
+      "biomarker_display": "Colesterol LDL",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010287",
+          "sigtap_name": "DOSAGEM DE COLESTEROL LDL",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "coracao",
+      "loinc": "2089-1",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301591",
+      "tuss_match_score": 1,
+      "tuss_name": "Colesterol (LDL) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "LDL_Medium",
+      "biomarker_display": "LDL Médio",
+      "candidates": [],
+      "category": "coracao",
+      "loinc": "96735-6",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "LDL_ParticleNumber",
+      "biomarker_display": "Número de Partículas LDL",
+      "candidates": [],
+      "category": "coracao",
+      "loinc": "54434-6",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "LDL_Pattern",
+      "biomarker_display": "Padrão LDL",
+      "candidates": [],
+      "category": "coracao",
+      "loinc": "35505-7",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "LDL_Peak_Size",
+      "biomarker_display": "Tamanho de Pico LDL",
+      "candidates": [],
+      "category": "coracao",
+      "loinc": "17782-4",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "LDL_Small",
+      "biomarker_display": "LDL Pequeno",
+      "candidates": [],
+      "category": "coracao",
+      "loinc": "43727-7",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Lipoprotein_a",
+      "biomarker_display": "Lipoproteína (a)",
+      "candidates": [],
+      "category": "coracao",
+      "loinc": "10835-7",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40302210",
+      "tuss_match_score": 1,
+      "tuss_name": "Lipoproteína (a) - Lp (a) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "NonHDL_Cholesterol",
+      "biomarker_display": "Colesterol Não-HDL",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010279",
+          "sigtap_name": "DOSAGEM DE COLESTEROL HDL",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "coracao",
+      "loinc": "43396-1",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301583",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Colesterol (HDL) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Cholesterol",
+      "biomarker_display": "Colesterol Total",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010295",
+          "sigtap_name": "DOSAGEM DE COLESTEROL TOTAL",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "coracao",
+      "loinc": "2093-3",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301605",
+      "tuss_match_score": 1,
+      "tuss_name": "Colesterol total - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Cholesterol_HDL_Ratio",
+      "biomarker_display": "Razão Colesterol Total / HDL",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010279",
+          "sigtap_name": "DOSAGEM DE COLESTEROL HDL",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "coracao",
+      "loinc": "9830-1",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301583",
+      "tuss_match_score": 0.8999999999999999,
+      "tuss_name": "Colesterol (HDL) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Triglycerides",
+      "biomarker_display": "Triglicerídeos",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010678",
+          "sigtap_name": "DOSAGEM DE TRIGLICERIDEOS",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "coracao",
+      "loinc": "2571-8",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40302547",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Triglicerídeos - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "VLDL",
+      "biomarker_display": "Colesterol VLDL",
+      "candidates": [],
+      "category": "coracao",
+      "loinc": "13458-5",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40302695",
+      "tuss_match_score": 1,
+      "tuss_name": "Colesterol (VLDL) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "CAC_Percentile",
+      "biomarker_display": "Percentil CAC",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010210",
+          "sigtap_name": "DOSAGEM DE CALCIO",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "coracao",
+      "loinc": null,
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301400",
+      "tuss_match_score": 0.76,
+      "tuss_name": "Cálcio - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "ApoA1",
+      "biomarker_display": "Apolipoproteína A-1",
+      "candidates": [],
+      "category": "coracao",
+      "loinc": "1869-7",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40301354",
+      "tuss_match_score": 0.8999999999999999,
+      "tuss_name": "Apolipoproteína A (Apo A) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "AntiThyroglobulin",
+      "biomarker_display": "Anticorpos Anti-Tireoglobulina",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060365",
+          "sigtap_name": "DOSAGEM DE TIREOGLOBULINA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "tireoide",
+      "loinc": "8098-6",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316530",
+      "tuss_match_score": 0.7374999999999999,
+      "tuss_name": "Tireoglobulina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "AntiTPO",
+      "biomarker_display": "Anticorpos Anti-Peroxidase Tireoidiana",
+      "candidates": [],
+      "category": "tireoide",
+      "loinc": "8099-4",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40316157",
+      "tuss_match_score": 0.82,
+      "tuss_name": "Anti-TPO - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "TSH",
+      "biomarker_display": "Hormônio Tireoestimulante",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060250",
+          "sigtap_name": "DOSAGEM DE HORMONIO TIREOESTIMULANTE (TSH)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "tireoide",
+      "loinc": "3016-3",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316521",
+      "tuss_match_score": 0.9249999999999999,
+      "tuss_name": "Tireoestimulante, hormônio (TSH) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "T4Free",
+      "biomarker_display": "Tiroxina Livre",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060381",
+          "sigtap_name": "DOSAGEM DE TIROXINA LIVRE (T4 LIVRE)",
+          "status": "Mapeado"
+        },
+        {
+          "equivalencia": null,
+          "sigtap": "0202060012",
+          "sigtap_name": "DETERMINACAO DE INDICE DE TIROXINA LIVRE",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "tireoide",
+      "loinc": "3024-7",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316491",
+      "tuss_match_score": 0.8999999999999999,
+      "tuss_name": "T4 livre - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "T3Free",
+      "biomarker_display": "Triiodotironina Livre",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060390",
+          "sigtap_name": "DOSAGEM DE TRIIODOTIRONINA (T3)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "tireoide",
+      "loinc": "3051-0",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316467",
+      "tuss_match_score": 0.8999999999999999,
+      "tuss_name": "T3 livre - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "T4Total",
+      "biomarker_display": "Tiroxina",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060373",
+          "sigtap_name": "DOSAGEM DE TIROXINA (T4)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "tireoide",
+      "loinc": "3026-2",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316548",
+      "tuss_match_score": 1,
+      "tuss_name": "Tiroxina (T4) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "ANA_Screen",
+      "biomarker_display": "Triagem de Anticorpos Antinucleares",
+      "candidates": [],
+      "category": "autoimunidade",
+      "loinc": "8061-4",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "RheumatoidFactor",
+      "biomarker_display": "Fator Reumatoide",
+      "candidates": [
+        {
+          "equivalencia": "1",
+          "sigtap": "0202020207",
+          "sigtap_name": "DOSAGEM DE FATOR V",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "autoimunidade",
+      "loinc": "11572-5",
+      "notes": null,
+      "selected": "0202020207",
+      "status": "auto",
+      "tuss": "40304175",
+      "tuss_match_score": 0.7999999999999999,
+      "tuss_name": "Fator V, dosagem"
+    },
+    {
+      "biomarker_code": "Basophils",
+      "biomarker_display": "Basófilos",
+      "candidates": [],
+      "category": "regulacao-imunologica",
+      "loinc": "706-2",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Eosinophils",
+      "biomarker_display": "Eosinófilos",
+      "candidates": [
+        {
+          "equivalencia": "4",
+          "sigtap": "0202040062",
+          "sigtap_name": "PESQUISA DE EOSINOFILOS",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "regulacao-imunologica",
+      "loinc": "713-8",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40303047",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Eosinófilos, pesquisa nas fezes"
+    },
+    {
+      "biomarker_code": "Lymphocytes",
+      "biomarker_display": "Linfócitos",
+      "candidates": [],
+      "category": "regulacao-imunologica",
+      "loinc": "736-9",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40319164",
+      "tuss_match_score": 0.7749999999999999,
+      "tuss_name": "Linfócitos, cultura com candida albicans"
+    },
+    {
+      "biomarker_code": "Monocytes",
+      "biomarker_display": "Monócitos",
+      "candidates": [],
+      "category": "regulacao-imunologica",
+      "loinc": "5905-5",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Neutrophils",
+      "biomarker_display": "Neutrófilos",
+      "candidates": [],
+      "category": "regulacao-imunologica",
+      "loinc": "770-8",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40319199",
+      "tuss_match_score": 1,
+      "tuss_name": "Neutrófilos, pesquisa de"
+    },
+    {
+      "biomarker_code": "WBC",
+      "biomarker_display": "Contagem de Leucócitos",
+      "candidates": [
+        {
+          "equivalencia": "2",
+          "sigtap": "0202020398",
+          "sigtap_name": "LEUCOGRAMA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "regulacao-imunologica",
+      "loinc": "6690-2",
+      "notes": null,
+      "selected": "0202020398",
+      "status": "auto",
+      "tuss": "40304418",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Leucócitos, contagem"
+    },
+    {
+      "biomarker_code": "IgA",
+      "biomarker_display": "Imunoglobulina A",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202030156",
+          "sigtap_name": "DOSAGEM DE IMUNOGLOBULINA A (IGA)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "regulacao-imunologica",
+      "loinc": "2458-8",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40307220",
+      "tuss_match_score": 0.85,
+      "tuss_name": "IgA - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "IgG",
+      "biomarker_display": "Imunoglobulina G",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202030172",
+          "sigtap_name": "DOSAGEM DE IMUNOGLOBULINA G (IGG)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "regulacao-imunologica",
+      "loinc": "2465-3",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40307280",
+      "tuss_match_score": 0.85,
+      "tuss_name": "IgG - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "IgE_Total",
+      "biomarker_display": "IgE Total",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202030164",
+          "sigtap_name": "DOSAGEM DE IMUNOGLOBULINA E (IGE)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "regulacao-imunologica",
+      "loinc": "19113-0",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316343",
+      "tuss_match_score": 1,
+      "tuss_name": "Imunoglobulina (IGE) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "IgE_E1_CatDander",
+      "biomarker_display": "IgE E1 Epitélio de Gato",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202030164",
+          "sigtap_name": "DOSAGEM DE IMUNOGLOBULINA E (IGE)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "regulacao-imunologica",
+      "loinc": "6833-8",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40307271",
+      "tuss_match_score": 0.76,
+      "tuss_name": "IgE, total - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "IgE_GX1_Grasses",
+      "biomarker_display": "IgE GX1 Gramíneas",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202030164",
+          "sigtap_name": "DOSAGEM DE IMUNOGLOBULINA E (IGE)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "regulacao-imunologica",
+      "loinc": "30189-5",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40307271",
+      "tuss_match_score": 0.76,
+      "tuss_name": "IgE, total - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "AMH",
+      "biomarker_display": "Hormônio Anti-Mülleriano",
+      "candidates": [],
+      "category": "saude-feminina",
+      "loinc": "38476-8",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40316890",
+      "tuss_match_score": 0.5866666666666667,
+      "tuss_name": "Hormônio anti muleriano"
+    },
+    {
+      "biomarker_code": "DHEAS",
+      "biomarker_display": "DHEA-Sulfato",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060330",
+          "sigtap_name": "DOSAGEM DE SULFATO DE HIDROEPIANDROSTERONA (DHEAS)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "saude-feminina,saude-masculina",
+      "loinc": "2191-5",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316459",
+      "tuss_match_score": 0.6166666666666666,
+      "tuss_name": "Sulfato de dehidroepiandrosterona (S-DHEA) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Estradiol",
+      "biomarker_display": "Estradiol",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060160",
+          "sigtap_name": "DOSAGEM DE ESTRADIOL",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "saude-feminina,saude-masculina",
+      "loinc": "2243-4",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316246",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Estradiol - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "FSH",
+      "biomarker_display": "Hormônio Folículo-Estimulante",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060233",
+          "sigtap_name": "DOSAGEM DE HORMONIO FOLICULO-ESTIMULANTE (FSH)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "saude-feminina,saude-masculina",
+      "loinc": "15067-2",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316289",
+      "tuss_match_score": 0.94,
+      "tuss_name": "Folículo estimulante, hormônio (FSH) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "LH",
+      "biomarker_display": "Hormônio Luteinizante",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060241",
+          "sigtap_name": "DOSAGEM DE HORMONIO LUTEINIZANTE (LH)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "saude-feminina,saude-masculina",
+      "loinc": "10501-5",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316335",
+      "tuss_match_score": 0.9249999999999999,
+      "tuss_name": "Hormônio luteinizante (LH) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Prolactin",
+      "biomarker_display": "Prolactina",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060306",
+          "sigtap_name": "DOSAGEM DE PROLACTINA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "saude-feminina,saude-masculina",
+      "loinc": "2842-3",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316416",
+      "tuss_match_score": 1,
+      "tuss_name": "Prolactina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "SHBG",
+      "biomarker_display": "Globulina Ligadora de Hormônios Sexuais",
+      "candidates": [],
+      "category": "saude-feminina,saude-masculina",
+      "loinc": "13967-5",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40316300",
+      "tuss_match_score": 0.7599999999999999,
+      "tuss_name": "Globulina de ligação de hormônios sexuais (SHBG) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "TestosteroneFree",
+      "biomarker_display": "Testosterona Livre",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060357",
+          "sigtap_name": "DOSAGEM DE TESTOSTERONA LIVRE",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "saude-feminina,saude-masculina",
+      "loinc": "2991-8",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316505",
+      "tuss_match_score": 1,
+      "tuss_name": "Testosterona livre - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Testosterone",
+      "biomarker_display": "Testosterona Total",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060349",
+          "sigtap_name": "DOSAGEM DE TESTOSTERONA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "saude-feminina,saude-masculina",
+      "loinc": "2986-8",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316513",
+      "tuss_match_score": 1,
+      "tuss_name": "Testosterona total - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Progesterone",
+      "biomarker_display": "Progesterona",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060292",
+          "sigtap_name": "DOSAGEM DE PROGESTERONA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "saude-feminina",
+      "loinc": "2839-9",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316408",
+      "tuss_match_score": 1,
+      "tuss_name": "Progesterona - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "PSA",
+      "biomarker_display": "Antígeno Prostático Específico",
+      "candidates": [
+        {
+          "equivalencia": "4",
+          "sigtap": "0202030105",
+          "sigtap_name": "DOSAGEM DE ANTIGENO PROSTATICO ESPECIFICO (PSA)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "saude-masculina",
+      "loinc": "2857-1",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316149",
+      "tuss_match_score": 1,
+      "tuss_name": "Antígeno específico prostático total (PSA) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "PSA_Free",
+      "biomarker_display": "PSA Livre",
+      "candidates": [
+        {
+          "equivalencia": "4",
+          "sigtap": "0202030105",
+          "sigtap_name": "DOSAGEM DE ANTIGENO PROSTATICO ESPECIFICO (PSA)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "saude-masculina",
+      "loinc": "10886-0",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316130",
+      "tuss_match_score": 1,
+      "tuss_name": "Antígeno específico prostático livre (PSA livre) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "PSA_FreeRatio",
+      "biomarker_display": "Relação PSA Livre/Total",
+      "candidates": [],
+      "category": "saude-masculina",
+      "loinc": "12841-3",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "DHT",
+      "biomarker_display": "Diidrotestosterona",
+      "candidates": [],
+      "category": "hormonios",
+      "loinc": "1848-1",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Glucose",
+      "biomarker_display": "Glicose",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010473",
+          "sigtap_name": "DOSAGEM DE GLICOSE",
+          "status": "Mapeado"
+        },
+        {
+          "equivalencia": null,
+          "sigtap": "0202090124",
+          "sigtap_name": "DOSAGEM DE GLICOSE NO LIQUIDO SINOVIAL E DERRAMES",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "metabolico",
+      "loinc": "2345-7",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40302040",
+      "tuss_match_score": 0.7999999999999999,
+      "tuss_name": "Glicose - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "HbA1c",
+      "biomarker_display": "Hemoglobina Glicada",
+      "candidates": [
+        {
+          "equivalencia": "1",
+          "sigtap": "0202020304",
+          "sigtap_name": "DOSAGEM DE HEMOGLOBINA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "metabolico",
+      "loinc": "4548-4",
+      "notes": null,
+      "selected": "0202020304",
+      "status": "auto",
+      "tuss": "40304345",
+      "tuss_match_score": 0.7749999999999999,
+      "tuss_name": "Hemoglobina, dosagem"
+    },
+    {
+      "biomarker_code": "eAG",
+      "biomarker_display": "Glicemia Média Estimada",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010473",
+          "sigtap_name": "DOSAGEM DE GLICOSE",
+          "status": "Mapeado"
+        },
+        {
+          "equivalencia": null,
+          "sigtap": "0202090124",
+          "sigtap_name": "DOSAGEM DE GLICOSE NO LIQUIDO SINOVIAL E DERRAMES",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "metabolico",
+      "loinc": "27353-2",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40302040",
+      "tuss_match_score": 0.76,
+      "tuss_name": "Glicose - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Insulin",
+      "biomarker_display": "Insulina",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060268",
+          "sigtap_name": "DOSAGEM DE INSULINA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "metabolico",
+      "loinc": "20448-7",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316360",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Insulina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "HOMA_IR",
+      "biomarker_display": "HOMA-IR",
+      "candidates": [],
+      "category": "metabolico",
+      "loinc": "47214-2",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Leptin",
+      "biomarker_display": "Leptina",
+      "candidates": [],
+      "category": "metabolico",
+      "loinc": "21365-2",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40305422",
+      "tuss_match_score": 1,
+      "tuss_name": "Leptina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "UricAcid",
+      "biomarker_display": "Ácido Úrico",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010120",
+          "sigtap_name": "DOSAGEM DE ACIDO URICO",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "metabolico",
+      "loinc": "3084-1",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301150",
+      "tuss_match_score": 1,
+      "tuss_name": "Ácido úrico - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "CK",
+      "biomarker_display": "Creatina Quinase",
+      "candidates": [],
+      "category": "metabolico",
+      "loinc": "2157-6",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40301621",
+      "tuss_match_score": 0.76,
+      "tuss_name": "Creatina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Lead",
+      "biomarker_display": "Chumbo",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202070174",
+          "sigtap_name": "DOSAGEM DE CHUMBO",
+          "status": "Mapeado"
+        },
+        {
+          "equivalencia": null,
+          "sigtap": "0213020041",
+          "sigtap_name": "ANALISE DE METAIS PESADOS",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "toxinas-ambientais",
+      "loinc": "77307-7",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40313107",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Chumbo - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Mercury",
+      "biomarker_display": "Mercúrio",
+      "candidates": [],
+      "category": "toxinas-ambientais",
+      "loinc": "5685-3",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "AA_EPA_Ratio",
+      "biomarker_display": "Razão Ácido Araquidônico/EPA",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "90909-3",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Calcium",
+      "biomarker_display": "Cálcio",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010210",
+          "sigtap_name": "DOSAGEM DE CALCIO",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "nutrientes",
+      "loinc": "17861-6",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301400",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Cálcio - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Ferritin",
+      "biomarker_display": "Ferritina",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010384",
+          "sigtap_name": "DOSAGEM DE FERRITINA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "nutrientes",
+      "loinc": "2276-4",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316270",
+      "tuss_match_score": 1,
+      "tuss_name": "Ferritina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Folate",
+      "biomarker_display": "Folato",
+      "candidates": [
+        {
+          "equivalencia": null,
+          "sigtap": "0202010406",
+          "sigtap_name": "DOSAGEM DE FOLATO",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "nutrientes",
+      "loinc": "2284-8",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40301087",
+      "tuss_match_score": 0.5666666666666667,
+      "tuss_name": "Ácido fólico, pesquisa e/ou dosagem nos eritrócitos"
+    },
+    {
+      "biomarker_code": "Homocysteine",
+      "biomarker_display": "Homocisteína",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "13965-9",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40302113",
+      "tuss_match_score": 1,
+      "tuss_name": "Homocisteína - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Iron",
+      "biomarker_display": "Ferro",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010392",
+          "sigtap_name": "DOSAGEM DE FERRO SERICO",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "nutrientes",
+      "loinc": "2498-4",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301842",
+      "tuss_match_score": 1,
+      "tuss_name": "Ferro sérico - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "TransferrinSaturation",
+      "biomarker_display": "Saturação de Ferro",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010660",
+          "sigtap_name": "DOSAGEM DE TRANSFERRINA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "nutrientes",
+      "loinc": "2502-3",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40302520",
+      "tuss_match_score": 0.76,
+      "tuss_name": "Transferrina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "TIBC",
+      "biomarker_display": "Capacidade de Ligação do Ferro",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010023",
+          "sigtap_name": "DETERMINACAO DE CAPACIDADE DE FIXACAO DO FERRO",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "nutrientes",
+      "loinc": "2500-7",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301427",
+      "tuss_match_score": 0.5523809523809523,
+      "tuss_name": "Capacidade de fixação de ferro - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Magnesium_RBC",
+      "biomarker_display": "Magnésio RBC",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010562",
+          "sigtap_name": "DOSAGEM DE MAGNESIO",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "nutrientes",
+      "loinc": "26746-8",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40302237",
+      "tuss_match_score": 0.7749999999999999,
+      "tuss_name": "Magnésio - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "MMA",
+      "biomarker_display": "Ácido Metilmalônico",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "13964-2",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Omega3_Total",
+      "biomarker_display": "Ômega-3 Total",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "35178-3",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Omega3_DHA",
+      "biomarker_display": "Ômega-3: DHA",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "75095-0",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Omega3_DPA",
+      "biomarker_display": "Ômega-3: DPA",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "48371-9",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Omega3_EPA",
+      "biomarker_display": "Ômega-3: EPA",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "75097-6",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "EPADPADHA",
+      "biomarker_display": "Ômega-3: EPA+DPA+DHA",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "90908-5",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Omega6_Omega3_Ratio",
+      "biomarker_display": "Razão Ômega-6 / Ômega-3",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "90910-1",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Omega6_Total",
+      "biomarker_display": "Ômega-6 Total",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "35177-5",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Omega6_AA",
+      "biomarker_display": "Ômega-6: Ácido Araquidônico",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "75110-7",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Omega6_LA",
+      "biomarker_display": "Ômega-6: Ácido Linoleico",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "75117-2",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "VitaminA",
+      "biomarker_display": "Vitamina A",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "2923-1",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40302601",
+      "tuss_match_score": 0.7749999999999999,
+      "tuss_name": "Vitamina A, pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "VitaminB12",
+      "biomarker_display": "Vitamina B12",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010708",
+          "sigtap_name": "DOSAGEM DE VITAMINA B12",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "nutrientes",
+      "loinc": "2132-9",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316572",
+      "tuss_match_score": 0.7999999999999999,
+      "tuss_name": "Vitamina B12 - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "VitaminC",
+      "biomarker_display": "Vitamina C",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010112",
+          "sigtap_name": "DOSAGEM DE ACIDO ASCORBICO",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "nutrientes",
+      "loinc": "1903-4",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301060",
+      "tuss_match_score": 0.9249999999999999,
+      "tuss_name": "Ácido ascórbico (vitamina C) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "VitaminD",
+      "biomarker_display": "Vitamina D",
+      "candidates": [],
+      "category": "nutrientes",
+      "loinc": "1989-3",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40302601",
+      "tuss_match_score": 0.76,
+      "tuss_name": "Vitamina A, pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Zinc",
+      "biomarker_display": "Zinco",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202070352",
+          "sigtap_name": "DOSAGEM DE ZINCO",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "nutrientes",
+      "loinc": "8245-3",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40313328",
+      "tuss_match_score": 1,
+      "tuss_name": "Zinco - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Cortisol",
+      "biomarker_display": "Cortisol",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202060136",
+          "sigtap_name": "DOSAGEM DE CORTISOL",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "estresse-envelhecimento",
+      "loinc": "2143-6",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316190",
+      "tuss_match_score": 1,
+      "tuss_name": "Cortisol - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "ALT",
+      "biomarker_display": "Alanina Aminotransferase",
+      "candidates": [],
+      "category": "figado",
+      "loinc": "1742-6",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Albumin",
+      "biomarker_display": "Albumina",
+      "candidates": [],
+      "category": "figado",
+      "loinc": "1751-7",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40301222",
+      "tuss_match_score": 1,
+      "tuss_name": "Albumina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Albumin_Globulin_Ratio",
+      "biomarker_display": "Razão Albumina / Globulina",
+      "candidates": [],
+      "category": "figado",
+      "loinc": "1759-0",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40301222",
+      "tuss_match_score": 0.7999999999999999,
+      "tuss_name": "Albumina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "AlkalinePhosphatase",
+      "biomarker_display": "Fosfatase Alcalina",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010422",
+          "sigtap_name": "DOSAGEM DE FOSFATASE ALCALINA",
+          "status": "Mapeado"
+        },
+        {
+          "equivalencia": null,
+          "sigtap": "0202090094",
+          "sigtap_name": "DOSAGEM DE FOSFATASE ALCALINA NO ESPERMA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "figado",
+      "loinc": "6768-6",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301885",
+      "tuss_match_score": 0.8999999999999999,
+      "tuss_name": "Fosfatase alcalina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "AST",
+      "biomarker_display": "Aspartato Aminotransferase",
+      "candidates": [],
+      "category": "figado",
+      "loinc": "1920-8",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "GGT",
+      "biomarker_display": "Gama-Glutamil Transferase",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010465",
+          "sigtap_name": "DOSAGEM DE GAMA-GLUTAMIL-TRANSFERASE (GAMA GT)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "figado",
+      "loinc": "2324-2",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301990",
+      "tuss_match_score": 0.8799999999999999,
+      "tuss_name": "Gama-glutamil transferase - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Globulin",
+      "biomarker_display": "Globulina",
+      "candidates": [],
+      "category": "figado",
+      "loinc": "2336-6",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40316858",
+      "tuss_match_score": 0.7999999999999999,
+      "tuss_name": "Globulina ligadora do cortisol"
+    },
+    {
+      "biomarker_code": "TotalProtein",
+      "biomarker_display": "Proteína Total",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010619",
+          "sigtap_name": "DOSAGEM DE PROTEINAS TOTAIS",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "figado",
+      "loinc": "2885-2",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40302377",
+      "tuss_match_score": 0.8999999999999999,
+      "tuss_name": "Proteínas totais - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "BilirubinTotal",
+      "biomarker_display": "Bilirrubina Total",
+      "candidates": [],
+      "category": "figado",
+      "loinc": "1975-2",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40302946",
+      "tuss_match_score": 0.7999999999999999,
+      "tuss_name": "Bilirrubina transcutânea [labo]"
+    },
+    {
+      "biomarker_code": "BilirubinDirect",
+      "biomarker_display": "Bilirrubina Direta",
+      "candidates": [],
+      "category": "figado",
+      "loinc": "1968-7",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "BilirubinIndirect",
+      "biomarker_display": "Bilirrubina Indireta",
+      "candidates": [],
+      "category": "figado",
+      "loinc": "1971-1",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Hct",
+      "biomarker_display": "Hematócrito",
+      "candidates": [
+        {
+          "equivalencia": "1",
+          "sigtap": "0202020371",
+          "sigtap_name": "HEMATOCRITO",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "sangue",
+      "loinc": "4544-3",
+      "notes": null,
+      "selected": "0202020371",
+      "status": "auto",
+      "tuss": "40304337",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Hematócrito, determinação do"
+    },
+    {
+      "biomarker_code": "Hgb",
+      "biomarker_display": "Hemoglobina",
+      "candidates": [
+        {
+          "equivalencia": "1",
+          "sigtap": "0202020304",
+          "sigtap_name": "DOSAGEM DE HEMOGLOBINA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "sangue",
+      "loinc": "718-7",
+      "notes": null,
+      "selected": "0202020304",
+      "status": "auto",
+      "tuss": "40304345",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Hemoglobina, dosagem"
+    },
+    {
+      "biomarker_code": "MCH",
+      "biomarker_display": "Hemoglobina Corpuscular Média",
+      "candidates": [
+        {
+          "equivalencia": "1",
+          "sigtap": "0202020304",
+          "sigtap_name": "DOSAGEM DE HEMOGLOBINA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "sangue",
+      "loinc": "785-6",
+      "notes": null,
+      "selected": "0202020304",
+      "status": "auto",
+      "tuss": "40304345",
+      "tuss_match_score": 0.7749999999999999,
+      "tuss_name": "Hemoglobina, dosagem"
+    },
+    {
+      "biomarker_code": "MCHC",
+      "biomarker_display": "Concentração de Hemoglobina Corpuscular Média",
+      "candidates": [
+        {
+          "equivalencia": "1",
+          "sigtap": "0202020304",
+          "sigtap_name": "DOSAGEM DE HEMOGLOBINA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "sangue",
+      "loinc": "786-4",
+      "notes": null,
+      "selected": "0202020304",
+      "status": "auto",
+      "tuss": "40304345",
+      "tuss_match_score": 0.76,
+      "tuss_name": "Hemoglobina, dosagem"
+    },
+    {
+      "biomarker_code": "MCV",
+      "biomarker_display": "Volume Corpuscular Médio",
+      "candidates": [],
+      "category": "sangue",
+      "loinc": "787-2",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "MPV",
+      "biomarker_display": "Volume Plaquetário Médio",
+      "candidates": [],
+      "category": "sangue",
+      "loinc": "32623-1",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Platelets",
+      "biomarker_display": "Contagem de Plaquetas",
+      "candidates": [
+        {
+          "equivalencia": "2",
+          "sigtap": "0202020380",
+          "sigtap_name": "HEMOGRAMA COMPLETO",
+          "status": "Mapeado"
+        },
+        {
+          "equivalencia": null,
+          "sigtap": "0202020029",
+          "sigtap_name": "CONTAGEM DE PLAQUETAS",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "sangue",
+      "loinc": "777-3",
+      "notes": null,
+      "selected": "0202020380",
+      "status": "auto",
+      "tuss": "40304361",
+      "tuss_match_score": 0.7999999999999999,
+      "tuss_name": "Hemograma com contagem de plaquetas ou frações (eritrograma, leucograma, plaquetas)"
+    },
+    {
+      "biomarker_code": "RBC",
+      "biomarker_display": "Contagem de Hemácias",
+      "candidates": [],
+      "category": "sangue",
+      "loinc": "789-8",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40319113",
+      "tuss_match_score": 0.8999999999999999,
+      "tuss_name": "Hemácias, contagem"
+    },
+    {
+      "biomarker_code": "RDW",
+      "biomarker_display": "Amplitude de Distribuição dos Eritrócitos",
+      "candidates": [],
+      "category": "sangue",
+      "loinc": "788-0",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "ESR",
+      "biomarker_display": "Velocidade de Hemossedimentação",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202020150",
+          "sigtap_name": "DETERMINACAO DE VELOCIDADE DE HEMOSSEDIMENTACAO (VHS)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "sangue",
+      "loinc": "30341-2",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40304370",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Hemossedimentação, (VHS) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "INR",
+      "biomarker_display": "Razão Normalizada Internacional",
+      "candidates": [],
+      "category": "sangue",
+      "loinc": "6301-6",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "ProthrombinTime",
+      "biomarker_display": "Tempo de Protrombina",
+      "candidates": [
+        {
+          "equivalencia": "2",
+          "sigtap": "0202020142",
+          "sigtap_name": "DETERMINACAO DE TEMPO E ATIVIDADE DA PROTROMBINA (TAP)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "sangue",
+      "loinc": "5902-2",
+      "notes": null,
+      "selected": "0202020142",
+      "status": "auto",
+      "tuss": "40304590",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Tempo de protrombina - determinação"
+    },
+    {
+      "biomarker_code": "Reticulocytes",
+      "biomarker_display": "Reticulócitos",
+      "candidates": [
+        {
+          "equivalencia": "1",
+          "sigtap": "0202020037",
+          "sigtap_name": "CONTAGEM DE RETICULOCITOS",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "sangue",
+      "loinc": "4679-7",
+      "notes": null,
+      "selected": "0202020037",
+      "status": "auto",
+      "tuss": "40304558",
+      "tuss_match_score": 1,
+      "tuss_name": "Reticulócitos, contagem"
+    },
+    {
+      "biomarker_code": "Microalbumin_Urine",
+      "biomarker_display": "Albumina Urina",
+      "candidates": [],
+      "category": "rins",
+      "loinc": "14957-5",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40301222",
+      "tuss_match_score": 0.7999999999999999,
+      "tuss_name": "Albumina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Urea",
+      "biomarker_display": "Ureia",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010694",
+          "sigtap_name": "DOSAGEM DE UREIA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "rins",
+      "loinc": "3094-0",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40302580",
+      "tuss_match_score": 1,
+      "tuss_name": "Uréia - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "BUN_Creatinine_Ratio",
+      "biomarker_display": "Razão Ureia / Creatinina",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010317",
+          "sigtap_name": "DOSAGEM DE CREATININA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "rins",
+      "loinc": "3097-3",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301630",
+      "tuss_match_score": 0.7999999999999999,
+      "tuss_name": "Creatinina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Creatinine",
+      "biomarker_display": "Creatinina",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010317",
+          "sigtap_name": "DOSAGEM DE CREATININA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "rins",
+      "loinc": "2160-0",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301630",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Creatinina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "eGFR",
+      "biomarker_display": "Taxa de Filtração Glomerular Estimada",
+      "candidates": [
+        {
+          "equivalencia": "1",
+          "sigtap": "0208040080",
+          "sigtap_name": "DETERMINACAO DE FILTRACAO GLOMERULAR",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "rins",
+      "loinc": "98979-8",
+      "notes": null,
+      "selected": "0208040080",
+      "status": "auto",
+      "tuss": "40704076",
+      "tuss_match_score": 0.7666666666666666,
+      "tuss_name": "Determinação da filtração glomerular"
+    },
+    {
+      "biomarker_code": "Potassium",
+      "biomarker_display": "Potássio",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010600",
+          "sigtap_name": "DOSAGEM DE POTASSIO",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "rins",
+      "loinc": "2823-3",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40302318",
+      "tuss_match_score": 1,
+      "tuss_name": "Potássio - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Sodium",
+      "biomarker_display": "Sódio",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010635",
+          "sigtap_name": "DOSAGEM DE SODIO",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "rins",
+      "loinc": "2951-2",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40302423",
+      "tuss_match_score": 1,
+      "tuss_name": "Sódio - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Creatinine_Urine",
+      "biomarker_display": "Creatinina Urinária",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010317",
+          "sigtap_name": "DOSAGEM DE CREATININA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "rins",
+      "loinc": "2161-8",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301630",
+      "tuss_match_score": 0.7999999999999999,
+      "tuss_name": "Creatinina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Albumin_Creatinine_Ratio",
+      "biomarker_display": "Razão Albumina/Creatinina",
+      "candidates": [],
+      "category": "rins",
+      "loinc": "9318-7",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40301222",
+      "tuss_match_score": 0.75,
+      "tuss_name": "Albumina - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Amylase",
+      "biomarker_display": "Amilase",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010180",
+          "sigtap_name": "DOSAGEM DE AMILASE",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "pancreas",
+      "loinc": "1798-8",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40301281",
+      "tuss_match_score": 1,
+      "tuss_name": "Amilase - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Lipase",
+      "biomarker_display": "Lipase",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010554",
+          "sigtap_name": "DOSAGEM DE LIPASE",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "pancreas",
+      "loinc": "3040-3",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40302199",
+      "tuss_match_score": 1,
+      "tuss_name": "Lipase - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "CO2",
+      "biomarker_display": "Dióxido de Carbono",
+      "candidates": [],
+      "category": "eletrolitos",
+      "loinc": "2028-9",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40321053",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Dióxido de carbono, dosagem"
+    },
+    {
+      "biomarker_code": "Chloride",
+      "biomarker_display": "Cloreto",
+      "candidates": [],
+      "category": "eletrolitos",
+      "loinc": "2075-0",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Appearance_Urine",
+      "biomarker_display": "Aparência da Urina",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "5767-9",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Bacteria_Urine",
+      "biomarker_display": "Bactérias na Urina",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "630-4",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Bilirubin_Urine",
+      "biomarker_display": "Bilirrubina na Urina",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "5770-3",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Blood_Urine",
+      "biomarker_display": "Sangue Oculto na Urina",
+      "candidates": [
+        {
+          "equivalencia": "1",
+          "sigtap": "0202040143",
+          "sigtap_name": "PESQUISA DE SANGUE OCULTO NAS FEZES",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "urina",
+      "loinc": "5794-3",
+      "notes": null,
+      "selected": "0202040143",
+      "status": "auto",
+      "tuss": "40303136",
+      "tuss_match_score": 0.6166666666666666,
+      "tuss_name": "Sangue oculto, pesquisa nas fezes"
+    },
+    {
+      "biomarker_code": "Color_Urine",
+      "biomarker_display": "Cor da Urina",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "5778-6",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Glucose_Urine",
+      "biomarker_display": "Glicose na Urina",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202010473",
+          "sigtap_name": "DOSAGEM DE GLICOSE",
+          "status": "Mapeado"
+        },
+        {
+          "equivalencia": null,
+          "sigtap": "0202090124",
+          "sigtap_name": "DOSAGEM DE GLICOSE NO LIQUIDO SINOVIAL E DERRAMES",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "urina",
+      "loinc": "5792-7",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40302040",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Glicose - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "HyalineCasts_Urine",
+      "biomarker_display": "Cilindros Hialinos na Urina",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "5796-8",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Ketones_Urine",
+      "biomarker_display": "Cetonas na Urina",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "5797-6",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "LeukocyteEsterase_Urine",
+      "biomarker_display": "Esterase Leucocitária na Urina",
+      "candidates": [
+        {
+          "equivalencia": "4",
+          "sigtap": "0202020010",
+          "sigtap_name": "CITOQUIMICA HEMATOLOGICA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "urina",
+      "loinc": "5799-2",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40304094",
+      "tuss_match_score": 0.5166666666666666,
+      "tuss_name": "Citoquímica para classificar leucemia: esterase, fosfatase leucocitária, PAS, peroxidase ou SB,  etc - cada"
+    },
+    {
+      "biomarker_code": "Leukocytes_Urine",
+      "biomarker_display": "Leucócitos na Urina",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "5821-4",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Nitrite_Urine",
+      "biomarker_display": "Nitrito na Urina",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "5802-4",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "pH_Urine",
+      "biomarker_display": "pH Urinário",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "5803-2",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40311414",
+      "tuss_match_score": 0.5866666666666667,
+      "tuss_name": "Ferro urinário (urina 24h)"
+    },
+    {
+      "biomarker_code": "Protein_Urine",
+      "biomarker_display": "Proteína na Urina",
+      "candidates": [
+        {
+          "equivalencia": "4",
+          "sigtap": "0202030202",
+          "sigtap_name": "DOSAGEM DE PROTEINA C REATIVA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "urina",
+      "loinc": "5804-0",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40304507",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Proteína C - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "RBC_Urine",
+      "biomarker_display": "Hemácias na Urina",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "5808-1",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "SpecificGravity_Urine",
+      "biomarker_display": "Densidade da Urina",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "5811-5",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "SquamousEpithelial_Urine",
+      "biomarker_display": "Células Epiteliais Escamosas na Urina",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "11277-1",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Urobilinogen_Urine",
+      "biomarker_display": "Urobilinogênio Urinário",
+      "candidates": [],
+      "category": "urina",
+      "loinc": "20405-7",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40302598",
+      "tuss_match_score": 0.7999999999999999,
+      "tuss_name": "Urobilinogênio - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "AFP",
+      "biomarker_display": "Alfa-Fetoproteína",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202030091",
+          "sigtap_name": "DOSAGEM DE ALFA-FETOPROTEINA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "marcadores-tumorais",
+      "loinc": "1834-1",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316068",
+      "tuss_match_score": 0.85,
+      "tuss_name": "Alfa-fetoproteína - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "CA125",
+      "biomarker_display": "CA-125",
+      "candidates": [
+        {
+          "equivalencia": null,
+          "sigtap": "0202031217",
+          "sigtap_name": "DOSAGEM DO  ANTÍGENO  CA 125",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "marcadores-tumorais",
+      "loinc": "10334-1",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40316378",
+      "tuss_match_score": 0.5266666666666666,
+      "tuss_name": "Marcadores tumorais (CA 19.9, CA 125, CA 72-4, CA 15-3, etc.) cada - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "CEA",
+      "biomarker_display": "Antígeno Carcinoembrionário",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202030962",
+          "sigtap_name": "PESQUISA DE ANTIGENO CARCINOEMBRIONARIO (CEA)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "marcadores-tumorais",
+      "loinc": "2039-6",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40316122",
+      "tuss_match_score": 0.6166666666666666,
+      "tuss_name": "Antígeno carcinoembriogênico (CEA) - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Gliadin_Deamidated_IgA",
+      "biomarker_display": "Anticorpos Anti-Gliadina Deamidada IgA",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202030156",
+          "sigtap_name": "DOSAGEM DE IMUNOGLOBULINA A (IGA)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "autoimunidade",
+      "loinc": "63453-5",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40307220",
+      "tuss_match_score": 0.75,
+      "tuss_name": "IgA - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "Gliadin_Deamidated_IgG",
+      "biomarker_display": "Anticorpos Anti-Gliadina Deamidada IgG",
+      "candidates": [
+        {
+          "equivalencia": "3",
+          "sigtap": "0202030172",
+          "sigtap_name": "DOSAGEM DE IMUNOGLOBULINA G (IGG)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "autoimunidade",
+      "loinc": "63459-2",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40307280",
+      "tuss_match_score": 0.75,
+      "tuss_name": "IgG - pesquisa e/ou dosagem"
+    },
+    {
+      "biomarker_code": "tTG_IgA",
+      "biomarker_display": "Transglutaminase Tecidual IgA",
+      "candidates": [
+        {
+          "equivalencia": null,
+          "sigtap": "0202031187",
+          "sigtap_name": "DOSAGEM DE ANTICORPOS ANTITRANSGLUTAMINAISE RECOMBINANTE HUMANO IGA",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "autoimunidade",
+      "loinc": "31017-7",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40308553",
+      "tuss_match_score": 0.94,
+      "tuss_name": "Anti transglutaminase tecidual - IgA"
+    },
+    {
+      "biomarker_code": "tTG_IgG",
+      "biomarker_display": "Transglutaminase Tecidual IgG",
+      "candidates": [],
+      "category": "autoimunidade",
+      "loinc": "32998-7",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40308561",
+      "tuss_match_score": 0.94,
+      "tuss_name": "Anti transglutaminase tecidual - IgG"
+    },
+    {
+      "biomarker_code": "APOE_Genotype",
+      "biomarker_display": "Genótipo APOE",
+      "candidates": [],
+      "category": "coracao",
+      "loinc": "21619-2",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "Adiponectin",
+      "biomarker_display": "Adiponectina",
+      "candidates": [],
+      "category": "metabolico",
+      "loinc": "47828-9",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": "40316580",
+      "tuss_match_score": 1,
+      "tuss_name": "Adiponectina"
+    },
+    {
+      "biomarker_code": "BMI",
+      "biomarker_display": "Índice de Massa Corporal",
+      "candidates": [],
+      "category": "composicao-corporal",
+      "loinc": "39156-5",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "BodyFatPct",
+      "biomarker_display": "Percentual de Gordura Corporal",
+      "candidates": [],
+      "category": "composicao-corporal",
+      "loinc": "41982-0",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "FatMass",
+      "biomarker_display": "Massa de Gordura",
+      "candidates": [],
+      "category": "composicao-corporal",
+      "loinc": "73708-0",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "LeanMass",
+      "biomarker_display": "Massa Magra",
+      "candidates": [],
+      "category": "composicao-corporal",
+      "loinc": "73964-9",
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "BMC",
+      "biomarker_display": "Conteúdo Mineral Ósseo",
+      "candidates": [],
+      "category": "composicao-corporal",
+      "loinc": null,
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "FatFreeMass",
+      "biomarker_display": "Massa Livre de Gordura",
+      "candidates": [],
+      "category": "composicao-corporal",
+      "loinc": null,
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "VATVolume",
+      "biomarker_display": "Volume de Gordura Visceral",
+      "candidates": [],
+      "category": "composicao-corporal",
+      "loinc": null,
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "VATMass",
+      "biomarker_display": "Massa de Gordura Visceral",
+      "candidates": [],
+      "category": "composicao-corporal",
+      "loinc": null,
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "AndroidGynoidRatio",
+      "biomarker_display": "Razão Androide/Ginoide",
+      "candidates": [],
+      "category": "composicao-corporal",
+      "loinc": null,
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "AndroidFatPct",
+      "biomarker_display": "Percentual de Gordura Androide",
+      "candidates": [],
+      "category": "composicao-corporal",
+      "loinc": null,
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "GynoidFatPct",
+      "biomarker_display": "Percentual de Gordura Ginoide",
+      "candidates": [],
+      "category": "composicao-corporal",
+      "loinc": null,
+      "notes": null,
+      "selected": null,
+      "status": "no_sigtap_match",
+      "tuss": null,
+      "tuss_match_score": null,
+      "tuss_name": null
+    },
+    {
+      "biomarker_code": "TotalMass",
+      "biomarker_display": "Massa Total",
+      "candidates": [
+        {
+          "equivalencia": "4",
+          "sigtap": "0204060028",
+          "sigtap_name": "DENSITOMETRIA OSSEA DUO-ENERGETICA DE COLUNA (VERTEBRAS LOMBARES)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "composicao-corporal",
+      "loinc": "29463-7",
+      "notes": null,
+      "selected": null,
+      "status": "ambiguous_weak",
+      "tuss": "40808149",
+      "tuss_match_score": 0.5333333333333333,
+      "tuss_name": "Densitometria óssea - corpo inteiro (avaliação de massa óssea ou de composição corporal)"
+    },
+    {
+      "biomarker_code": "BMD_Total",
+      "biomarker_display": "DMO Corpo Total",
+      "candidates": [
+        {
+          "equivalencia": "2",
+          "sigtap": "0208050027",
+          "sigtap_name": "CINTILOGRAFIA DE ESQUELETO (CORPO INTEIRO)",
+          "status": "Mapeado"
+        },
+        {
+          "equivalencia": null,
+          "sigtap": "0208050035",
+          "sigtap_name": "CINTILOGRAFIA DE OSSOS C/ OU S/ FLUXO SANGUINEO (CORPO INTEIRO)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "densidade-ossea",
+      "loinc": null,
+      "notes": null,
+      "selected": "0208050027",
+      "status": "auto",
+      "tuss": "40706010",
+      "tuss_match_score": 0.5666666666666667,
+      "tuss_name": "Cintilografia óssea (corpo total)"
+    },
+    {
+      "biomarker_code": "TScore_Total",
+      "biomarker_display": "T-Score Corpo Total",
+      "candidates": [
+        {
+          "equivalencia": "2",
+          "sigtap": "0208050027",
+          "sigtap_name": "CINTILOGRAFIA DE ESQUELETO (CORPO INTEIRO)",
+          "status": "Mapeado"
+        },
+        {
+          "equivalencia": null,
+          "sigtap": "0208050035",
+          "sigtap_name": "CINTILOGRAFIA DE OSSOS C/ OU S/ FLUXO SANGUINEO (CORPO INTEIRO)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "densidade-ossea",
+      "loinc": null,
+      "notes": null,
+      "selected": "0208050027",
+      "status": "auto",
+      "tuss": "40706010",
+      "tuss_match_score": 0.5523809523809523,
+      "tuss_name": "Cintilografia óssea (corpo total)"
+    },
+    {
+      "biomarker_code": "ZScore_Total",
+      "biomarker_display": "Z-Score Corpo Total",
+      "candidates": [
+        {
+          "equivalencia": "2",
+          "sigtap": "0208050027",
+          "sigtap_name": "CINTILOGRAFIA DE ESQUELETO (CORPO INTEIRO)",
+          "status": "Mapeado"
+        },
+        {
+          "equivalencia": null,
+          "sigtap": "0208050035",
+          "sigtap_name": "CINTILOGRAFIA DE OSSOS C/ OU S/ FLUXO SANGUINEO (CORPO INTEIRO)",
+          "status": "Mapeado"
+        }
+      ],
+      "category": "densidade-ossea",
+      "loinc": null,
+      "notes": null,
+      "selected": "0208050027",
+      "status": "auto",
+      "tuss": "40706010",
+      "tuss_match_score": 0.5523809523809523,
+      "tuss_name": "Cintilografia óssea (corpo total)"
+    }
+  ]
+}

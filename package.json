@@ -1,17 +1,14 @@
 {
   "name": "@precisa-saude/datasus",
   "version": "0.1.0",
-  "description": "Toolkit alto-nível para microdados DATASUS — FTP cliente, schemas tipados, labeling (CID-10, IBGE, CBO, SIGTAP) e agregações",
+  "description": "Toolkit alto-nível para microdados DATASUS — FTP cliente, schemas tipados, labeling (IBGE, TP_UNID) e agregações",
   "keywords": [
     "datasus",
-    "sih",
-    "sinan",
     "cnes",
     "sus",
     "microdados",
     "brasil",
-    "saúde",
-    "cid-10"
+    "saúde"
   ],
   "homepage": "https://github.com/Precisa-Saude/datasus-brasil/tree/main/packages/core#readme",
   "bugs": "https://github.com/Precisa-Saude/datasus-brasil/issues",
@@ -39,18 +36,23 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
+    "data",
     "dist"
   ],
   "scripts": {
     "build": "tsup",
+    "build:ans-mapping": "tsx scripts/extract-ans-xlsx.ts",
+    "build:sigtap-mapping": "tsx scripts/build-sigtap-mapping.ts",
     "clean": "rm -rf dist .turbo",
+    "fix:fhir-brasil-tuss": "tsx scripts/fix-fhir-brasil-tuss.ts",
     "lint": "eslint src/ --max-warnings 0",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@precisa-saude/datasus-dbc": "workspace:*"
+    "@precisa-saude/datasus-dbc": "workspace:*",
+    "basic-ftp": "^5.3.0"
   },
   "devDependencies": {
     "tsup": "^8.3.5",
@@ -58,7 +60,7 @@
     "vitest": "^2.1.8"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "publishConfig": {
     "access": "public"
