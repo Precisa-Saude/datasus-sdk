@@ -24,7 +24,20 @@ export type {
   ServicoApoio,
 } from './datasets/cnes/index.js';
 export { labelEstabelecimento, labelTipoUnidade } from './datasets/cnes/index.js';
-export { cnes } from './datasets/index.js';
+export { cnes, sia } from './datasets/index.js';
+export type {
+  Competencia,
+  LabeledProducaoAmbulatorial,
+  SiaPathParams,
+  SiaProducaoAmbulatorialRecord,
+  SiaSubdataset,
+} from './datasets/sia/index.js';
+export {
+  enrichWithLoinc,
+  filterLaboratorio,
+  isSigtapLaboratorio,
+  labelProducaoAmbulatorial,
+} from './datasets/sia/index.js';
 export type { DownloadOptions, ProgressEvent } from './ftp/index.js';
 export { download } from './ftp/index.js';
 export type { Municipio } from './labeling/index.js';
@@ -36,6 +49,12 @@ export type {
   SigtapProcedure,
   TussProcedure,
 } from './terminology/index.js';
-export { listBiomarkers, loincToSigtap, lookupSigtap, lookupTuss } from './terminology/index.js';
+export {
+  listBiomarkers,
+  loincToSigtap,
+  lookupSigtap,
+  lookupTuss,
+  sigtapToLoinc,
+} from './terminology/index.js';
 
 export const VERSION = '0.1.0';

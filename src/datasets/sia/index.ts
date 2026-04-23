@@ -1,0 +1,11 @@
+export type { Competencia, LabeledProducaoAmbulatorial } from './label-producao-ambulatorial.js';
+export { labelProducaoAmbulatorial } from './label-producao-ambulatorial.js';
+export { enrichWithLoinc, filterLaboratorio, isSigtapLaboratorio } from './laboratorio.js';
+export type { LoadOptions } from './load.js';
+export { loadProducaoAmbulatorial, streamProducaoAmbulatorial } from './load.js';
+export type { SiaPathParams, SiaSubdataset } from './paths.js';
+export { siaFtpPath } from './paths.js';
+export { parseIdade } from './tabelas/idade.js';
+export { labelRacaCor } from './tabelas/raca-cor.js';
+export { labelSexo } from './tabelas/sexo.js';
+export type { SiaProducaoAmbulatorialRecord } from './types.js';

@@ -11,7 +11,7 @@
  * `lookupSigtap`/`lookupTuss` pra detalhes adicionais.
  */
 
-export { listBiomarkers, loincToSigtap } from './loinc.js';
+export { listBiomarkers, loincToSigtap, sigtapToLoinc } from './loinc.js';
 export { lookupSigtap } from './sigtap.js';
 export { lookupTuss } from './tuss.js';
 export type {

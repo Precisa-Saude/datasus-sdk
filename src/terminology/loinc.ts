@@ -54,11 +54,13 @@ function toMapping(entry: RawLoincEntry): LoincMapping {
 
 const byLoinc = new Map<string, LoincMapping>();
 const byBiomarkerCode = new Map<string, LoincMapping>();
+const bySigtap = new Map<string, LoincMapping>();
 
 for (const entry of raw.mapping) {
   const mapping = toMapping(entry);
   if (mapping.loinc !== null) byLoinc.set(mapping.loinc, mapping);
   byBiomarkerCode.set(mapping.biomarker.code, mapping);
+  if (mapping.sigtap !== null) bySigtap.set(mapping.sigtap, mapping);
 }
 
 /**
@@ -74,6 +76,21 @@ export function loincToSigtap(code: string): LoincMapping | null {
   const trimmed = code.trim();
   if (trimmed === '') return null;
   return byLoinc.get(trimmed) ?? byBiomarkerCode.get(trimmed) ?? null;
+}
+
+/**
+ * Retorna o mapeamento LOINC correspondente a um código SIGTAP, quando
+ * houver. Útil para enriquecer registros SIA-SUS (onde o eixo de join
+ * é SIGTAP) com o biomarcador e o LOINC equivalente.
+ *
+ * Aceita o código SIGTAP com ou sem zeros à esquerda (a tabela usa
+ * sempre 10 dígitos como chave canônica). Retorna `null` se o SIGTAP
+ * não estiver mapeado a nenhum LOINC no catálogo.
+ */
+export function sigtapToLoinc(sigtap: string): LoincMapping | null {
+  const trimmed = sigtap.trim();
+  if (trimmed === '') return null;
+  return bySigtap.get(trimmed) ?? bySigtap.get(trimmed.padStart(10, '0')) ?? null;
 }
 
 /** Lista todos os biomarcadores do catálogo (imutável). */
