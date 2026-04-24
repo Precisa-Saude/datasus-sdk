@@ -1,17 +1,17 @@
-# @precisa-saude/datasus
+# @precisa-saude/datasus-sdk
 
 Toolkit alto-nível para microdados abertos do DATASUS — cliente FTP com cache, schemas tipados, labeling (IBGE, TP_UNID) e agregações prontas para consumo por web apps e CLIs.
 
 ## Instalação
 
 ```bash
-npm install @precisa-saude/datasus
+npm install @precisa-saude/datasus-sdk
 ```
 
 ## Uso (preview)
 
 ```ts
-import { cnes, countBy, findMunicipio, topN } from '@precisa-saude/datasus';
+import { cnes, countBy, findMunicipio, topN } from '@precisa-saude/datasus-sdk';
 
 // Streaming — memória constante
 const counts: Record<string, number> = {};
@@ -30,15 +30,21 @@ console.log(JSON.stringify(top10, null, 2));
 ## Datasets suportados
 
 - **CNES** — Cadastro Nacional de Estabelecimentos de Saúde (ST = estabelecimentos, PF = profissionais)
+- **SIA-SUS** — Sistema de Informações Ambulatoriais (PA = produção ambulatorial, incluindo procedimentos laboratoriais faturados via SIGTAP). Stream via `sia.streamProducaoAmbulatorial` + labeling/enriquecimento LOINC em `labelProducaoAmbulatorial` / `enrichWithLoinc`.
 
-Outros datasets (SIA-SUS — exames ambulatoriais faturados pelo SUS via códigos SIGTAP) estão no roadmap; o mapeamento LOINC↔TUSS↔SIGTAP necessário já é consumível (ver abaixo).
+Mapeamento LOINC↔TUSS↔SIGTAP usado pelo SIA fica no módulo `terminology` (ver abaixo).
 
 ## Terminologia LOINC ↔ TUSS ↔ SIGTAP
 
 Módulo `terminology` fecha a ponte entre o catálogo de biomarcadores LOINC do `@precisa-saude/fhir`, o padrão TUSS da saúde suplementar (ANS) e os códigos SIGTAP faturáveis pelo SUS.
 
 ```ts
-import { listBiomarkers, loincToSigtap, lookupSigtap, lookupTuss } from '@precisa-saude/datasus';
+import {
+  listBiomarkers,
+  loincToSigtap,
+  lookupSigtap,
+  lookupTuss,
+} from '@precisa-saude/datasus-sdk';
 
 // Biomarcador FHIR → procedimento SUS
 const m = loincToSigtap('2085-9'); // Colesterol HDL
@@ -97,13 +103,13 @@ Os dados vêm de fontes externas; quando a ANS ou o DATASUS publicar nova versã
 
 ```bash
 # 1. Baixa e extrai o XLSX oficial TUSS↔SIGTAP (one-shot; ANS atualiza raramente)
-pnpm -F @precisa-saude/datasus run build:ans-mapping
+pnpm -F @precisa-saude/datasus-sdk run build:ans-mapping
 
 # 2. Regenera o mapeamento biomarcador→SIGTAP (rápido — consome JSON + biomarkers.ts)
-pnpm -F @precisa-saude/datasus run build:sigtap-mapping
+pnpm -F @precisa-saude/datasus-sdk run build:sigtap-mapping
 
 # 3. Gera VS corrigido pra PR upstream no fhir-brasil
-pnpm -F @precisa-saude/datasus run fix:fhir-brasil-tuss
+pnpm -F @precisa-saude/datasus-sdk run fix:fhir-brasil-tuss
 
 # 4. (Opcional) Refina o mapeamento com LLM via OpenRouter — captura erros
 #    semânticos que o fuzzy match comete (Apo A vs Apo B, sangue oculto urina
