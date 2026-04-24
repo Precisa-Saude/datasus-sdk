@@ -1,21 +1,24 @@
 {
-  "name": "@precisa-saude/datasus",
-  "version": "1.1.0",
-  "description": "Toolkit alto-nível para microdados DATASUS — FTP cliente, schemas tipados, labeling (IBGE, TP_UNID) e agregações",
+  "name": "@precisa-saude/datasus-sdk",
+  "version": "2.0.0",
+  "description": "TypeScript SDK para microdados DATASUS — FTP cliente com cache, schemas tipados (SIA-PA, CNES-ST), terminologia (IBGE, LOINC, SIGTAP, CBO), labeling e agregações.",
   "keywords": [
     "datasus",
     "cnes",
+    "sia-sus",
     "sus",
     "microdados",
     "brasil",
-    "saúde"
+    "saúde",
+    "loinc",
+    "sigtap",
+    "open-data"
   ],
-  "homepage": "https://github.com/Precisa-Saude/datasus-brasil/tree/main/packages/core#readme",
-  "bugs": "https://github.com/Precisa-Saude/datasus-brasil/issues",
+  "homepage": "https://github.com/Precisa-Saude/datasus-sdk#readme",
+  "bugs": "https://github.com/Precisa-Saude/datasus-sdk/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Precisa-Saude/datasus-brasil.git",
-    "directory": "packages/core"
+    "url": "https://github.com/Precisa-Saude/datasus-sdk.git"
   },
   "license": "Apache-2.0",
   "sideEffects": false,
@@ -41,20 +44,17 @@
   ],
   "scripts": {
     "build": "tsup",
-    "build:ans-mapping": "tsx scripts/extract-ans-xlsx.ts",
-    "build:sigtap-mapping": "tsx scripts/build-sigtap-mapping.ts",
-    "clean": "rm -rf dist .turbo",
-    "fix:fhir-brasil-tuss": "tsx scripts/fix-fhir-brasil-tuss.ts",
-    "lint": "eslint src/ --max-warnings 0",
+    "clean": "rm -rf dist",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@precisa-saude/datasus-dbc": "workspace:*",
+    "@precisa-saude/datasus-dbc": "^1.1.0",
     "basic-ftp": "^5.3.0"
   },
   "devDependencies": {
+    "@types/node": "^22.10.0",
     "tsup": "^8.3.5",
     "typescript": "~5.7.3",
     "vitest": "^2.1.8"
