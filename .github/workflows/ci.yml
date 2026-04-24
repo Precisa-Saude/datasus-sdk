@@ -10,11 +10,9 @@ name: CI/CD
 #   review.yml        — automated Anthropic → OpenAI code review
 #   publish-tag.yml   — manual recovery (workflow_dispatch)
 #
-# This orchestrator wires the pieces together. Each repo adapts:
-#   - Which reusable workflows to call (comment out what doesn't apply)
-#   - The publish `packages` list
-#   - The site `project_name` and `site_filter`
-#   - Extra repo-specific workflows (e.g. fhir's publish-ig.yml)
+# Per-repo customization flows through `.precisa.json`:
+#   publishesToNpm + publishPackages[] gate the `publish` job
+#   hasSite + siteProjectName + siteFilter gate the `deploy-site` job
 
 on:
   push:
@@ -30,7 +28,6 @@ permissions:
   contents: write
   issues: write
   pull-requests: write
-  deployments: write
   id-token: write
   # `models: read` pelo mesmo motivo: review.yml chama GitHub Models
   # via GITHUB_TOKEN no fallback de providers.
