@@ -11,7 +11,7 @@
 import { createWriteStream } from 'node:fs';
 import { mkdir, readFile, stat } from 'node:fs/promises';
 import { homedir } from 'node:os';
-import { dirname, join } from 'node:path';
+import { dirname, join, relative, resolve, sep } from 'node:path';
 
 import { Client } from 'basic-ftp';
 
@@ -64,7 +64,7 @@ export interface DownloadOptions {
 export async function download(options: DownloadOptions): Promise<Uint8Array> {
   const host = options.host ?? DEFAULT_HOST;
   const cacheDir = options.cache ?? defaultCacheDir();
-  const localPath = join(cacheDir, options.path);
+  const localPath = resolveCachePath(cacheDir, options.path);
 
   if (!options.forceRefresh) {
     const cached = await readIfExists(localPath);
@@ -146,4 +146,25 @@ async function readIfExists(path: string): Promise<Uint8Array | null> {
   } catch {
     return null;
   }
+}
+
+/**
+ * Resolve `remotePath` relativo a `cacheDir` garantindo que o caminho
+ * final fica contido no cache. Rejeita traversal (`..`) e caminhos
+ * absolutos que escapem de `cacheDir` — evita que um `options.path`
+ * malicioso grave fora do diretório de cache esperado.
+ */
+export function resolveCachePath(cacheDir: string, remotePath: string): string {
+  const absoluteCacheDir = resolve(cacheDir);
+  // `join` preserva absolutos. Pra garantir contenção, sempre tratamos
+  // `remotePath` como relativo removendo separador inicial.
+  const normalizedRelative = remotePath.replace(/^[/\\]+/, '');
+  const candidate = resolve(absoluteCacheDir, normalizedRelative);
+  const rel = relative(absoluteCacheDir, candidate);
+  if (rel.startsWith('..') || rel.startsWith(`..${sep}`) || resolve(candidate) !== candidate) {
+    throw new Error(
+      `download: caminho resolvido escapa do cacheDir (${remotePath} → ${candidate})`,
+    );
+  }
+  return candidate;
 }
