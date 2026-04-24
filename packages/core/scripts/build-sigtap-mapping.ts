@@ -64,14 +64,21 @@ import { Client } from 'basic-ftp';
 
 const CORE_ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const MONOREPO_ROOT = resolve(CORE_ROOT, '..', '..');
-const PRECISA_ROOT = resolve(MONOREPO_ROOT, '..');
+/**
+ * Root do checkout do fhir-brasil usado pra importar biomarkers.ts e o
+ * valueset TUSS. Por padrão assume que fhir-brasil é sibling deste repo
+ * (layout Precisa Saúde), mas aceita override via FHIR_BRASIL_ROOT para
+ * rodar em CI/Docker ou em layouts diferentes.
+ */
+const FHIR_BRASIL_ROOT = process.env['FHIR_BRASIL_ROOT']
+  ? resolve(process.env['FHIR_BRASIL_ROOT'])
+  : resolve(MONOREPO_ROOT, '..', 'fhir-brasil');
 const CACHE_DIR = join(MONOREPO_ROOT, '.cache', 'sigtap');
 const DATA_DIR = join(CORE_ROOT, 'data');
 const TERMINOLOGY_DATA_DIR = join(CORE_ROOT, 'src', 'terminology', 'data');
-const BIOMARKERS_TS = join(PRECISA_ROOT, 'fhir-brasil', 'packages', 'core', 'src', 'biomarkers.ts');
+const BIOMARKERS_TS = join(FHIR_BRASIL_ROOT, 'packages', 'core', 'src', 'biomarkers.ts');
 const TUSS_VS_FSH = join(
-  PRECISA_ROOT,
-  'fhir-brasil',
+  FHIR_BRASIL_ROOT,
   'ig',
   'input',
   'fsh',

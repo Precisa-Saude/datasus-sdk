@@ -34,12 +34,18 @@ import { fileURLToPath } from 'node:url';
 
 const CORE_ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const MONOREPO_ROOT = resolve(CORE_ROOT, '..', '..');
-const PRECISA_ROOT = resolve(MONOREPO_ROOT, '..');
+/**
+ * Por padrão assume que fhir-brasil é sibling deste repo (layout Precisa
+ * Saúde). Override via `FHIR_BRASIL_ROOT=...` para rodar em CI/Docker
+ * ou em layouts diferentes.
+ */
+const FHIR_BRASIL_ROOT = process.env['FHIR_BRASIL_ROOT']
+  ? resolve(process.env['FHIR_BRASIL_ROOT'])
+  : resolve(MONOREPO_ROOT, '..', 'fhir-brasil');
 const DATA_DIR = join(CORE_ROOT, 'data');
 const TERMINOLOGY_DATA_DIR = join(CORE_ROOT, 'src', 'terminology', 'data');
 const TUSS_VS_FSH = join(
-  PRECISA_ROOT,
-  'fhir-brasil',
+  FHIR_BRASIL_ROOT,
   'ig',
   'input',
   'fsh',

@@ -5,7 +5,7 @@ import { dirname, join } from 'node:path';
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 
 import type { ProgressEvent } from '../src/ftp/client.js';
-import { download } from '../src/ftp/client.js';
+import { download, resolveCachePath } from '../src/ftp/client.js';
 
 describe('download (cache hit)', () => {
   let cacheDir: string;
@@ -63,5 +63,34 @@ describe('download (cache hit)', () => {
     // sem onProgress — deve completar sem erros
     const bytes = await download({ cache: cacheDir, path: remotePath });
     expect(bytes.byteLength).toBe(2);
+  });
+});
+
+describe('resolveCachePath (contenção)', () => {
+  const cacheDir = '/tmp/test-cache';
+
+  it('resolve caminhos normais sob o cacheDir', () => {
+    expect(resolveCachePath(cacheDir, '/dissemin/publicos/CNES/fake.dbc')).toBe(
+      '/tmp/test-cache/dissemin/publicos/CNES/fake.dbc',
+    );
+    expect(resolveCachePath(cacheDir, 'relative/file.dbc')).toBe(
+      '/tmp/test-cache/relative/file.dbc',
+    );
+  });
+
+  it('rejeita traversal via ..', () => {
+    expect(() => resolveCachePath(cacheDir, '../outside.dbc')).toThrow(/escapa do cacheDir/);
+    expect(() => resolveCachePath(cacheDir, 'nested/../../outside.dbc')).toThrow(
+      /escapa do cacheDir/,
+    );
+  });
+
+  it('rejeita absolutos que escapam após normalização', () => {
+    // Path absoluto direto pra outro lugar, após strip do slash inicial:
+    // vira relativo e é contido no cacheDir; aceitável. Porém traversal
+    // explícito com .. precisa falhar.
+    expect(() => resolveCachePath('/tmp/test-cache', '/../../etc/passwd')).toThrow(
+      /escapa do cacheDir/,
+    );
   });
 });
