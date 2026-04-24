@@ -1,6 +1,6 @@
 {
   "name": "@precisa-saude/datasus-sdk",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "TypeScript SDK para microdados DATASUS — FTP cliente com cache, schemas tipados (SIA-PA, CNES-ST), terminologia (IBGE, LOINC, SIGTAP, CBO), labeling e agregações.",
   "keywords": [
     "datasus",
