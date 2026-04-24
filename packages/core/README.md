@@ -39,7 +39,12 @@ Mapeamento LOINC↔TUSS↔SIGTAP usado pelo SIA fica no módulo `terminology` (v
 Módulo `terminology` fecha a ponte entre o catálogo de biomarcadores LOINC do `@precisa-saude/fhir`, o padrão TUSS da saúde suplementar (ANS) e os códigos SIGTAP faturáveis pelo SUS.
 
 ```ts
-import { listBiomarkers, loincToSigtap, lookupSigtap, lookupTuss } from '@precisa-saude/datasus-sdk';
+import {
+  listBiomarkers,
+  loincToSigtap,
+  lookupSigtap,
+  lookupTuss,
+} from '@precisa-saude/datasus-sdk';
 
 // Biomarcador FHIR → procedimento SUS
 const m = loincToSigtap('2085-9'); // Colesterol HDL
