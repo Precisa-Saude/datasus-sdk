@@ -6,6 +6,7 @@
   "hasSite": false,
   "hasPackages": true,
   "publishesToNpm": true,
+  "publishPackages": ["packages/core"],
   "commitScopes": ["core", "deps", "docs", "ci", "lint", "config"],
   "contactEmails": {
     "security": "security@precisa-saude.com.br",

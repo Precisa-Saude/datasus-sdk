@@ -28,6 +28,16 @@ site/  (if applicable)
 
 Valid scopes: `core`, `deps`, `docs`, `ci`, `lint`, `config`.
 
+## Lint — divergência justificada do template
+
+`eslint.config.js` acrescenta um override para `packages/core/scripts/**`
+(build-sigtap-mapping, extract-ans-xlsx, fix-fhir-brasil-tuss): scripts
+de manutenção one-shot do maintainer, rodados fora do bundle
+publicado, onde `console` é o canal esperado e o projeto TS isolado
+(`parserOptions.project: false`) evita custo de typecheck global. O
+override não pertence ao template compartilhado e deve ser preservado
+em `precisa sync`.
+
 ## Worktree — specific values
 
 Worktree flow and commands are in the shared base. The canonical config
