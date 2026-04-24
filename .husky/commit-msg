@@ -1,0 +1,10 @@
+pnpm exec commitlint --edit "$1"
+
+# Block AI attribution lines in commit messages
+AI_ATTRIBUTION_PATTERN='co-authored-by:.*claude|generated with.*claude|co-authored-by:.*anthropic|co-authored-by:.*gpt|co-authored-by:.*copilot'
+
+if grep -q -i -E "$AI_ATTRIBUTION_PATTERN" "$1"; then
+  echo "❌ Commit message contains AI attribution. Remove these lines:"
+  grep -i -E "$AI_ATTRIBUTION_PATTERN" "$1"
+  exit 1
+fi

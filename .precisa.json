@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "name": "datasus-sdk",
+  "owner": "Precisa-Saude",
+  "visibility": "oss",
+  "hasSite": false,
+  "hasPackages": true,
+  "publishesToNpm": true,
+  "commitScopes": ["core", "deps", "docs", "ci", "lint", "config"],
+  "contactEmails": {
+    "security": "security@precisa-saude.com.br",
+    "conduct": "conduct@precisa-saude.com.br"
+  },
+  "nodeVersion": "22",
+  "pnpmVersion": "9.15.9"
+}

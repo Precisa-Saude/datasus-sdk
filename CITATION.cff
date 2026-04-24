@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: 'datasus-sdk'
+message: 'Se você utilizar este software, por favor cite-o conforme abaixo.'
+type: software
+authors:
+  - name: 'Precisa-Saude'
+repository-code: 'https://github.com/Precisa-Saude/datasus-sdk'
+license: Apache-2.0

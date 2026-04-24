@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Vulnerabilidade de segurança
+    url: 'mailto:security@precisa-saude.com.br'
+    about: Reporte questões de segurança em privado — veja SECURITY.md
+  - name: Perguntas e discussões gerais
+    url: 'https://github.com/Precisa-Saude/datasus-sdk/discussions'
+    about: Faça perguntas, compartilhe ideias ou discuta

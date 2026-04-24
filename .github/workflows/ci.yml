@@ -1,0 +1,75 @@
+name: CI/CD
+
+# Canonical CI/CD orchestrator — mirrors platform's split-workflow shape.
+# Each concern lives in its own reusable workflow under `.github/workflows/`:
+#
+#   _checks.yml       — parallel CI checks (lint, typecheck, format, build, test)
+#   _release.yml      — semantic-release with packages_changed guard
+#   _publish.yml      — npm publish pinned to release_sha
+#   _deploy-site.yml  — Cloudflare Pages deploy + Slack notify (repos with sites)
+#   review.yml        — automated Anthropic → OpenAI code review
+#   publish-tag.yml   — manual recovery (workflow_dispatch)
+#
+# This orchestrator wires the pieces together. Each repo adapts:
+#   - Which reusable workflows to call (comment out what doesn't apply)
+#   - The publish `packages` list
+#   - The site `project_name` and `site_filter`
+#   - Extra repo-specific workflows (e.g. fhir's publish-ig.yml)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  # `contents: write` porque _release.yml (reusable) precisa criar
+  # commits e tags via semantic-release. Workflows reusáveis só
+  # conseguem pedir permissões que o caller também concede.
+  contents: write
+  issues: write
+  pull-requests: write
+  deployments: write
+  id-token: write
+  # `models: read` pelo mesmo motivo: review.yml chama GitHub Models
+  # via GITHUB_TOKEN no fallback de providers.
+  models: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ── CI checks (every PR and push) ──────────────────────────────
+  checks:
+    uses: ./.github/workflows/_checks.yml
+    secrets: inherit
+
+  # ── Automated code review (PR only, after checks) ──────────────
+  review:
+    needs: checks
+    if: github.event_name == 'pull_request'
+    uses: ./.github/workflows/review.yml
+    with:
+      pr_number: ${{ github.event.pull_request.number }}
+    secrets: inherit
+
+  # ── Release (main only, guarded on package changes) ────────────
+  release:
+    needs: checks
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    uses: ./.github/workflows/_release.yml
+    secrets: inherit
+
+  # ── Publish to npm (when release created a new version) ────────
+  publish:
+    needs: release
+    if: needs.release.outputs.released == 'true'
+    uses: ./.github/workflows/_publish.yml
+    with:
+      release_sha: ${{ needs.release.outputs.release_sha }}
+      # Newline-separated list of package directories. One per line.
+      packages: |
+        packages/core
+    secrets: inherit

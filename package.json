@@ -1,68 +1,71 @@
 {
-  "name": "@precisa-saude/datasus-sdk",
+  "name": "datasus-sdk",
   "version": "2.0.0",
-  "description": "TypeScript SDK para microdados DATASUS — FTP cliente com cache, schemas tipados (SIA-PA, CNES-ST), terminologia (IBGE, LOINC, SIGTAP, CBO), labeling e agregações.",
-  "keywords": [
-    "datasus",
-    "cnes",
-    "sia-sus",
-    "sus",
-    "microdados",
-    "brasil",
-    "saúde",
-    "loinc",
-    "sigtap",
-    "open-data"
-  ],
-  "homepage": "https://github.com/Precisa-Saude/datasus-sdk#readme",
-  "bugs": "https://github.com/Precisa-Saude/datasus-sdk/issues",
+  "private": true,
+  "description": "Monorepo do SDK TypeScript de microdados DATASUS — FTP cliente, schemas tipados, terminologia e labeling.",
   "repository": {
     "type": "git",
     "url": "https://github.com/Precisa-Saude/datasus-sdk.git"
   },
   "license": "Apache-2.0",
-  "sideEffects": false,
+  "author": "Precisa Saúde",
   "type": "module",
-  "exports": {
-    ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.js"
-      },
-      "require": {
-        "types": "./dist/index.d.cts",
-        "default": "./dist/index.cjs"
-      }
-    }
-  },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "data",
-    "dist"
-  ],
   "scripts": {
-    "build": "tsup",
-    "clean": "rm -rf dist",
-    "test": "vitest run",
-    "test:coverage": "vitest run --coverage",
-    "typecheck": "tsc --noEmit"
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "turbo run lint",
+    "prepare": "husky",
+    "release": "semantic-release",
+    "test": "turbo run test",
+    "test:coverage": "turbo run test:coverage",
+    "typecheck": "turbo run typecheck"
   },
-  "dependencies": {
-    "@precisa-saude/datasus-dbc": "^1.1.0",
-    "basic-ftp": "^5.3.0"
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --fix --max-warnings 0 --no-warn-ignored"
+    ],
+    "*.{js,jsx,json,md,css,yml,yaml}": [
+      "prettier --write"
+    ]
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.5.0",
+    "@precisa-saude/agent-instructions": "^1.0.0",
+    "@precisa-saude/commitlint-config": "^1.0.0",
+    "@precisa-saude/eslint-config": "^1.0.0",
+    "@precisa-saude/prettier-config": "^1.0.0",
+    "@precisa-saude/tsconfig": "^1.0.0",
+    "@precisa-saude/worktree-cli": "^1.0.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^7.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.6",
     "@types/node": "^22.10.0",
+    "@vitest/coverage-v8": "^2.1.8",
+    "conventional-changelog-conventionalcommits": "^9.3.1",
+    "eslint": "^10.1.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.4.2",
+    "prettier-plugin-packagejson": "^3.0.2",
+    "semantic-release": "^25.0.3",
     "tsup": "^8.3.5",
+    "turbo": "^2.3.3",
     "typescript": "~5.7.3",
     "vitest": "^2.1.8"
   },
+  "packageManager": "pnpm@9.15.9",
   "engines": {
-    "node": ">=22"
+    "node": ">=22",
+    "pnpm": ">=9"
   },
-  "publishConfig": {
-    "access": "public"
+  "worktree": {
+    "directoryPrefix": "datasus-sdk",
+    "portRegistry": "/tmp/datasus-sdk-worktree-ports.json",
+    "buildCommand": "pnpm turbo run build --filter=./packages/*",
+    "services": []
   }
 }

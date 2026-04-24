@@ -1,0 +1,63 @@
+{
+  "name": "@precisa-saude/datasus-sdk",
+  "version": "2.0.0",
+  "description": "TypeScript SDK para microdados DATASUS — FTP cliente com cache, schemas tipados (SIA-PA, CNES-ST), terminologia (IBGE, LOINC, SIGTAP, CBO), labeling e agregações.",
+  "keywords": [
+    "datasus",
+    "cnes",
+    "sia-sus",
+    "sus",
+    "microdados",
+    "brasil",
+    "saúde",
+    "loinc",
+    "sigtap",
+    "open-data"
+  ],
+  "homepage": "https://github.com/Precisa-Saude/datasus-sdk#readme",
+  "bugs": "https://github.com/Precisa-Saude/datasus-sdk/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Precisa-Saude/datasus-sdk.git"
+  },
+  "license": "Apache-2.0",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "data",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rm -rf dist .turbo",
+    "lint": "eslint src/ --max-warnings 0",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@precisa-saude/datasus-dbc": "^1.1.0",
+    "basic-ftp": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
