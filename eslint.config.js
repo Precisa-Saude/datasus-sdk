@@ -16,18 +16,4 @@ export default [
       'max-lines-per-function': 'off',
     },
   },
-  {
-    // Scripts internos de manutenção (build-sigtap-mapping, extract-ans-xlsx,
-    // fix-fhir-brasil-tuss) rodam uma vez por maintainer, não entram no
-    // bundle publicado. Console é o canal esperado.
-    files: ['packages/core/scripts/**/*.ts'],
-    languageOptions: {
-      parserOptions: { project: false },
-    },
-    rules: {
-      '@typescript-eslint/consistent-type-imports': 'off',
-      'max-lines': 'off',
-      'no-console': 'off',
-    },
-  },
 ];
