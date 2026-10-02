@@ -8,8 +8,9 @@
  * decoder em `@precisa-saude/datasus-dbc`.
  */
 
-import { createWriteStream } from 'node:fs';
-import { mkdir, readFile, stat } from 'node:fs/promises';
+import { randomBytes } from 'node:crypto';
+import { createWriteStream, type WriteStream } from 'node:fs';
+import { mkdir, readFile, rename, rm, stat } from 'node:fs/promises';
 import { homedir } from 'node:os';
 import { dirname, join, relative, resolve, sep } from 'node:path';
 
@@ -43,6 +44,14 @@ export interface DownloadOptions {
   host?: string;
   /** Caminho absoluto no servidor FTP (ex: `/dissemin/publicos/CNES/...`). */
   path: string;
+  /**
+   * Em cache hit, confere o tamanho do arquivo no servidor (`SIZE`) e baixa
+   * de novo se divergir — o DATASUS republica arquivos com conteúdo novo no
+   * mesmo caminho. Se o servidor estiver inacessível ou não suportar `SIZE`,
+   * usa a cópia em cache. Default: true. `false` restaura o comportamento
+   * antigo (cache hit sem nenhum acesso à rede).
+   */
+  revalidate?: boolean;
   /** Modo seguro (FTPS). DATASUS usa FTP plano — default false. */
   secure?: boolean;
   /**
@@ -57,8 +66,11 @@ export interface DownloadOptions {
 /**
  * Baixa um arquivo do FTP (com cache). Retorna os bytes em memória.
  *
- * Se o arquivo já estiver em cache, retorna imediatamente sem conectar
- * ao servidor. O diretório de cache preserva a estrutura do servidor
+ * Em cache hit, confere o tamanho no servidor antes de reusar a cópia
+ * (ver `revalidate`). O download vai para um arquivo temporário e só
+ * substitui o cache quando termina com o tamanho esperado: um download
+ * interrompido ou um 550 nunca deixam arquivo parcial (ou de 0 byte) no
+ * caminho final. O diretório de cache preserva a estrutura do servidor
  * para facilitar inspeção manual.
  */
 export async function download(options: DownloadOptions): Promise<Uint8Array> {
@@ -68,7 +80,7 @@ export async function download(options: DownloadOptions): Promise<Uint8Array> {
 
   if (!options.forceRefresh) {
     const cached = await readIfExists(localPath);
-    if (cached) {
+    if (cached && (await cacheIsCurrent(options, host, cached.byteLength))) {
       options.onProgress?.({
         fromCache: true,
         path: options.path,
@@ -116,8 +128,27 @@ export async function download(options: DownloadOptions): Promise<Uint8Array> {
       });
     }
 
-    const writeStream = createWriteStream(localPath);
-    await client.downloadTo(writeStream, options.path);
+    // Temporário no mesmo diretório: o `rename` final é atômico, e um
+    // download que falha no meio não deixa arquivo no caminho do cache.
+    const tmpPath = `${localPath}.part-${process.pid}-${randomBytes(4).toString('hex')}`;
+    const stream = createWriteStream(tmpPath);
+    try {
+      await client.downloadTo(stream, options.path);
+      const written = (await stat(tmpPath)).size;
+      if (total !== null && written !== total) {
+        throw new Error(
+          `download: ${options.path} incompleto — ${written} de ${total} bytes recebidos`,
+        );
+      }
+      await rename(tmpPath, localPath);
+    } catch (err) {
+      // Fecha o stream antes de apagar: o `open` do arquivo é assíncrono, e
+      // num erro imediato (ex.: 550) ele pode completar depois do `rm` e
+      // recriar um temporário vazio.
+      await closeStream(stream);
+      await rm(tmpPath, { force: true });
+      throw err;
+    }
 
     if (options.onProgress) {
       client.trackProgress();
@@ -135,6 +166,38 @@ export async function download(options: DownloadOptions): Promise<Uint8Array> {
 
   const bytes = await readFile(localPath);
   return new Uint8Array(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+}
+
+async function closeStream(stream: WriteStream): Promise<void> {
+  if (stream.closed) return;
+  await new Promise<void>((res) => {
+    stream.once('close', () => res());
+    stream.destroy();
+  });
+}
+
+/**
+ * `true` se a cópia em cache pode ser reusada: revalidação desligada, ou o
+ * tamanho no servidor bate com o local, ou não foi possível consultar o
+ * servidor (offline, `SIZE` não suportado) — nesse caso, melhor a cópia em
+ * cache do que falhar.
+ */
+async function cacheIsCurrent(
+  options: DownloadOptions,
+  host: string,
+  cachedSize: number,
+): Promise<boolean> {
+  if (options.revalidate === false) return true;
+  const client = new Client();
+  client.ftp.verbose = false;
+  try {
+    await client.access({ host, port: 21, secure: options.secure ?? false });
+    return (await client.size(options.path)) === cachedSize;
+  } catch {
+    return true;
+  } finally {
+    client.close();
+  }
 }
 
 async function readIfExists(path: string): Promise<Uint8Array | null> {
