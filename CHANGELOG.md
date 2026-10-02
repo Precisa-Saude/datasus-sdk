@@ -1,3 +1,9 @@
+## [2.1.1](https://github.com/Precisa-Saude/datasus-sdk/compare/v2.1.0...v2.1.1) (2026-10-02)
+
+### Bug Fixes
+
+* **deps:** datasus-dbc ^2.0.4 no core ([#23](https://github.com/Precisa-Saude/datasus-sdk/issues/23)) ([1f57b38](https://github.com/Precisa-Saude/datasus-sdk/commit/1f57b38ed9f349e422b4e4cac05ce8ff07fa30d4))
+
 ## [2.1.0](https://github.com/Precisa-Saude/datasus-sdk/compare/v2.0.3...v2.1.0) (2026-10-02)
 
 ### Features
