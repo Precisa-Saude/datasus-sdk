@@ -1,6 +1,6 @@
 {
   "name": "datasus-sdk",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "private": true,
   "description": "Monorepo do SDK TypeScript de microdados DATASUS — FTP cliente, schemas tipados, terminologia e labeling.",
   "repository": {
