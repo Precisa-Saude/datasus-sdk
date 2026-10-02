@@ -14,7 +14,7 @@ Mantido pela [Precisa Saúde](https://precisa-saude.com.br) como infraestrutura 
 
 O DATASUS publica milhões de registros mensais em `.dbc` (xBase DBF comprimido) no `ftp.datasus.gov.br`, sem APIs, sem schemas tipados, sem códigos de referência prontos. Este SDK transforma isso num pipeline ergonômico:
 
-- **FTP cliente** com cache automático em `~/.cache/datasus-brasil/` — baixa só se não estiver em disco
+- **FTP cliente** com cache automático em `~/.cache/datasus-brasil/` — em cache hit confere o tamanho no servidor e baixa de novo se o DATASUS tiver republicado o arquivo (desligável com `revalidate: false`); downloads vão para um temporário e só entram no cache completos
 - **Streaming** memória-constante (`stream*`) ou bulk (`load*`) por dataset
 - **Schemas tipados** das colunas `XXXX_*` raw do DBF
 - **Terminologia** — IBGE municípios (5570), LOINC↔SIGTAP↔TUSS, CBO, tipo de unidade CNES
