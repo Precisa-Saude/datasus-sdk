@@ -84,8 +84,8 @@ importers:
   packages/core:
     dependencies:
       '@precisa-saude/datasus-dbc':
-        specifier: ^1.1.0
-        version: 1.1.0
+        specifier: ^2.0.4
+        version: 2.0.4
       basic-ftp:
         specifier: ^5.3.0
         version: 5.3.0
@@ -710,8 +710,8 @@ packages:
     peerDependencies:
       '@commitlint/cli': '>=19'
 
-  '@precisa-saude/datasus-dbc@1.1.0':
-    resolution: {integrity: sha512-M3PJuBxuyGKgwr3xTVnnaqN91MZbgPYxK4pyTeZeb/YvT/hIipL5ZMVNvkrIuijL1zW83FdYeUbmbg5uyXYIZQ==}
+  '@precisa-saude/datasus-dbc@2.0.4':
+    resolution: {integrity: sha512-a+rUdxaCTqK06rDg8RQC/kNHVXeHLJ5ep+YlMVkDKu0UQ+Srabwq0CBvwamRV6++HdWWRHctLnM0cBquxupYJg==}
     engines: {node: '>=22'}
 
   '@precisa-saude/eslint-config@1.6.0':
@@ -4150,7 +4150,7 @@ snapshots:
       '@commitlint/cli': 20.5.0(@types/node@22.19.17)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.4.0)(typescript@5.7.3)
       '@commitlint/config-conventional': 20.5.0
 
-  '@precisa-saude/datasus-dbc@1.1.0': {}
+  '@precisa-saude/datasus-dbc@2.0.4': {}
 
   '@precisa-saude/eslint-config@1.6.0(eslint@10.2.1(jiti@2.6.1))(jiti@2.6.1)(prettier@3.8.3)(tailwindcss@4.2.4)(typescript@5.7.3)':
     dependencies:

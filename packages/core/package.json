@@ -51,7 +51,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@precisa-saude/datasus-dbc": "^1.1.0",
+    "@precisa-saude/datasus-dbc": "^2.0.4",
     "basic-ftp": "^5.3.0"
   },
   "engines": {
