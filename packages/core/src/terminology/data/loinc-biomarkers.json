@@ -154,6 +154,29 @@
         "reasoning": "O código TUSS 40316467 corresponde exatamente à dosagem de T3 livre. O SIGTAP 0202060390 (Dosagem de Triiodotironina) é o código geral utilizado no SUS para englobar a dosagem de T3, sendo o mapeamento oficial da ANS.",
         "selected_sigtap": "0202060390",
         "selected_tuss": "40316467"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "A ANS mapeia T3 livre ao 0202060390 porque o SUS não tem código de T3 livre; o SIGTAP é T3 total, representado por T3Total (3053-6)."
+      }
+    },
+    {
+      "biomarker_code": "T3Total",
+      "biomarker_display": "Triiodotironina Total",
+      "category": "tireoide",
+      "loinc": "3053-6",
+      "llm": {
+        "confidence": "high",
+        "no_match_reason": null,
+        "reasoning": "T3 total (LOINC 3053-6, Triiodothyronine (T3) [Mass/volume] in Serum or Plasma). TUSS 40316556 \"Triiodotironina (T3)\" é mapeado pela ANS ao SIGTAP 0202060390 \"Dosagem de triiodotironina (T3)\" (grau 3).",
+        "selected_sigtap": "0202060390",
+        "selected_tuss": "40316556"
+      },
+      "reverse_primary": true,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Entrada manual: o fhir-brasil ainda não tem T3 total (solicitado). Representante do SIGTAP 0202060390 no sentido reverso."
       }
     },
     {
@@ -258,6 +281,11 @@
         "reasoning": "O código TUSS 40307271 corresponde exatamente à dosagem de IgE total, e o SIGTAP 0202030164 é o mapeamento oficial para a dosagem de Imunoglobulina E.",
         "selected_sigtap": "0202030164",
         "selected_tuss": "40307271"
+      },
+      "reverse_primary": true,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Representante do SIGTAP 0202030164 \"Dosagem de IgE\" no sentido reverso."
       }
     },
     {
@@ -414,6 +442,11 @@
         "reasoning": "O código TUSS 40316130 corresponde exatamente à dosagem do PSA Livre. O código SIGTAP 0202030105 é o termo geral para dosagem de PSA no SUS, englobando a fração livre (equivalência 4, onde o TUSS é mais específico).",
         "selected_sigtap": "0202030105",
         "selected_tuss": "40316130"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "A ANS mapeia o PSA livre ao mesmo SIGTAP 0202030105; no sentido reverso o SIGTAP é PSA total."
       }
     },
     {
@@ -427,6 +460,11 @@
         "reasoning": "O biomarcador refere-se ao PSA Total, que corresponde exatamente ao código TUSS 40316149 (Antígeno específico prostático total) e ao SIGTAP 0202030105.",
         "selected_sigtap": "0202030105",
         "selected_tuss": "40316149"
+      },
+      "reverse_primary": true,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Representante do SIGTAP 0202030105 no sentido reverso (PSA total)."
       }
     },
     {
@@ -453,6 +491,11 @@
         "reasoning": "O código TUSS 40302040 e o SIGTAP 0202010473 correspondem exatamente à dosagem de glicose (glicemia de jejum ou aleatória) no sangue, que é o exame laboratorial padrão para o biomarcador solicitado.",
         "selected_sigtap": "0202010473",
         "selected_tuss": "40302040"
+      },
+      "reverse_primary": true,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Representante do SIGTAP 0202010473 no sentido reverso: a dosagem sem espécime declarado no SUS é a sérica."
       }
     },
     {
@@ -648,6 +691,29 @@
         "reasoning": "O código TUSS 40302237 e o SIGTAP 0202010562 referem-se à dosagem de magnésio de forma geral. Na ausência de um código específico para a dosagem intraeritrocitária (RBC), utiliza-se o código geral de dosagem do analito.",
         "selected_sigtap": "0202010562",
         "selected_tuss": "40302237"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "LOINC 26746-8 é magnésio eritrocitário; o SIGTAP 0202010562 é dosagem sérica, representada por Magnesium (19123-9)."
+      }
+    },
+    {
+      "biomarker_code": "Magnesium",
+      "biomarker_display": "Magnésio",
+      "category": "nutrientes",
+      "loinc": "19123-9",
+      "llm": {
+        "confidence": "high",
+        "no_match_reason": null,
+        "reasoning": "Magnésio sérico (LOINC 19123-9, Magnesium [Mass/volume] in Serum or Plasma). TUSS 40302237 \"Magnésio\" é mapeado pela ANS ao SIGTAP 0202010562 \"Dosagem de magnésio\" (grau 3).",
+        "selected_sigtap": "0202010562",
+        "selected_tuss": "40302237"
+      },
+      "reverse_primary": true,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Entrada manual sincronizada com o biomarcador Magnesium do fhir-brasil 0.26.5. Representante do SIGTAP 0202010562 no sentido reverso."
       }
     },
     {
@@ -817,6 +883,10 @@
         "reasoning": "O TUSS 40313328 e o SIGTAP 0202070352 correspondem à dosagem geral de zinco (frequentemente sérico), alinhando-se perfeitamente ao biomarcador solicitado.",
         "selected_sigtap": "0202070352",
         "selected_tuss": "40313328"
+      },
+      "review": {
+        "date": "2026-10-06",
+        "note": "LOINC 8245-3 é \"Zinc [Mass/volume] in Blood\" (sangue total); o SIGTAP 0202070352 é dosagem sérica, cujo LOINC é 5763-8. Mantido 8245-3 para não divergir do catálogo do fhir-brasil, onde a correção foi solicitada."
       }
     },
     {
@@ -839,10 +909,15 @@
       "loinc": "1751-7",
       "llm": {
         "confidence": "high",
-        "no_match_reason": "Não há código SIGTAP mapeado diretamente para a dosagem isolada de albumina nas opções fornecidas.",
-        "reasoning": "O código TUSS 40301222 corresponde exatamente à dosagem isolada de albumina sérica. Não há um código SIGTAP específico mapeado para este TUSS nas opções fornecidas, pois no SUS a albumina é frequentemente faturada dentro do painel de proteínas totais e frações.",
-        "selected_sigtap": null,
-        "selected_tuss": "40301222"
+        "no_match_reason": null,
+        "reasoning": "O SUS não tem código isolado de albumina: ela é faturada em 0202010627 \"Dosagem de proteínas totais e frações\" (TUSS 40302385 \"Proteínas totais, albumina e globulina\"). Proteína total tem código próprio (0202010619), então o analito clinicamente pedido via 0202010627 é a albumina.",
+        "selected_sigtap": "0202010627",
+        "selected_tuss": "40302385"
+      },
+      "reverse_primary": true,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Mapeamento manual (sem linha ANS para o TUSS 40301222). Escolhido como representante do painel no sentido reverso; alternativa seria excluir o SIGTAP do agregado."
       }
     },
     {
@@ -904,10 +979,15 @@
       "loinc": "1975-2",
       "llm": {
         "confidence": "high",
-        "no_match_reason": "O candidato disponível representa um método e espécime diferentes (transcutâneo) do exame de sangue padrão para bilirrubina total.",
-        "reasoning": "O único candidato fornecido refere-se à medição transcutânea de bilirrubina, que difere do exame laboratorial padrão de bilirrubina total no soro/plasma (LOINC 1975-2).",
-        "selected_sigtap": null,
-        "selected_tuss": null
+        "no_match_reason": null,
+        "reasoning": "O TUSS 40301397 \"Bilirrubinas (direta, indireta e total)\" é mapeado pela ANS ao SIGTAP 0202010201 \"Dosagem de bilirrubina total e frações\" (grau 3). A bilirrubina total é o analito principal desse painel.",
+        "selected_sigtap": "0202010201",
+        "selected_tuss": "40301397"
+      },
+      "reverse_primary": true,
+      "review": {
+        "date": "2026-10-06",
+        "note": "O refinamento LLM só viu um candidato transcutâneo e descartou. O TUSS 40301397 cobre a total; é o representante do SIGTAP no sentido reverso."
       }
     },
     {
@@ -1044,13 +1124,17 @@
       "biomarker_code": "Urea",
       "biomarker_display": "Ureia",
       "category": "rins",
-      "loinc": "3094-0",
+      "loinc": "3091-6",
       "llm": {
         "confidence": "high",
         "no_match_reason": null,
         "reasoning": "O biomarcador refere-se à dosagem de ureia no sangue (BUN/Urea), correspondendo perfeitamente ao TUSS 40302580 e ao SIGTAP 0202010694. O clearance de ureia é um exame diferente que avalia a taxa de depuração renal.",
         "selected_sigtap": "0202010694",
         "selected_tuss": "40302580"
+      },
+      "review": {
+        "date": "2026-10-06",
+        "note": "LOINC corrigido de 3094-0 (Urea nitrogen, BUN) para 3091-6 (Urea [Mass/volume] in Serum or Plasma). Laboratórios brasileiros reportam ureia, não BUN (BUN ≈ ureia / 2,14). Alinhado ao fhir-brasil 0.26.5."
       }
     },
     {
@@ -1077,6 +1161,11 @@
         "reasoning": "O TUSS 40301630 e o SIGTAP 0202010317 correspondem exatamente à dosagem de creatinina (sérica), que é o biomarcador solicitado.",
         "selected_sigtap": "0202010317",
         "selected_tuss": "40301630"
+      },
+      "reverse_primary": true,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Representante do SIGTAP 0202010317 no sentido reverso: a dosagem sem espécime declarado no SUS é a sérica."
       }
     },
     {
@@ -1086,10 +1175,14 @@
       "loinc": "98979-8",
       "llm": {
         "confidence": "high",
-        "no_match_reason": null,
+        "no_match_reason": "O TUSS 40704076 / SIGTAP 0208040080 pertencem à medicina nuclear in vivo (grupo 02.08.04, ao lado de cintilografia renal e renograma): medem a filtração glomerular por radiofármaco. O LOINC 98979-8 é a TFG estimada por fórmula a partir da creatinina (CKD-EPI 2021), um valor calculado sem procedimento SUS próprio.",
         "reasoning": "O código TUSS 'Determinação da filtração glomerular' e seu correspondente SIGTAP representam diretamente a avaliação da Taxa de Filtração Glomerular (eGFR).",
-        "selected_sigtap": "0208040080",
-        "selected_tuss": "40704076"
+        "selected_sigtap": null,
+        "selected_tuss": null
+      },
+      "review": {
+        "date": "2026-10-06",
+        "note": "Match fuzzy por nome (\"filtração glomerular\") aproximou um exame de medicina nuclear de um valor calculado. Desfeito: sem equivalente SIGTAP."
       }
     },
     {
@@ -1129,6 +1222,11 @@
         "reasoning": "O código TUSS 40301630 e o SIGTAP 0202010317 referem-se à dosagem de creatinina de forma geral, sendo os códigos adequados e utilizados para a dosagem tanto em amostras de sangue quanto de urina.",
         "selected_sigtap": "0202010317",
         "selected_tuss": "40301630"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Mesmo TUSS/SIGTAP que Creatinine pela ANS, mas o SIGTAP 0202010317 não é exame de urina; excluído do sentido SIGTAP → LOINC."
       }
     },
     {
@@ -1194,6 +1292,11 @@
         "reasoning": "O código TUSS 40302040 e o SIGTAP 0202010473 referem-se à pesquisa e/ou dosagem de glicose de forma geral, sendo os códigos adequados para a dosagem de glicose na urina.",
         "selected_sigtap": "0202010473",
         "selected_tuss": "40302040"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Mesmo TUSS/SIGTAP que Glucose pela ANS, mas o SIGTAP 0202010473 não é exame de urina; excluído do sentido SIGTAP → LOINC."
       }
     },
     {
@@ -1376,6 +1479,11 @@
         "reasoning": "O TUSS 40308391 e o SIGTAP 0202030083 referem-se especificamente à determinação quantitativa da Proteína C-Reativa (PCR), correspondendo perfeitamente ao biomarcador. É importante não confundir com a Proteína C da coagulação (TUSS 40304507).",
         "selected_sigtap": "0202030083",
         "selected_tuss": "40308391"
+      },
+      "sigtap_also": ["0202030202"],
+      "review": {
+        "date": "2026-10-06",
+        "note": "Além do 0202030083 (determinação quantitativa), o SIGTAP 0202030202 \"Dosagem de proteína C reativa\" é o código genérico de PCR no SUS. Incluído em sigtap_also para que o sentido SIGTAP → LOINC cubra os dois."
       }
     },
     {
@@ -1519,6 +1627,11 @@
         "reasoning": "O biomarcador refere-se à dosagem de IgE específica para um único alérgeno (epitélio de gato). O código TUSS 40307263 e o SIGTAP 0202031039 representam exatamente a pesquisa/dosagem de IgE alérgeno-específica.",
         "selected_sigtap": "0202031039",
         "selected_tuss": "40307263"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "O SIGTAP 0202031039 \"IgE alérgeno-específica\" é genérico (qualquer alérgeno); rotulá-lo com um único alérgeno seria incorreto. Sem representante no sentido reverso."
       }
     },
     {
@@ -1597,6 +1710,11 @@
         "reasoning": "A dosagem de globulina é clinicamente realizada e faturada em conjunto com as proteínas totais e albumina (proteínas totais e frações). O código TUSS 40302385 e o SIGTAP 0202010627 representam exatamente esse exame.",
         "selected_sigtap": "0202010627",
         "selected_tuss": "40302385"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Derivado do painel 0202010627; o sentido SIGTAP → LOINC usa Albumin (1751-7)."
       }
     },
     {
@@ -1610,6 +1728,11 @@
         "reasoning": "O código TUSS 40301397 e o SIGTAP 0202010201 referem-se à dosagem de bilirrubinas (total e frações), o que inclui a medição da bilirrubina indireta (não conjugada).",
         "selected_sigtap": "0202010201",
         "selected_tuss": "40301397"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Fração do painel 0202010201; o sentido SIGTAP → LOINC usa BilirubinTotal (1975-2)."
       }
     },
     {
@@ -1623,6 +1746,11 @@
         "reasoning": "A razão albumina/globulina é um parâmetro calculado e reportado como parte do exame de proteínas totais e frações (albumina e globulina).",
         "selected_sigtap": "0202010627",
         "selected_tuss": "40302385"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Derivado do painel 0202010627; o sentido SIGTAP → LOINC usa Albumin (1751-7)."
       }
     },
     {
@@ -1636,6 +1764,11 @@
         "reasoning": "O código TUSS 40301397 engloba explicitamente a dosagem de bilirrubina direta, indireta e total. O código SIGTAP 0202010201 correspondente refere-se à dosagem de bilirrubina total e frações, o que inclui a bilirrubina direta.",
         "selected_sigtap": "0202010201",
         "selected_tuss": "40301397"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Fração do painel 0202010201; o sentido SIGTAP → LOINC usa BilirubinTotal (1975-2)."
       }
     },
     {
@@ -1870,6 +2003,11 @@
         "reasoning": "O Conteúdo Mineral Ósseo (BMC) não é um exame laboratorial in vitro, mas sim um parâmetro físico medido através do exame de imagem de densitometria óssea (DXA). O código TUSS 40808149 e o SIGTAP correspondente representam o procedimento de densitometria utilizado para obter essa medição.",
         "selected_sigtap": "0204060028",
         "selected_tuss": "40808149"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Derivado da densitometria 0204060028; o sentido SIGTAP → LOINC usa BMD_Total."
       }
     },
     {
@@ -1922,6 +2060,11 @@
         "reasoning": "O código TUSS 40808149 corresponde exatamente à densitometria óssea de corpo inteiro (DMO Corpo Total). O SIGTAP 0204060028 é a opção oficialmente mapeada pela ANS para este código, embora descreva a densitometria de coluna (equivalência 4).",
         "selected_sigtap": "0204060028",
         "selected_tuss": "40808149"
+      },
+      "reverse_primary": true,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Representante do SIGTAP 0204060028 no sentido reverso (a densitometria mede DMO; T-score e Z-score são derivados)."
       }
     },
     {
@@ -1935,6 +2078,11 @@
         "reasoning": "O T-Score de corpo total é um parâmetro/resultado gerado exclusivamente pelo exame de densitometria óssea de corpo inteiro. O TUSS 40808149 representa o procedimento adequado, com o SIGTAP correspondente mapeado pela ANS.",
         "selected_sigtap": "0204060028",
         "selected_tuss": "40808149"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Derivado da densitometria 0204060028; o sentido SIGTAP → LOINC usa BMD_Total."
       }
     },
     {
@@ -2065,6 +2213,11 @@
         "reasoning": "O biomarcador refere-se à dosagem de IgE para um painel ou grupo específico de alérgenos (mix de gramíneas - GX1), o que corresponde perfeitamente ao código TUSS para IgE de grupo específico.",
         "selected_sigtap": "0202030164",
         "selected_tuss": "40307255"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "A ANS mapeia \"IgE grupo específico\" ao 0202030164 (grau 3), mas o SIGTAP é IgE total; excluído do sentido SIGTAP → LOINC."
       }
     },
     {
@@ -2110,13 +2263,17 @@
       "biomarker_code": "VitaminD",
       "biomarker_display": "Vitamina D",
       "category": "nutrientes",
-      "loinc": "1989-3",
+      "loinc": "62292-8",
       "llm": {
         "confidence": "high",
         "no_match_reason": null,
         "reasoning": "O biomarcador refere-se à 25-Hidroxivitamina D (LOINC 1989-3), que é a forma padrão para avaliação do status de Vitamina D. O código TUSS 40302830 e o SIGTAP 0202010767 correspondem exatamente à dosagem de 25-Hidroxivitamina D.",
         "selected_sigtap": "0202010767",
         "selected_tuss": "40302830"
+      },
+      "review": {
+        "date": "2026-10-06",
+        "note": "LOINC corrigido de 1989-3 (só a fração 25-OH-D3) para 62292-8 (25-OH-D2 + 25-OH-D3), o total que os imunoensaios e o SIGTAP 0202010767 \"25 hidroxivitamina D\" descrevem. Alinhado ao fhir-brasil 0.26.5."
       }
     },
     {
@@ -2130,6 +2287,11 @@
         "reasoning": "O Z-Score de corpo total é um parâmetro de resultado obtido no exame de densitometria óssea de corpo inteiro. O código TUSS 40808149 representa o procedimento adequado, e o SIGTAP 0204060028 é o mapeamento oficial da ANS disponível (embora focado em coluna, reflete a densitometria).",
         "selected_sigtap": "0204060028",
         "selected_tuss": "40808149"
+      },
+      "reverse_primary": false,
+      "review": {
+        "date": "2026-10-06",
+        "note": "Derivado da densitometria 0204060028; o sentido SIGTAP → LOINC usa BMD_Total."
       }
     }
   ],
