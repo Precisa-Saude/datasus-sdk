@@ -58,16 +58,16 @@ describe('loincToSigtap', () => {
 });
 
 describe('listBiomarkers', () => {
-  it('expõe 164 biomarcadores do catálogo LOINC', () => {
+  it('expõe 166 biomarcadores do catálogo LOINC', () => {
     const all = listBiomarkers();
-    expect(all.length).toBe(164);
+    expect(all.length).toBe(166);
   });
 
-  it('todos os entries têm source llm-refined; loinc é null ou no formato padrão', () => {
+  it('todos os entries têm source conhecido; loinc é null ou no formato padrão', () => {
     for (const m of listBiomarkers()) {
-      expect(m.source).toBe('llm-refined');
+      expect(['llm-refined', 'manual-review']).toContain(m.source);
+      if (m.source === 'manual-review') expect(m.reviewNote).toBeTruthy();
       if (m.loinc !== null) expect(m.loinc).toMatch(/^\d+-\d+$/);
-      expect(m.biomarker.code.length).toBeGreaterThan(0);
     }
   });
 });

@@ -10,8 +10,14 @@
 /** Grau de confiança do refinamento LLM da equivalência LOINC → TUSS/SIGTAP. */
 export type TerminologyConfidence = 'high' | 'low' | 'medium';
 
-/** Origem do mapeamento — hoje só temos a pipeline fuzzy + refinamento Gemini. */
-export type TerminologySource = 'llm-refined';
+/**
+ * Origem do mapeamento:
+ * - `llm-refined`: pipeline fuzzy (ANS TUSS↔SIGTAP) + refinamento Gemini.
+ * - `manual-review`: entrada criada, corrigida ou anotada em revisão
+ *   manual posterior (ver `reviewNote`). A decisão do LLM pode ter sido
+ *   mantida; o que muda é que um humano a conferiu.
+ */
+export type TerminologySource = 'llm-refined' | 'manual-review';
 
 export interface Biomarker {
   /** Código curto interno (ex: "HDL"). Vem do `@precisa-saude/fhir`. */
@@ -35,8 +41,26 @@ export interface LoincMapping {
   noMatchReason: null | string;
   /** Justificativa textual do LLM para a seleção. */
   reasoning: null | string;
+  /**
+   * Se este mapeamento é o representante do seu `sigtap` no sentido
+   * reverso (`sigtapToLoinc`). Vários biomarcadores podem apontar para o
+   * mesmo SIGTAP (ex: glicose sérica e glicose na urina → "Dosagem de
+   * glicose"); só um deles — o que descreve o que o procedimento SUS de
+   * fato mede — volta pelo SIGTAP. `false` em todos os membros de um
+   * grupo significa que o SIGTAP não tem representante (ex: IgE
+   * alérgeno-específica, genérica demais para um único LOINC).
+   */
+  reversePrimary: boolean;
+  /** Nota da revisão manual que criou ou alterou esta entrada; null se intocada. */
+  reviewNote: null | string;
   /** Código SIGTAP selecionado (null quando o LLM não achou equivalente). */
   sigtap: null | string;
+  /**
+   * Outros códigos SIGTAP que também representam este biomarcador no SUS
+   * (ex: PCR tem um código genérico e um quantitativo). Todos resolvem
+   * de volta a este mapeamento em `sigtapToLoinc`.
+   */
+  sigtapAlso: readonly string[];
   /** Pipeline que gerou este mapeamento. */
   source: TerminologySource;
   /** Código TUSS selecionado (null quando o LLM não achou equivalente). */
