@@ -1,3 +1,9 @@
+## [2.1.2](https://github.com/Precisa-Saude/datasus-sdk/compare/v2.1.1...v2.1.2) (2026-10-06)
+
+### Bug Fixes
+
+* **core:** sigtapToLoinc elege representante explícito por SIGTAP e corrige LOINCs ([#25](https://github.com/Precisa-Saude/datasus-sdk/issues/25)) ([c7d1ae9](https://github.com/Precisa-Saude/datasus-sdk/commit/c7d1ae9b182bd0d6822e4aa45561dcc9543ddb5c)), closes [#24](https://github.com/Precisa-Saude/datasus-sdk/issues/24)
+
 ## [2.1.1](https://github.com/Precisa-Saude/datasus-sdk/compare/v2.1.0...v2.1.1) (2026-10-02)
 
 ### Bug Fixes
