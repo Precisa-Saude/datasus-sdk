@@ -1,3 +1,15 @@
+## [2.2.0](https://github.com/Precisa-Saude/datasus-sdk/compare/v2.1.2...v2.2.0) (2026-11-19)
+
+### Features
+
+* **core:** lookupSigtap resolve procedimentos que saíram da tabela vigente ([#28](https://github.com/Precisa-Saude/datasus-sdk/issues/28)) ([c674388](https://github.com/Precisa-Saude/datasus-sdk/commit/c674388b6de3c96f4a55c91d470f6eb6a59ae9e8))
+
+### CI/CD
+
+* adotar tooling v3 versionado com política de revisão ([#26](https://github.com/Precisa-Saude/datasus-sdk/issues/26)) ([a0e9ec6](https://github.com/Precisa-Saude/datasus-sdk/commit/a0e9ec6f42142772493ec2e77d857148be54829a))
+* ativa a revisão automática dos PRs ([#29](https://github.com/Precisa-Saude/datasus-sdk/issues/29)) ([2a2ec5f](https://github.com/Precisa-Saude/datasus-sdk/commit/2a2ec5f1fd6f1aa91c214148375c2b7bfa40f300))
+* definir política explícita para revisão externa ([#27](https://github.com/Precisa-Saude/datasus-sdk/issues/27)) ([79b25ac](https://github.com/Precisa-Saude/datasus-sdk/commit/79b25ac2b16d5c60744669f184ea45a621b70e95))
+
 ## [2.1.2](https://github.com/Precisa-Saude/datasus-sdk/compare/v2.1.1...v2.1.2) (2026-10-06)
 
 ### Bug Fixes
