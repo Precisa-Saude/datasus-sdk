@@ -42,25 +42,23 @@
  *
  * ## Saída
  *
- *   packages/core/src/terminology/data/sigtap.json              SIGTAP completo (runtime)
  *   packages/core/data/loinc-tuss-sigtap.json                  mapeamento fuzzy (audit)
  *   packages/core/data/loinc-tuss-sigtap.report.md             resumo revisão
  *   packages/core/data/fhir-brasil-tuss-audit.md               mismatches no fhir-brasil
  *
- * Uso: `pnpm -F @precisa-saude/datasus run build:sigtap-mapping`
+ * A tabela SIGTAP de runtime (`src/terminology/data/sigtap.json`) sai de
+ * `build-sigtap-table.ts`, que também recupera os procedimentos retirados.
+ *
+ * Uso (da raiz do repo): `npx tsx packages/core/scripts/build-sigtap-mapping.ts`
  *
  * Pré-requisito (one-shot): `src/terminology/data/ans-tuss-sigtap.json`
  * gerado via `pnpm -F @precisa-saude/datasus run build:ans-mapping`. Rode
  * quando a ANS publicar nova competência.
  */
 
-import { execFileSync } from 'node:child_process';
-import { createWriteStream } from 'node:fs';
-import { mkdir, readdir, readFile, stat, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-
-import { Client } from 'basic-ftp';
 
 const CORE_ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const MONOREPO_ROOT = resolve(CORE_ROOT, '..', '..');
@@ -73,7 +71,6 @@ const MONOREPO_ROOT = resolve(CORE_ROOT, '..', '..');
 const FHIR_BRASIL_ROOT = process.env['FHIR_BRASIL_ROOT']
   ? resolve(process.env['FHIR_BRASIL_ROOT'])
   : resolve(MONOREPO_ROOT, '..', 'fhir-brasil');
-const CACHE_DIR = join(MONOREPO_ROOT, '.cache', 'sigtap');
 const DATA_DIR = join(CORE_ROOT, 'data');
 const TERMINOLOGY_DATA_DIR = join(CORE_ROOT, 'src', 'terminology', 'data');
 const BIOMARKERS_TS = join(FHIR_BRASIL_ROOT, 'packages', 'core', 'src', 'biomarkers.ts');
@@ -86,16 +83,6 @@ const TUSS_VS_FSH = join(
   'BRTUSSProcedimentosLabVS.fsh',
 );
 const ANS_OFFICIAL_JSON = join(TERMINOLOGY_DATA_DIR, 'ans-tuss-sigtap.json');
-
-const PROC_OFFSETS = {
-  code: [0, 10] as const,
-  name: [10, 260] as const,
-};
-
-interface SigtapProcedure {
-  code: string;
-  name: string;
-}
 
 interface BiomarkerDefinition {
   category: string | string[];
@@ -145,18 +132,8 @@ interface MappingEntry {
 }
 
 async function main(): Promise<void> {
-  await mkdir(CACHE_DIR, { recursive: true });
   await mkdir(DATA_DIR, { recursive: true });
   await mkdir(TERMINOLOGY_DATA_DIR, { recursive: true });
-
-  const zipPath = await downloadLatestSigtap();
-  const extractDir = await extractZip(zipPath);
-  const procedures = await parseProcedures(extractDir);
-  console.error(`[sigtap] ${procedures.length} procedimentos parseados.`);
-  await writeFile(
-    join(TERMINOLOGY_DATA_DIR, 'sigtap.json'),
-    `${JSON.stringify(procedures, null, 2)}\n`,
-  );
 
   const ansEnvelope = await loadAnsOfficial();
   const ansRows = ansEnvelope.rows;
@@ -191,62 +168,6 @@ async function main(): Promise<void> {
       `(total ${mapping.length} biomarcadores).`,
   );
   console.error(`[output] ${DATA_DIR}/`);
-}
-
-async function downloadLatestSigtap(): Promise<string> {
-  const client = new Client();
-  client.ftp.verbose = false;
-  try {
-    console.error('[ftp] conectando em ftp2.datasus.gov.br...');
-    await client.access({ host: 'ftp2.datasus.gov.br', port: 21, secure: false });
-    const list = await client.list('/public/sistemas/tup/downloads/');
-    const zips = list
-      .filter((e) => /^TabelaUnificada_\d+_v.*\.zip$/i.test(e.name))
-      .sort((a, b) => a.name.localeCompare(b.name));
-    const latest = zips.at(-1);
-    if (!latest) throw new Error('Nenhum TabelaUnificada_*.zip encontrado no FTP.');
-
-    const localPath = join(CACHE_DIR, latest.name);
-    const existing = await safeStat(localPath);
-    if (existing && existing.size === latest.size) {
-      console.error(`[ftp] cache hit: ${latest.name} (${formatSize(existing.size)})`);
-      return localPath;
-    }
-
-    console.error(`[ftp] baixando ${latest.name} (${formatSize(latest.size)})...`);
-    const ws = createWriteStream(localPath);
-    await client.downloadTo(ws, `/public/sistemas/tup/downloads/${latest.name}`);
-    return localPath;
-  } finally {
-    client.close();
-  }
-}
-
-async function extractZip(zipPath: string): Promise<string> {
-  const target = join(CACHE_DIR, 'extracted');
-  await mkdir(target, { recursive: true });
-  console.error('[unzip] extraindo SIGTAP...');
-  execFileSync('unzip', ['-o', '-q', zipPath, '-d', target], { stdio: 'inherit' });
-  return target;
-}
-
-async function parseProcedures(extractDir: string): Promise<SigtapProcedure[]> {
-  const procFile = await findFile(extractDir, /tb_procedimento\.txt$/i);
-  if (!procFile) {
-    throw new Error(`tb_procedimento.txt não encontrado em ${extractDir}`);
-  }
-  const buf = await readFile(procFile);
-  const text = new TextDecoder('latin1').decode(buf);
-  const lines = text.split(/\r?\n/).filter((l) => l.length >= PROC_OFFSETS.name[1]);
-
-  const procedures: SigtapProcedure[] = [];
-  for (const line of lines) {
-    const code = line.slice(...PROC_OFFSETS.code).trim();
-    const name = line.slice(...PROC_OFFSETS.name).trim();
-    if (code.length !== 10 || !/^\d{10}$/.test(code) || name.length === 0) continue;
-    procedures.push({ code, name });
-  }
-  return procedures;
 }
 
 interface AnsEnvelope {
@@ -286,19 +207,6 @@ function indexAnsByTuss(rows: AnsMappingRow[]): Map<string, AnsMappingRow[]> {
     idx.set(row.tuss, arr);
   }
   return idx;
-}
-
-async function findFile(dir: string, pattern: RegExp): Promise<null | string> {
-  for (const entry of await readdir(dir, { withFileTypes: true })) {
-    const full = join(dir, entry.name);
-    if (entry.isDirectory()) {
-      const hit = await findFile(full, pattern);
-      if (hit) return hit;
-    } else if (pattern.test(entry.name)) {
-      return full;
-    }
-  }
-  return null;
 }
 
 async function loadBiomarkers(): Promise<BiomarkerDefinition[]> {
@@ -656,21 +564,6 @@ function namesLikelySame(a: string, b: string): boolean {
   for (const t of ta) if (tb.has(t)) intersection++;
   const overlap = intersection / Math.min(ta.size, tb.size);
   return overlap >= 0.6;
-}
-
-async function safeStat(path: string): Promise<{ size: number } | null> {
-  try {
-    const s = await stat(path);
-    return s.isFile() ? { size: s.size } : null;
-  } catch {
-    return null;
-  }
-}
-
-function formatSize(bytes: number): string {
-  if (bytes < 1024) return `${bytes} B`;
-  if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
-  return `${(bytes / 1024 / 1024).toFixed(1)} MB`;
 }
 
 await main();

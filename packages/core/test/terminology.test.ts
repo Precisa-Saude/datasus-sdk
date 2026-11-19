@@ -88,6 +88,17 @@ describe('lookupSigtap', () => {
     expect(lookupSigtap('9999999999')).toBeNull();
     expect(lookupSigtap('')).toBeNull();
   });
+
+  it('resolve procedimento que saiu da tabela vigente, dizendo de qual tabela veio o nome', () => {
+    // Faturado no SIA-SUS de 2008 a 2025 e ausente da tabela SIGTAP vigente.
+    const retirado = lookupSigtap('0202030300');
+    expect(retirado?.name).toMatch(/\S/);
+    expect(retirado?.lastSeenTable).toMatch(/^\d{4}-\d{2}$/);
+  });
+
+  it('procedimento da tabela vigente não traz lastSeenTable', () => {
+    expect(lookupSigtap('0202010279')).not.toHaveProperty('lastSeenTable');
+  });
 });
 
 describe('lookupTuss', () => {

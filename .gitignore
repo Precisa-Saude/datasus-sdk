@@ -4,3 +4,4 @@ coverage/
 .turbo/
 *.log
 .DS_Store
+.cache/
