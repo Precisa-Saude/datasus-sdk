@@ -16,4 +16,18 @@ export default [
       'max-lines-per-function': 'off',
     },
   },
+  {
+    // Scripts de manutenção do maintainer (ver AGENTS.md): rodam com tsx,
+    // fora do bundle publicado e fora do tsconfig do pacote, e falam pelo
+    // console.
+    files: ['packages/core/scripts/**'],
+    languageOptions: {
+      parserOptions: { project: false },
+    },
+    rules: {
+      'max-lines': 'off',
+      'max-lines-per-function': 'off',
+      'no-console': 'off',
+    },
+  },
 ];

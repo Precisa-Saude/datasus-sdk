@@ -9,7 +9,7 @@
 import rawData from './data/sigtap.json';
 import type { SigtapProcedure } from './types.js';
 
-type RawSigtapRow = { code: string; name: string };
+type RawSigtapRow = { code: string; lastSeenTable?: string; name: string };
 
 const raw = rawData as readonly RawSigtapRow[];
 

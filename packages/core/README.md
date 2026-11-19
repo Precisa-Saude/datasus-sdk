@@ -59,6 +59,12 @@ sigtapToLoinc('0202010473'); // Dosagem de glicose → Glucose (2345-7)
 // Nome pt-BR do procedimento SUS
 lookupSigtap(m!.sigtap!); // { code: '0202010279', name: 'DOSAGEM DE COLESTEROL HDL' }
 
+// Procedimento que saiu da tabela vigente, mas aparece no SIA-SUS histórico:
+// o nome vem da tabela mais recente que ainda o trazia.
+lookupSigtap('0202030300');
+// { code: '0202030300', name: 'PESQUISA DE ANTICORPOS ANTI-HIV-1 + HIV-2 (ELISA)',
+//   lastSeenTable: '2025-01' }
+
 // Detalhes TUSS + lista de SIGTAPs equivalentes segundo a ANS
 lookupTuss(m!.tuss!);
 // → { code: '40301583', name: 'Colesterol (HDL) — pesquisa e/ou dosagem',

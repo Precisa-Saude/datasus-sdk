@@ -12,6 +12,31 @@
     "name": "PRÁTICA CORPORAL / ATIVIDADE FÍSICA EM GRUPO"
   },
   {
+    "code": "0101010044",
+    "name": "PRÁTICAS CORPORAIS EM MEDICINA TRADICIONAL CHINESA",
+    "lastSeenTable": "2017-01"
+  },
+  {
+    "code": "0101010052",
+    "name": "TERAPIA COMUNITARIA",
+    "lastSeenTable": "2017-01"
+  },
+  {
+    "code": "0101010060",
+    "name": "DANÇA CIRCULAR/BIODANÇA",
+    "lastSeenTable": "2017-01"
+  },
+  {
+    "code": "0101010079",
+    "name": "YOGA",
+    "lastSeenTable": "2017-01"
+  },
+  {
+    "code": "0101010087",
+    "name": "OFICINA DE MASSAGEM/ AUTO-MASSAGEM",
+    "lastSeenTable": "2017-01"
+  },
+  {
     "code": "0101010095",
     "name": "PREVENÇÃO DA COVID-19 NAS ESCOLAS"
   },
@@ -156,6 +181,11 @@
     "name": "VISITA DOMICILIAR/INSTITUCIONAL POR PROFISSIONAL DE NÍVEL SUPERIOR"
   },
   {
+    "code": "0101040016",
+    "name": "APLICAÇÃO DE SUPLEMENTOS DE MICRONUTRIENTES",
+    "lastSeenTable": "2016-01"
+  },
+  {
     "code": "0101040024",
     "name": "AVALIAÇÃO ANTROPOMÉTRICA"
   },
@@ -170,6 +200,11 @@
   {
     "code": "0101040059",
     "name": "ADMINISTRAÇÃO DE VITAMINA A"
+  },
+  {
+    "code": "0101040067",
+    "name": "APLICAÇÃO DE SUPLEMENTOS DE MICRONUTRIENTES",
+    "lastSeenTable": "2022-01"
   },
   {
     "code": "0101040075",
@@ -202,6 +237,11 @@
   {
     "code": "0101050020",
     "name": "TERAPIA COMUNITÁRIA"
+  },
+  {
+    "code": "0101050038",
+    "name": "DANÇA CIRCULAR/BIODANÇA",
+    "lastSeenTable": "2018-01"
   },
   {
     "code": "0101050046",
@@ -296,6 +336,26 @@
     "name": "AÇÕES PARA AMPLIAÇÃO DO ACESSO DAS CRIANÇAS E DOS ADOLESCENTES EM ATIVIDADES DE CONVIVÊNCIA, ARTE, CULTURA E LAZER"
   },
   {
+    "code": "0102010013",
+    "name": "APLICACAO DE  MULTA",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0102010021",
+    "name": "APLICACAO DE ADVERTENCIA",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0102010030",
+    "name": "APLICACAO DE INTERDICAO DE PRODUTO",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0102010048",
+    "name": "APLICACAO DE INTERDICAO PARCIAL / TOTAL DE ESTABELECIMENTO",
+    "lastSeenTable": "2010-01"
+  },
+  {
     "code": "0102010056",
     "name": "ATIVIDADES EDUCATIVAS PARA O SETOR REGULADO"
   },
@@ -306,6 +366,36 @@
   {
     "code": "0102010072",
     "name": "CADASTRO DE ESTABELECIMENTOS SUJEITOS À VIGILÂNCIA SANITÁRIA"
+  },
+  {
+    "code": "0102010080",
+    "name": "CANCELAMENTO DE ALVARA DE LICENCIAMENTO SANITARIO P/ ESTABELECIMENTO DE SAUDE",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0102010099",
+    "name": "CANCELAMENTO DE ALVARA DE LICENCIAMENTO SANITARIO P/ ESTABELECIMENTO EXCETO OS DE SAUDE",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0102010102",
+    "name": "COLETA DE AMOSTRA  P/ ANALISE DE CONTROLE",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0102010110",
+    "name": "COLETA DE AMOSTRA  P/ ANALISE FISCAL",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0102010129",
+    "name": "EMISSAO DE ALVARA DE LICENCIAMENTO SANITARIO P/ ESTABELECIMENTO DE SAUDE",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0102010137",
+    "name": "EMISSAO DE ALVARA DE LICENCIAMENTO SANITARIO P/ ESTABELECIMENTO EXCETO OS DE SAUDE",
+    "lastSeenTable": "2010-01"
   },
   {
     "code": "0102010145",
@@ -798,6 +888,11 @@
   {
     "code": "0201010569",
     "name": "BIOPSIA/EXERESE DE NÓDULO DE MAMA"
+  },
+  {
+    "code": "0201010577",
+    "name": "BIOPSIAS MULTIPLAS P/ ESTADIAMENTO",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0201010585",
@@ -1492,6 +1587,11 @@
     "name": "DOSAGEM DE PROTEINA C REATIVA"
   },
   {
+    "code": "0202030210",
+    "name": "GENOTIPAGEM DE VIRUS DA HEPATITE C",
+    "lastSeenTable": "2024-01"
+  },
+  {
     "code": "0202030229",
     "name": "IMUNOELETROFORESE DE PROTEINAS"
   },
@@ -1522,6 +1622,16 @@
   {
     "code": "0202030296",
     "name": "PESQUISA DE ANTICORPOS ANTI-HIV-1 (WESTERN BLOT/IMUNOBLOT)"
+  },
+  {
+    "code": "0202030300",
+    "name": "PESQUISA DE ANTICORPOS ANTI-HIV-1 + HIV-2 (ELISA)",
+    "lastSeenTable": "2025-01"
+  },
+  {
+    "code": "0202030318",
+    "name": "PESQUISA DE ANTICORPOS ANTI-HTLV-1 + HTLV-2",
+    "lastSeenTable": "2025-01"
   },
   {
     "code": "0202030326",
@@ -1592,6 +1702,11 @@
     "name": "PESQUISA DE ANTICORPOS ANTIFIGADO"
   },
   {
+    "code": "0202030490",
+    "name": "PESQUISA DE ANTICORPOS ANTIGLIADINA (GLUTEN) IGG IGM E IGA",
+    "lastSeenTable": "2009-01"
+  },
+  {
     "code": "0202030504",
     "name": "PESQUISA DE ANTICORPOS ANTIGLOMERULO"
   },
@@ -1658,6 +1773,11 @@
   {
     "code": "0202030660",
     "name": "PESQUISA DE ANTICORPOS CONTRA O SPOROTRIX SCHENKII"
+  },
+  {
+    "code": "0202030679",
+    "name": "PESQUISA DE ANTICORPOS CONTRA O VIRUS DA HEPATITE C (ANTI-HCV)",
+    "lastSeenTable": "2025-01"
   },
   {
     "code": "0202030687",
@@ -1776,6 +1896,11 @@
     "name": "PESQUISA DE ANTIGENO CARCINOEMBRIONARIO (CEA)"
   },
   {
+    "code": "0202030970",
+    "name": "PESQUISA DE ANTIGENO DE SUPERFICIE DO VIRUS DA HEPATITE B (HBSAG)",
+    "lastSeenTable": "2025-01"
+  },
+  {
     "code": "0202030989",
     "name": "PESQUISA DE ANTIGENO E DO VIRUS DA HEPATITE B (HBEAG)"
   },
@@ -1790,6 +1915,11 @@
   {
     "code": "0202031012",
     "name": "PESQUISA DE FATOR REUMATOIDE (WAALER-ROSE)"
+  },
+  {
+    "code": "0202031020",
+    "name": "PESQUISA DE HIV-1 POR IMUNOFLUORESCENCIA",
+    "lastSeenTable": "2024-01"
   },
   {
     "code": "0202031039",
@@ -1816,6 +1946,11 @@
     "name": "QUANTIFICAÇÃO DE RNA DO VÍRUS DA HEPATITE C"
   },
   {
+    "code": "0202031098",
+    "name": "TESTE TREPONEMICO P/ DETECÇÃO DE SIFILIS",
+    "lastSeenTable": "2025-01"
+  },
+  {
     "code": "0202031101",
     "name": "REAÇÃO DE MONTENEGRO ID"
   },
@@ -1824,12 +1959,27 @@
     "name": "TESTE NÃO TREPONEMICO P/ DETECÇÃO DE SIFILIS PARA POPULAÇÃO GERAL (EXCETO GESTANTE, PARCEIRO OU PARCERIA)"
   },
   {
+    "code": "0202031128",
+    "name": "TESTE FTA-ABS IGG P/ DIAGNOSTICO DA SIFILIS",
+    "lastSeenTable": "2024-01"
+  },
+  {
+    "code": "0202031136",
+    "name": "TESTE FTA-ABS IGM P/ DIAGNOSTICO DA SIFILIS",
+    "lastSeenTable": "2024-01"
+  },
+  {
     "code": "0202031144",
     "name": "TESTES ALERGICOS DE CONTATO"
   },
   {
     "code": "0202031152",
     "name": "TESTES CUTANEOS DE LEITURA IMEDIATA"
+  },
+  {
+    "code": "0202031160",
+    "name": "TESTES RAPIDOS P/ DIAGNOSTICO DA SIFILIS",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0202031179",
@@ -1864,6 +2014,16 @@
     "name": "GENOTIPAGEM DO HIV"
   },
   {
+    "code": "0202031250",
+    "name": "DETECÇÃO DE DNA PROVIRAL DO HTLV-1 E DO HTLV-2",
+    "lastSeenTable": "2025-01"
+  },
+  {
+    "code": "0202031268",
+    "name": "TESTE CONFIRMATÓRIO COM PESQUISA DE ANTICORPOS ANTI-HTLV-1 + HTLV-2",
+    "lastSeenTable": "2025-01"
+  },
+  {
     "code": "0202031276",
     "name": "DOSAGEM DE ADENOSINA-DESAMINASE (ADA)"
   },
@@ -1886,6 +2046,16 @@
   {
     "code": "0202031322",
     "name": "DOSAGEM DE SIROLIMO"
+  },
+  {
+    "code": "0202031349",
+    "name": "TESTE DE BIOLOGIA MOLECULAR PARA A DETECÇÃO DE MARCADORES DE MYCOBACTERIUM LEPRAE, EM AMOSTRAS DE BIÓPSIA DE PELE OU DE NERVOS.",
+    "lastSeenTable": "2023-01"
+  },
+  {
+    "code": "0202031357",
+    "name": "TESTE QUALITATIVO IN VITRO , PARA DETECÇÃO DE MYCOBACTERIUMLEPRAE RESISTENTE À RIFAMPICINA E/OU DAPSONA E/OU OFLOXACINO, EM PACIENTESACOMETIDOS POR HANSENÍASE E COM SUSPEITA DE RESISTÊNCIA AANTIMICROBIANOS.",
+    "lastSeenTable": "2023-01"
   },
   {
     "code": "0202031365",
@@ -1992,6 +2162,10 @@
     "name": "TESTE CONFIRMATÓRIO COM PESQUISA DE ANTICORPOS ANTI-HTLV-1 + ANTI-HTLV-2 EM PARCEIRO OU PARCERIA DE GESTANTE"
   },
   {
+    "code": "0202031624",
+    "name": "TESTE NÃO TREPONÊMICO P/ DETECÇÃO DE SÍFILIS EM PARCEIRO OU PARCERIA DE GESTANTE"
+  },
+  {
     "code": "0202040011",
     "name": "DOSAGEM DE ESTERCOBILINOGENIO FECAL"
   },
@@ -2062,6 +2236,10 @@
   {
     "code": "0202040186",
     "name": "TESTE DE ELASTASE PANCREÁTICA FECAL"
+  },
+  {
+    "code": "0202040194",
+    "name": "CALPROTECTINA FECAL"
   },
   {
     "code": "0202050017",
@@ -2976,6 +3154,16 @@
     "name": "EXAME CITOPATOLOGICO DE MAMA"
   },
   {
+    "code": "0203010051",
+    "name": "CONTROLE  EXTERNO DE QUALIDADE DO EXAME CITOPATOLÒGICO CERVICO VAGINAL",
+    "lastSeenTable": "2014-01"
+  },
+  {
+    "code": "0203010060",
+    "name": "EXAME CITOPATOLÓGICO CERVICO VAGINAL- RASTREAMENTO",
+    "lastSeenTable": "2014-01"
+  },
+  {
     "code": "0203010078",
     "name": "CONTROLE DE QUALIDADE DO EXAME CITOPATOLÓGICO CERVICO VAGINAL"
   },
@@ -3082,6 +3270,11 @@
   {
     "code": "0204010179",
     "name": "RADIOGRAFIA PANORAMICA"
+  },
+  {
+    "code": "0204010187",
+    "name": "RADIOGRAFIA PERI-APICAL INTERPROXIMAL (BITE-WING)",
+    "lastSeenTable": "2020-01"
   },
   {
     "code": "0204010195",
@@ -3432,6 +3625,10 @@
     "name": "ULTRASSONOGRAFIA DOPPLER DE FLUXO OBSTETRICO"
   },
   {
+    "code": "0205010067",
+    "name": "USO DE DOPPLER PARA AVALIAÇÃO CLÍNICA NA ATENÇÃO PRIMÁRIA À SAÚDE"
+  },
+  {
     "code": "0205020011",
     "name": "ECODOPPLER TRANSCRANIANO"
   },
@@ -3508,6 +3705,16 @@
     "name": "MARCACAO DE LESAO PRE-CIRURGICA DE LESAO NAO PALPAVEL DE MAMA ASSOCIADA A ULTRASSONOGRAFIA"
   },
   {
+    "code": "0205020208",
+    "name": "ULTRASSONOGRAFIA DE MAMA UNILATERAL PARA AVALIAÇÃO DE POSSÍVEIS COMPLICAÇÕES DE IMPLANTE DE PRÓTESE",
+    "lastSeenTable": "2016-01"
+  },
+  {
+    "code": "0205020216",
+    "name": "ULTRASSONOGRAFIA DE MAMA BILATERAL PARA AVALIAÇÃO DE POSSÍVEIS COMPLICAÇÕES DE IMPLANTE DE PRÓTESE",
+    "lastSeenTable": "2016-01"
+  },
+  {
     "code": "0205020224",
     "name": "ELASTOGRAFIA HEPÁTICA ULTRASSÔNICA"
   },
@@ -3576,6 +3783,14 @@
     "name": "TOMOGRAFIA COMPUTADORIZADA DE PELVE / BACIA / ABDOMEN INFERIOR"
   },
   {
+    "code": "0206030045",
+    "name": "CONTRASTE PARA TOMOGRAFIA COMPUTADORIZADA"
+  },
+  {
+    "code": "0206030053",
+    "name": "CONTRASTE PARA RESSONÂNCIA MAGNÉTICA"
+  },
+  {
     "code": "0207010013",
     "name": "ANGIORESSONANCIA CEREBRAL"
   },
@@ -3616,6 +3831,16 @@
     "name": "RESSONANCIA MAGNETICA DE TORAX"
   },
   {
+    "code": "0207020043",
+    "name": "RESSONÂNCIA MAGNÉTICA DE MAMA UNILATERAL PARA AVALIAÇÃO DE POSSÍVEIS COMPLICAÇÕES DE IMPLANTE DE PRÓTESE - RESTRITA AOS CASOS DE IMPLANTE UNILATERAL DE PRÓTESE",
+    "lastSeenTable": "2016-01"
+  },
+  {
+    "code": "0207020051",
+    "name": "RESSONÂNCIA MAGNÉTICA DE MAMA BILATERAL PARA AVALIAÇÃO DE POSSÍVEIS COMPLICAÇÕES DE IMPLANTE DE PRÓTESE",
+    "lastSeenTable": "2016-01"
+  },
+  {
     "code": "0207020060",
     "name": "RESSONÂNCIA MAGNÉTICA DA MAMA"
   },
@@ -3637,7 +3862,7 @@
   },
   {
     "code": "0207030057",
-    "name": "RESSONÂNCIA MAGNÈTICA MULTIPARAMÈTRICA DA PROSTATA"
+    "name": "RESSONÂNCIA MAGNÉTICA MULTIPARAMÉTRICA DA PRÓSTATA"
   },
   {
     "code": "0208010017",
@@ -3908,6 +4133,14 @@
     "name": "VIDEOTORACOSCOPIA"
   },
   {
+    "code": "0209040068",
+    "name": "ECOBRONCOSCOPIA - EBUS"
+  },
+  {
+    "code": "0209040076",
+    "name": "ECOENDOSCOPIA - EUS"
+  },
+  {
     "code": "0210010010",
     "name": "ANGIOGRAFIA CEREBRAL (4 VASOS)"
   },
@@ -4044,6 +4277,10 @@
     "name": "TELE-ELETROCARDIOGRAMA SÍNCRONO/LAUDO"
   },
   {
+    "code": "0211020109",
+    "name": "COLETA DE ELETROCARDIOGRAMA NA APS"
+  },
+  {
     "code": "0211030015",
     "name": "AVALIACAO CINEMATICA E DE PARAMETROS LINEARES"
   },
@@ -4102,6 +4339,11 @@
   {
     "code": "0211040061",
     "name": "TOCOCARDIOGRAFIA ANTE-PARTO"
+  },
+  {
+    "code": "0211050016",
+    "name": "DETERMINACAO DE DURACAO DA CURVA DE INTENSIDADE",
+    "lastSeenTable": "2019-01"
   },
   {
     "code": "0211050024",
@@ -4172,6 +4414,11 @@
     "name": "CAMPIMETRIA COMPUTADORIZADA OU MANUAL COM GRÁFICO"
   },
   {
+    "code": "0211060046",
+    "name": "CAMPIMETRIA MANUAL COM GRAFICO",
+    "lastSeenTable": "2008-01"
+  },
+  {
     "code": "0211060054",
     "name": "CERATOMETRIA"
   },
@@ -4228,6 +4475,11 @@
     "name": "RETINOGRAFIA FLUORESCENTE BINOCULAR"
   },
   {
+    "code": "0211060194",
+    "name": "TESTE DE ADAPTACAO DE VISAO SUBNORMAL",
+    "lastSeenTable": "2009-01"
+  },
+  {
     "code": "0211060208",
     "name": "TESTE DE PROVOCACAO DE GLAUCOMA"
   },
@@ -4262,6 +4514,14 @@
   {
     "code": "0211060283",
     "name": "TOMOGRAFIA DE COERÊNCIA ÓPTICA"
+  },
+  {
+    "code": "0211060291",
+    "name": "TRIAGEM OCULAR NEONATAL (TON)"
+  },
+  {
+    "code": "0211060305",
+    "name": "TESTE DO REFLEXO VERMELHO (TRV)"
   },
   {
     "code": "0211070017",
@@ -4500,6 +4760,16 @@
     "name": "APLICAÇÃO DE TESTE P/ PSICODIAGNÓSTICO"
   },
   {
+    "code": "0211120014",
+    "name": "VIDEOSCOPIA P/ DIAGNOSTICO / DRENAGEM / TOALETE / BIOPSIA",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0211120022",
+    "name": "VIDEOSCOPIA P/ SINTESE / RECONSTRUCAO / TRANSPLANTE DE ESTRUTURAS",
+    "lastSeenTable": "2008-01"
+  },
+  {
     "code": "0212010018",
     "name": "EXAMES IMUNOHEMATOLOGICOS EM DOADOR DE SANGUE"
   },
@@ -4548,12 +4818,22 @@
     "name": "PROCESSAMENTO DE SANGUE"
   },
   {
+    "code": "0213010011",
+    "name": "DETERMINACAO DE CARGA VIRAL DO HIV POR RT-PCR",
+    "lastSeenTable": "2024-01"
+  },
+  {
     "code": "0213010020",
     "name": "ENSAIO IMUNOENZIMÁTICO -TESTE DE ELISA PARA IDENTIFICAÇÃO DE LEPTOSPIRAS (LEPTOSPIROSE)"
   },
   {
     "code": "0213010038",
     "name": "ENSAIO IMUNOENZIMATICO-ELISA P/ IDENTIFICAÇÃO DO VÍRUS DA FEBRE DO NILO OCIDENTAL"
+  },
+  {
+    "code": "0213010046",
+    "name": "ENSAIO IMUNOENZIMATICO-TESTE DE ELISA P/ IDENTIFICACAO DA PASTEURELLA PESTIS (PESTE BUBONICA)",
+    "lastSeenTable": "2018-01"
   },
   {
     "code": "0213010054",
@@ -4594,6 +4874,11 @@
   {
     "code": "0213010143",
     "name": "HISTOPATOLOGIA P/ IDENTIFICACAO DE HEPATITE C"
+  },
+  {
+    "code": "0213010151",
+    "name": "HISTOPATOLOGIA P/ IDENTIFICACAO DO ANTRAZ / CARBUNCULO",
+    "lastSeenTable": "2018-01"
   },
   {
     "code": "0213010160",
@@ -4644,12 +4929,22 @@
     "name": "IMUNOFLUORESCENCIA INDIRETA P/ IDENTIFICACAO DO SHISTOSSOMA MANSONI"
   },
   {
+    "code": "0213010283",
+    "name": "IMUNOFLUORESCENCIA INDIRETA P/ IDENTIFICACAO DO VIRUS DA RAIVA",
+    "lastSeenTable": "2018-01"
+  },
+  {
     "code": "0213010291",
     "name": "IMUNOHISTOQUIMICA P/ IDENTIFICAÇÃO DA RICKETTISIA RICKETTSII (FEBRE MACULOSA)"
   },
   {
     "code": "0213010305",
     "name": "IMUNOHISTOQUIMICA P/ IDENTIFICAÇÃO DE LEPTOSPIRAS (LEPTOSPIROSE)"
+  },
+  {
+    "code": "0213010313",
+    "name": "IMUNOHISTOQUIMICA P/ IDENTIFICACAO DE PLASMODIOS (MALARIA)",
+    "lastSeenTable": "2018-01"
   },
   {
     "code": "0213010321",
@@ -4760,6 +5055,11 @@
     "name": "TESTE DE ELISA IGG PARA IDENTIFICAÇÃO DO VÍRUS DO SARAMPO"
   },
   {
+    "code": "0213010593",
+    "name": "TESTE DE ELISA IGM P/ IDENTIFICACAO DE SHIGUELAS (SHIGUELOSE)",
+    "lastSeenTable": "2018-01"
+  },
+  {
     "code": "0213010607",
     "name": "TESTE DE ELISA IGM P/ IDENTIFICAÇÃO DO PARVOVIRUS (PARVOVIROSE)"
   },
@@ -4802,6 +5102,11 @@
   {
     "code": "0213010704",
     "name": "TESTE DE SORONEUTRALIZACAO P/ IDENTIFICACAO DO VIRUS DA RAIVA"
+  },
+  {
+    "code": "0213010712",
+    "name": "TESTE DOT-ELISA P/ IDENTIFICACAO DA PASTEURELLA PESTIS (PESTE BUBONICA)",
+    "lastSeenTable": "2018-01"
   },
   {
     "code": "0213010720",
@@ -4852,6 +5157,10 @@
     "name": "DETECÇÃO RÁPIDA DE CLAMÍDIA E GONOCOCO"
   },
   {
+    "code": "0213010844",
+    "name": "DETECÇÃO DO RNA DOS VÍRUS DA DENGUE, ZIKA E CHIKUNGUNYA POR RT-PCR"
+  },
+  {
     "code": "0213020017",
     "name": "ANALISE DE BACTERIAS PATOGENICAS EM AGUA"
   },
@@ -4896,6 +5205,11 @@
     "name": "PESQUISA DE GLICOSE NA URINA"
   },
   {
+    "code": "0214010040",
+    "name": "TESTE RAPIDO PARA DETECCAO DE HIV NA GESTANTE OU PAI/PARCEIRO",
+    "lastSeenTable": "2025-01"
+  },
+  {
     "code": "0214010058",
     "name": "TESTE RÁPIDO PARA DETECÇÃO DE ANTICORPOS ANTI-HIV PARAPOPULAÇÃO GERAL (EXCETO GESTANTE, PARCEIRO OU PARCERIA)"
   },
@@ -4906,6 +5220,21 @@
   {
     "code": "0214010074",
     "name": "TESTE RÁPIDO TREPONÊMICO (SÍFILIS) PARA POPULAÇÃO GERAL(EXCETO GESTANTE, PARCEIRO OU PARCERIA)"
+  },
+  {
+    "code": "0214010082",
+    "name": "TESTE RÁPIDO PARA SÍFILIS NA GESTANTE OU PAI/PARCEIRO",
+    "lastSeenTable": "2025-01"
+  },
+  {
+    "code": "0214010090",
+    "name": "TESTE RÁPIDO PARA DETECÇÃO DE HEPATITE C",
+    "lastSeenTable": "2025-01"
+  },
+  {
+    "code": "0214010104",
+    "name": "TESTE RÁPIDO PARA DETECÇÃO DE INFECÇÃO PELO HBV",
+    "lastSeenTable": "2025-01"
   },
   {
     "code": "0214010112",
@@ -4992,6 +5321,15 @@
     "name": "TESTE RÁPIDO PARA DETECÇÃO DE ANTICORPOS CONTRA O VÍRUS DA HEPATITE C EM PARCEIRO OU PARCERIA DE GESTANTE"
   },
   {
+    "code": "0214010325",
+    "name": "PESQUISA DE SANGUE OCULTO NAS FEZES POR TESTE IMUNOQUÍMICO FECAL (FIT) PARA RASTREAMENTO DO CÂNCER COLORRETAL"
+  },
+  {
+    "code": "0301010013",
+    "name": "CONSULTA AO PACIENTE CURADO DE TUBERCULOSE (TRATAMENTO SUPERVISIONADO)",
+    "lastSeenTable": "2025-01"
+  },
+  {
     "code": "0301010021",
     "name": "CONSULTA COM IDENTIFICAÇÃO DE CASOS NOVOS DE TUBERCULOSE"
   },
@@ -5014,6 +5352,11 @@
   {
     "code": "0301010072",
     "name": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA"
+  },
+  {
+    "code": "0301010080",
+    "name": "CONSULTA PARA ACOMPANHAMENTO DE CRESCIMENTO E DESENVOLVIMENTO (PUERICULTURA)",
+    "lastSeenTable": "2020-01"
   },
   {
     "code": "0301010099",
@@ -5050,6 +5393,11 @@
   {
     "code": "0301010170",
     "name": "CONSULTA/AVALIAÇÃO EM PACIENTE INTERNADO"
+  },
+  {
+    "code": "0301010188",
+    "name": "CONSULTA MÉDICA OFTALMOLOGICA ESPECIALIZADA - PROJETO OLHAR BRASIL",
+    "lastSeenTable": "2016-01"
   },
   {
     "code": "0301010196",
@@ -5172,6 +5520,11 @@
     "name": "ATENDIMENTO PRE-HOSPITALAR MOVEL (VEICULO DE INTERVENÇÃO RÁPIDA)"
   },
   {
+    "code": "0301030030",
+    "name": "ATENDIMENTO PRÉ-HOSPITALAR MOVEL - SAMU 192: SUPORTE AVANÇADO DE VIDA REALIZADO POR AVIÃO (AMBULÂNCIA TIPO E)",
+    "lastSeenTable": "2013-01"
+  },
+  {
     "code": "0301030049",
     "name": "SAMU 192:ATENDIMENTO PRÉ-HOSPITALAR MOVEL REALIZADO POR AEROMÉDICO"
   },
@@ -5240,6 +5593,11 @@
     "name": "ATENDIMENTO CLÍNICO PARA INDICAÇÃO E FORNECIMENTO DO DIAFRAGMA UTERINO"
   },
   {
+    "code": "0301040028",
+    "name": "ATENDIMENTO CLINICO PARA INDICAÇÃO, FORNECIMENTO E INSERÇÃO DO DISPOSITIVO INTRA-UTERINO (DIU)",
+    "lastSeenTable": "2020-01"
+  },
+  {
     "code": "0301040036",
     "name": "TERAPIA EM GRUPO"
   },
@@ -5266,6 +5624,21 @@
   {
     "code": "0301040095",
     "name": "EXAME DO PÉ DIABÉTICO"
+  },
+  {
+    "code": "0301040109",
+    "name": "SESSÃO DE AURICULOTERAPIA",
+    "lastSeenTable": "2017-01"
+  },
+  {
+    "code": "0301040117",
+    "name": "SESSÃO DE MASSOTERAPIA",
+    "lastSeenTable": "2017-01"
+  },
+  {
+    "code": "0301040125",
+    "name": "ORIENTAÇÃO DE TRATAMENTO TERMAL/CRENOTERÁPICO",
+    "lastSeenTable": "2017-01"
   },
   {
     "code": "0301040141",
@@ -5306,6 +5679,14 @@
   {
     "code": "0301040230",
     "name": "RETIRADA DO SISTEMA INTRAUTERINO LIBERADOR DE LEVONORGESTREL 52MG"
+  },
+  {
+    "code": "0301040249",
+    "name": "AVALIAÇÃO DE LESÕES E CONDIÇÕES DA PELE E ANEXOS POR DERMATOSCOPIA."
+  },
+  {
+    "code": "0301040257",
+    "name": "MEDIÇÃO DA FORÇA MUSCULAR"
   },
   {
     "code": "0301050015",
@@ -5556,6 +5937,51 @@
     "name": "ACOMPANHAMENTO DE PACIENTE EM SAUDE MENTAL (RESIDENCIA TERAPEUTICA)"
   },
   {
+    "code": "0301080054",
+    "name": "ACOMPANHAMENTO INTENSIVO DE CRIANCA E ADOLESCENTE C/ TRANSTORNOS MENTAIS",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0301080062",
+    "name": "ACOMPANHAMENTO INTENSIVO DE PACIENTE EM SAUDE MENTAL",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0301080070",
+    "name": "ACOMPANHAMENTO INTENSIVO P/ USUÁRIO DE ALCOOL / DROGAS",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0301080089",
+    "name": "ACOMPANHAMENTO NAO INTENSIVO DE CRIANCA E ADOLESCENTE C/ TRANSTORNOS MENTAIS",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0301080097",
+    "name": "ACOMPANHAMENTO NAO INTENSIVO DE PACIENTE USUÁRIO DE ALCOOL / DROGAS",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0301080100",
+    "name": "ACOMPANHAMENTO NAO INTENSIVO DE PACIENTE EM SAUDE MENTAL",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0301080119",
+    "name": "ACOMPANHAMENTO SEMI-INTENSIVO DE CRIANCA E ADOLESCENTE COM TRANSTORNOS MENTAIS",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0301080127",
+    "name": "ACOMPANHAMENTO SEMI-INTENSIVO DE PACIENTES EM SAUDE MENTAL",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0301080135",
+    "name": "ACOMPANHAMENTO SEMI-INTENSIVO PARA  USUÁRIO DE ALCOOL / DROGAS",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0301080143",
     "name": "ATENDIMENTO EM OFICINA TERAPEUTICA I - SAUDE MENTAL"
   },
@@ -5570,6 +5996,11 @@
   {
     "code": "0301080178",
     "name": "ATENDIMENTO INDIVIDUAL EM PSICOTERAPIA"
+  },
+  {
+    "code": "0301080186",
+    "name": "ACOLHIMENTO NOTURNO DE PACIENTE DE CENTRO DE ATENÇÃO PSICOSSOCIA ÁLCOOL E DROGAS III",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0301080194",
@@ -5700,6 +6131,11 @@
     "name": "ADMINISTRACAO DE MEDICAMENTOS NA ATENCAO ESPECIALIZADA."
   },
   {
+    "code": "0301100020",
+    "name": "ADMINISTRAÇÃO DE MEDICAMENTOS EM ATENÇÃO BÁSICA (POR PACIENTE)",
+    "lastSeenTable": "2020-01"
+  },
+  {
     "code": "0301100039",
     "name": "AFERIÇÃO DE PRESSÃO ARTERIAL"
   },
@@ -5750,6 +6186,11 @@
   {
     "code": "0301100152",
     "name": "RETIRADA DE PONTOS DE CIRURGIAS (POR PACIENTE)"
+  },
+  {
+    "code": "0301100160",
+    "name": "SONDAGEM ENTERAL",
+    "lastSeenTable": "2009-01"
   },
   {
     "code": "0301100179",
@@ -5844,6 +6285,11 @@
     "name": "AVALIAÇÃO CLÍNICA E ELETRÔNICA DE DISPOSITIVO ELÉTRICO CARDÍACO IMPLANTÁVEL"
   },
   {
+    "code": "0301130027",
+    "name": "ACOMPANHAMENTO DE PACIENTE NO PROCESSO TRANSEXUALIZADOR (POR ATENDIMENTO)",
+    "lastSeenTable": "2013-01"
+  },
+  {
     "code": "0301130035",
     "name": "ACOMPANHAMENTO NO PROCESSO TRANSEXUALIZADO EXCLUSIVAMENTE PARA ATENDIMENTO CLÍNICO"
   },
@@ -5886,6 +6332,11 @@
   {
     "code": "0302010033",
     "name": "ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE NEONATO"
+  },
+  {
+    "code": "0302020012",
+    "name": "ATENDIMENTO FISIOTERAPÊUTICO DE PACIENTE COM CUIDADOS PALIATIVOS",
+    "lastSeenTable": "2024-01"
   },
   {
     "code": "0302020020",
@@ -6056,6 +6507,11 @@
     "name": "TRATAMENTO DE TUBERCULOSE (A15 A A19)"
   },
   {
+    "code": "0303010223",
+    "name": "TRATAMENTO DE INFECÇÃO PELO CORONAVIRUS – COVID 19",
+    "lastSeenTable": "2022-01"
+  },
+  {
     "code": "0303010231",
     "name": "CONSULTA EM SAÚDE DO TRABALHADOR (EXCETO MÉDICO)"
   },
@@ -6122,6 +6578,11 @@
   {
     "code": "0303030062",
     "name": "TRATAMENTO DE TRANSTORNOS DE OUTRAS GLÂNDULAS ENDÓCRINAS"
+  },
+  {
+    "code": "0303030070",
+    "name": "ADMINISTRAÇÃO HORMONAL (VALOR MENSAL)",
+    "lastSeenTable": "2013-01"
   },
   {
     "code": "0303030089",
@@ -6296,6 +6757,11 @@
     "name": "TRATAMENTO OFTALMOLÓGICO DE PACIENTE COM GLAUCOMA COM DISPENSAÇÃO DE PILOCARPINA BINOCULAR"
   },
   {
+    "code": "0303050128",
+    "name": "CONSULTA OFTALMOLÓGICA - PROJETO OLHAR BRASIL",
+    "lastSeenTable": "2016-01"
+  },
+  {
     "code": "0303050136",
     "name": "TRATAMENTO CLÍNICO DE INTERCORRÊNCIAS OFTALMOLÓGICAS"
   },
@@ -6338,6 +6804,11 @@
   {
     "code": "0303050233",
     "name": "TRATAMENTO MEDICAMENTOSO DE DOENÇA DA RETINA"
+  },
+  {
+    "code": "0303050241",
+    "name": "TRATAMENTO MEDICAMENTOSO DE DOENÇA DA RETINA II",
+    "lastSeenTable": "2022-01"
   },
   {
     "code": "0303060018",
@@ -6556,6 +7027,10 @@
     "name": "FOTOTERAPIA COM FOTOSSENSIBILIZAÇÃO (POR SESSÃO)"
   },
   {
+    "code": "0303080124",
+    "name": "TERAPIA FOTODINÂMICA"
+  },
+  {
     "code": "0303090014",
     "name": "ARTROCENTESE DE GRANDES ARTICULACOES"
   },
@@ -6656,8 +7131,43 @@
     "name": "TRATAMENTO CONSERVADOR DE LUMBAGO OU DORSALGIA REFRATARIOS"
   },
   {
+    "code": "0303090308",
+    "name": "TRATAMENTO CONSERVADOR DE OSTEOMIELITE AGUDA",
+    "lastSeenTable": "2008-01"
+  },
+  {
     "code": "0303090316",
     "name": "TRATAMENTO DAS POLIARTROPATIAS INFLAMATORIAS"
+  },
+  {
+    "code": "0303090324",
+    "name": "TRATAMENTO DE ARTRITE REUMATOIDE",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0303090332",
+    "name": "TRATAMENTO DE DOENCAS SISTEMICAS DO TECIDO CONJUNTIVO",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0303090340",
+    "name": "TRATAMENTO DE ESPONDILITE ANCILOSANTE",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0303090359",
+    "name": "TRATAMENTO DE OSTEITE",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0303090367",
+    "name": "TRATAMENTO DE OSTEOPOROSE",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0303090375",
+    "name": "TRATAMENTO DE OUTRAS DOENCAS OSSEAS",
+    "lastSeenTable": "2008-01"
   },
   {
     "code": "0303100010",
@@ -6722,6 +7232,16 @@
   {
     "code": "0303110112",
     "name": "TRATAMENTO DE OUTRAS MALFORMACOES CONGENITAS DO APARELHO DIGESTIVO"
+  },
+  {
+    "code": "0303120010",
+    "name": "IODOTERAPIA DE CARCIOMA DIFERENCIADO DA TIREOIDE (250 MCI)",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0303120029",
+    "name": "TRATAMENTO DE CARCINOMA DA TIREOIDE",
+    "lastSeenTable": "2009-01"
   },
   {
     "code": "0303120037",
@@ -6888,12 +7408,62 @@
     "name": "TRATAMENTO DE TRAUMATISMO DE PARTO NO NEONATO"
   },
   {
+    "code": "0303170018",
+    "name": "DIAGNOSTICO E/OU ATENDIMENTO DE URGENCIA EM PSIQUIATRIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0303170026",
+    "name": "TRATAMENTO DA INTOXICACAO AGUDA  EM USUARIOS DE ALCOOL E OUTRAS DROGAS",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0303170034",
+    "name": "TRATAMENTO DA SINDROME DE ABSTINENCIA DO ALCOOL EM SERVICO HOSPITALAR DE REFERENCIA PARA A ATENCAO INTEGRAL AOS USUARIOS DE ALCOOL EM OUTRAS DROGAS (POR DIA)",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0303170042",
+    "name": "TRATAMENTO DE DEPENDENCIA DO ALCOOL EM SERVICO HOSPITALAR DE REFERENCIA PARA A ATENCAO INTEGRAL AOS USUARIOS DE ALCOOL E OUTRAS DROGAS (POR DIA)",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0303170050",
+    "name": "TRATAMENTO DE SINDROME DE ABSTINENCIA POR USO PREJUDICIAL DE ALCOOL E DROGAS",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0303170069",
+    "name": "TRATAMENTO DE TRANSTORNOS MENTAIS E COMPORTAMENTAIS DEVIDOS AO USO DE SUBSTANCIAS PSICOATIVAS",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0303170077",
+    "name": "TRATAMENTO EM PSIQUIATRIA (CLASSIFICACAO PT GM 251/02)",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0303170085",
+    "name": "TRATAMENTO EM PSIQUIATRIA  - EM HOSPITAL GERAL (POR DIA)",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0303170093",
     "name": "TRATAMENTO EM PSIQUIATRIA (POR DIA)"
   },
   {
     "code": "0303170107",
     "name": "TRATAMENTO EM PSIQUIATRIA EM HOSPITAL DIA"
+  },
+  {
+    "code": "0303170115",
+    "name": "TRATAMENTO A PACIENTES QUE FAZEM USO DE COCAÍNA E DERIVADOS EM HOSPITAL DE REFERÊNCIA PARA ATENÇÃO INTEGRAL AOS USUÁRIOS DE ÁLCOOL E OUTRAS DROGAS- POR DIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0303170123",
+    "name": "TRATAMENTO DE PACIENTES QUE FAZEM USO DE COCAÍNA E DERIVADOS COM COMORBIDADE EM HOSPITAL DE REFERÊNCIA PARA ATENÇÃO INTEGRAL AOS USUÁRIOS DE ÁLCOOL E OUTRAS DROGAS - POR DIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0303170131",
@@ -6956,12 +7526,167 @@
     "name": "TRATAMENTO EM REABILITACAO"
   },
   {
+    "code": "0304010014",
+    "name": "BETATERAPIA DÉRMICA (POR CAMPO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010022",
+    "name": "BETATERAPIA OFTÁLMICA (POR CAMPO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010030",
+    "name": "BETATERAPIA PARA PROFILAXIA DE PTERÍGIO (POR CAMPO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010049",
+    "name": "BRAQUITERAPIA",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010057",
+    "name": "BRAQUITERAPIA COM FIOS DE IRIDIUM",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010065",
+    "name": "BRAQUITERAPIA COM IODO 125 / OURO 198",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010073",
+    "name": "BRAQUITERAPIA DE ALTA TAXA DE DOSE (POR INSERÇÃO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010081",
+    "name": "VERIFICAÇÂO POR IMAGEM EM RADIOTERAPIA",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010090",
+    "name": "COBALTOTERAPIA (POR CAMPO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010103",
+    "name": "IMPLANTAÇÃO DE HALO PARA RADIOCIRURGIA",
+    "lastSeenTable": "2019-01"
+  },
+  {
     "code": "0304010111",
     "name": "INTERNACAO P/ RADIOTERAPIA EXTERNA (COBALTOTERAPIA / ACELERADOR LINEAR)"
   },
   {
+    "code": "0304010120",
+    "name": "IRRADIACAO DE CORPO INTEIRO PRÉ-TRANSPLANTE DE MEDULA ÓSSEA",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010138",
+    "name": "IRRADIAÇÃO DE MEIO CORPO",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010146",
+    "name": "IRRADIAÇÃO DE PELE TOTAL",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010154",
+    "name": "MÁSCARA / IMOBILIZAÇÃO PERSONALIZADA (POR TRATAMENTO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010162",
+    "name": "MOLDAGEM EM COLO E/OU CORPO DO UTERO",
+    "lastSeenTable": "2019-01"
+  },
+  {
     "code": "0304010170",
     "name": "NARCOSE DE CRIANÇA (POR PROCEDIMENTO)"
+  },
+  {
+    "code": "0304010189",
+    "name": "PLANEJAMENTO COMPLEXO (POR TRATAMENTO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010197",
+    "name": "PLANEJAMENTO DE BRAQUITERAPIA DE ALTA TAXA DE DOSE (POR TRATAMENTO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010200",
+    "name": "PLANEJAMENTO SIMPLES (POR TRATAMENTO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010219",
+    "name": "RADIOCIRURGIA - UM ISOCENTRO",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010227",
+    "name": "RADIOCIRURGIA POR GAMA-KNIFE - HUM ISOCENTRO",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0304010235",
+    "name": "RADIOTERAPIA DE DOENÇA OU CONDIÇÃO BENIGNA (POR CAMPO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010243",
+    "name": "RADIOTERAPIA ESTEREOTÁXICA FRACIONADA",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010251",
+    "name": "RADIOTERAPIA P/ PROFILAXIA DE QUELOIDE (POR CAMPO)",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0304010260",
+    "name": "ROENTGENTERAPIA (POR CAMPO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010278",
+    "name": "ROENTGENTERAPIA PROFUNDA 150-500 KV (POR CAMPO-MAXIMO DE 30 POR AREA)",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0304010286",
+    "name": "RADIOTERAPIA COM ACELERADOR LINEAR SÓ DE FÓTONS (POR CAMPO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010294",
+    "name": "RADIOTERAPIA COM ACELERADOR LINEAR DE FÓTONS E ELÉTRONS (POR CAMPO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010308",
+    "name": "COLIMAÇÃO PERSONALIZADA",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010316",
+    "name": "PLANEJAMENTO TRIDIMENSIONAL (POR TRATAMENTO).",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010324",
+    "name": "MOLDAGEM/IMPLANTE EM MUCOSA (POR TRATAMENTO COMPLETO)",
+    "lastSeenTable": "2019-01"
+  },
+  {
+    "code": "0304010332",
+    "name": "MOLDAGEM/IMPLANTE EM PELE/MUCOSA (POR TRATAMENTO COMPLETO)",
+    "lastSeenTable": "2019-01"
   },
   {
     "code": "0304010340",
@@ -7089,15 +7814,15 @@
   },
   {
     "code": "0304020060",
-    "name": "HORMONIOTERAPIA DO ADENOCARCINOMA DE PRÓSTATA AVANÇADO - 2ª LINHA"
+    "name": "HORMONIOTERAPIA DO ADENOCARCINOMA DE PRÓSTATA AVANÇADO COM ANTIANDROGÊNICO PERIFÉRICO"
   },
   {
     "code": "0304020079",
-    "name": "HORMONIOTERAPIA DO ADENOCARCINOMA DE PRÓSTATA AVANÇADO - 1ª LINHA"
+    "name": "HORMONIOTERAPIA DO ADENOCARCINOMA DE PRÓSTATA AVANÇADO COM ANÁLOGOS DE LHRH"
   },
   {
     "code": "0304020087",
-    "name": "QUIMIOTERAPIA DO ADENOCARCINOMA DE PRÓSTATA RESISTENTE A HORMONIOTERAPIA"
+    "name": "QUIMIOTERAPIA DO CÂNCER DE PRÓSTATA HORMÔNIO RESISTENTE OU METASTÁTICO HORMÔNIO SENSÍVEL"
   },
   {
     "code": "0304020095",
@@ -7149,7 +7874,7 @@
   },
   {
     "code": "0304020214",
-    "name": "QUIMIOTERAPIA DO CARCINOMA PULMONAR DE CÉLULAS NÃO PEQUENAS AVANÇADO"
+    "name": "QUIMIOTERAPIA DO CARCINOMA PULMONAR DE CÉLULAS NÃO PEQUENAS AVANÇADO - 1ª LINHA."
   },
   {
     "code": "0304020222",
@@ -7157,7 +7882,7 @@
   },
   {
     "code": "0304020230",
-    "name": "QUIMIOTERAPIA DO MELANOMA MALIGNO AVANÇADO"
+    "name": "QUIMIOTERAPIA DO MELANOMA MALIGNO AVANÇADO - 1ª LINHA"
   },
   {
     "code": "0304020249",
@@ -7202,6 +7927,11 @@
   {
     "code": "0304020346",
     "name": "HORMONIOTERAPIA DO CARCINOMA DE MAMA AVANÇADO- 1ª LINHA"
+  },
+  {
+    "code": "0304020354",
+    "name": "HORMONIOTERAPIA DE CANCER DE MAMA RECEPTOR POSITIVO  (2ª LINHA)",
+    "lastSeenTable": "2010-01"
   },
   {
     "code": "0304020362",
@@ -7257,7 +7987,48 @@
   },
   {
     "code": "0304020494",
-    "name": "HORMONIOTERAPIA DO CARCINOMA DE MAMA AVANÇADO COM ANÁLOGO SINTÉTICO DO LHRH / GNRH"
+    "name": "HORMONIOTERAPIA DO CARCINOMA DE MAMA AVANÇADO COM ANÁLOGO SINTÉTICO DO LHRH / GNRH",
+    "lastSeenTable": "2026-01"
+  },
+  {
+    "code": "0304020508",
+    "name": "QUIMIOTERAPIA DO ADENOCARCINOMA DE ESTÔMAGO E JUNÇÃO ESOFAGOGÁSTRICA AVANÇADO/METASTÁTICO HER2POSITIVO (PRIMEIRA LINHA)"
+  },
+  {
+    "code": "0304020516",
+    "name": "QUIMIOTERAPIA DO MELANOMA MALIGNO AVANÇADO - 2ª LINHA"
+  },
+  {
+    "code": "0304020524",
+    "name": "QUIMIOTERAPIA DO CARCINOMA PULMONAR DE CÉLULAS NÃO PEQUENAS AVANÇADO - 2ª LINHA"
+  },
+  {
+    "code": "0304020532",
+    "name": "QUIMIOTERAPIA DO CARCINOMA PULMONAR DE CÉLULAS NÃO PEQUENAS AVANÇADO - 3ª LINHA"
+  },
+  {
+    "code": "0304020540",
+    "name": "QUIMIOTERAPIA DO CARCINOMA PULMONAR INDIFERENCIADO DE CÉLULAS PEQUENAS AVANÇADO - 2ª LINHA"
+  },
+  {
+    "code": "0304020559",
+    "name": "TRATAMENTO DOS SINTOMAS DO TUMOR NEUROENDÓCRINO GASTROENTEROPANCREÁTICO FUNCIONAL COM ANÁLOGO DA SOMATOSTATINA"
+  },
+  {
+    "code": "0304020567",
+    "name": "HORMONIOTERAPIA DO CÂNCER DE PRÓSTATA METASTÁTICO HORMÔNIO SENSÍVEL COM ABIRATERONA"
+  },
+  {
+    "code": "0304020575",
+    "name": "HORMONIOTERAPIA DO CÂNCER DE PRÓSTATA METASTÁTICO HORMÔNIO RESISTENTE COM ABIRATERONA"
+  },
+  {
+    "code": "0304020583",
+    "name": "QUIMIOTERAPIA DO TUMOR DO ESTROMA GASTROINTESTINAL AVANÇADO OU METASTÁTICO – SEGUNDA LINHA"
+  },
+  {
+    "code": "0304020591",
+    "name": "TERAPIA ANTINEOPLÁSICA SISTÊMICA DO CARCINOMA RENAL DE CÉLULAS CLARAS METASTÁTICO COM PAZOPANIBE - PRIMEIRA LINHA"
   },
   {
     "code": "0304030015",
@@ -7293,7 +8064,7 @@
   },
   {
     "code": "0304030090",
-    "name": "QUIMIOTERAPIA DA LEUCEMIA MIELÓIDE CRÔNICA EM FASE BLASTICA - MARCADOR POSITIVO - SEM FASE CRÔNICA OU DE TRANSFORMAÇÃO ANTERIOR (1ª LINHA)."
+    "name": "QUIMIOTERAPIA DA LEUCEMIA MIELÓIDE CRÔNICA EM FASE BLASTICA - MARCADOR POSITIVO - SEM FASE CRÔNICA OU DE TRANSFORMAÇÃO ANTERIOR (PRIMEIRA LINHA)."
   },
   {
     "code": "0304030104",
@@ -7301,7 +8072,7 @@
   },
   {
     "code": "0304030112",
-    "name": "QUIMIOTERAPIA DA LEUCEMIA MIELÓIDE CRÔNICA EM FASE CRÔNICA - MARCADOR POSITIVO - 1ª LINHA."
+    "name": "QUIMIOTERAPIA DA LEUCEMIA MIELÓIDE CRÔNICA EM FASE CRÔNICA - MARCADOR POSITIVO - PRIMEIRA LINHA."
   },
   {
     "code": "0304030120",
@@ -7317,7 +8088,7 @@
   },
   {
     "code": "0304030155",
-    "name": "QUIMIOTERAPIA DE LEUCEMIA MIELÓIDE CRÔNICA EM FASE DE TRANSFORMAÇÃO - MARCADOR POSITIVO - SEM FASE CRONICA ANTERIOR (1ª LINHA)"
+    "name": "QUIMIOTERAPIA DE LEUCEMIA MIELÓIDE CRÔNICA EM FASE DE TRANSFORMAÇÃO - MARCADOR POSITIVO - SEM FASE CRONICA ANTERIOR (PRIMEIRA LINHA)"
   },
   {
     "code": "0304030163",
@@ -7370,6 +8141,11 @@
   {
     "code": "0304040029",
     "name": "QUIMIOTERAPIA DO CARCINOMA DE MAMA (PRÉVIA)"
+  },
+  {
+    "code": "0304040037",
+    "name": "QUIMIOTERAPIA DO CARCINOMA DE MAMA EM ESTÁDIO III - 2 ª LINHA",
+    "lastSeenTable": "2010-01"
   },
   {
     "code": "0304040045",
@@ -7456,12 +8232,32 @@
     "name": "HORMONIOTERAPIA DO CARCINOMA DE MAMA EM ESTÁDIO I"
   },
   {
+    "code": "0304050059",
+    "name": "TRATAMENTO DE CANCER DE MAMA C/ COMPROMETIMENTO DE 4 OU MAIS LINFONODOS POR QUIMIOTERAPIA - EM PACIENTE DE RISCO CARDIACO ELEVADO (ESTADIO II)",
+    "lastSeenTable": "2008-01"
+  },
+  {
     "code": "0304050067",
     "name": "QUIMIOTERAPIA DO CARCINOMA DE MAMA EM ESTÁDIO III"
   },
   {
     "code": "0304050075",
     "name": "QUIMIOTERAPIA DO CARCINOMA DE MAMA EM ESTÁDIO II"
+  },
+  {
+    "code": "0304050083",
+    "name": "TRATAMENTO DE CANCER DE MAMA RECEPTOR POSITIVO C/ COMPROMETIMENTO DE 4 OU MAIS LINFONODOS  POR HORMONIOTERAPIA (ESTADIO II )",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0304050091",
+    "name": "TRATAMENTO DE CANCER DE MAMA RECEPTOR POSITIVO C/ COMPROMETIMENTO DE ATE 3 LINFONODOS POR QUIMIOTERAPIA (ESTADIO II )",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0304050105",
+    "name": "TRATAMENTO DE CANCER DE MAMA RECEPTOR POSITIVO POR HORMONIOTERAPIA (ESTADIO II CLINICO / PATOLOGICO)",
+    "lastSeenTable": "2008-01"
   },
   {
     "code": "0304050113",
@@ -7476,12 +8272,32 @@
     "name": "QUIMIOTERAPIA DO CARCINOMA DE MAMA EM ESTÁDIO I"
   },
   {
+    "code": "0304050148",
+    "name": "QUIMIOTERAPIA DO CARCINOMA DE MAMA EM ESTÁDIO II CLÍNICO / PATOLÓGICO COM LINFONODOS AXILARES POSITIVOS",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0304050156",
+    "name": "TRATAMENTO DE CARCINOMA DE NASOFARINGE S/ METASTASE A DISTANCIA (ESTADIOS III E IV )",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0304050164",
+    "name": "QUIMIOTERAPIA DO CARCINOMA EPIDERMOIDE DE CABEÇA E PESCOÇO",
+    "lastSeenTable": "2015-01"
+  },
+  {
     "code": "0304050172",
     "name": "QUIMIOTERAPIA DO CARCINOMA PULMONAR DE CÉLULAS NÃO PEQUENAS (ADJUVANTE)"
   },
   {
     "code": "0304050180",
     "name": "QUIMIOTERAPIA DE CARCINOMA PULMONAR INDIFERENCIADO DE CÉLULAS PEQUENAS (ADJUVANTE)"
+  },
+  {
+    "code": "0304050199",
+    "name": "TRATAMENTO DE NEOPLASIA DE CELULAS GERMINATIVAS DE OVARIO",
+    "lastSeenTable": "2008-01"
   },
   {
     "code": "0304050202",
@@ -7494,6 +8310,16 @@
   {
     "code": "0304050229",
     "name": "QUIMIOTERAPIA DE SARCOMA DE PARTES MOLES DE EXTREMIDADE"
+  },
+  {
+    "code": "0304050237",
+    "name": "TRATAMENTO DE SARCOMA OSSEO",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0304050245",
+    "name": "TRATAMENTO DO CANCER DE MAMA RECEPTOR POSITIVO S/ COMPROMETIMENTO DE LINFONODOS AXILARES POR QUIMIOTERAPIA (ESTADIO II)",
+    "lastSeenTable": "2008-01"
   },
   {
     "code": "0304050253",
@@ -7525,7 +8351,8 @@
   },
   {
     "code": "0304050326",
-    "name": "QUIMIOTERAPIA DE MELANOMA MALÍGNO"
+    "name": "QUIMIOTERAPIA DE MELANOMA MALÍGNO",
+    "lastSeenTable": "2026-01"
   },
   {
     "code": "0304050334",
@@ -7544,12 +8371,27 @@
     "name": "QUIMIOTERAPIA DA DOENÇA DE HODGKIN - 1ª LINHA"
   },
   {
+    "code": "0304060020",
+    "name": "TRATAMENTO DE DOENCA DE HODGKIN (ESTADIOS III E IV -1A LINHA)",
+    "lastSeenTable": "2008-01"
+  },
+  {
     "code": "0304060038",
     "name": "QUIMIOTERAPIA DA DOENÇA DE HODGKIN - 2ª LINHA"
   },
   {
     "code": "0304060046",
-    "name": "QUIMIOTERAPIA DA DOENÇA DE HODGKIN - 3ª LINHA"
+    "name": "QUIMIOTERAPIA DA DOENÇA DE HODGKIN - TERCEIRA LINHA"
+  },
+  {
+    "code": "0304060054",
+    "name": "QUIMIOTERAPIA DA LEUCEMIA PRÓ-MIELOCÍTICA AGUDA  - 1ª FASE",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0304060062",
+    "name": "QUIMIOTERAPIA DA LEUCEMIA PRÓ-MIELOCÍTICA AGUDA  - FASES SUBSEQUENTES",
+    "lastSeenTable": "2010-01"
   },
   {
     "code": "0304060070",
@@ -7580,6 +8422,11 @@
     "name": "QUIMIOTERAPIA DE LINFOMA NÃO HODGKIN DE GRAU DE MALIGNIDADE INTERMEDIÁRIO OU ALTO - 1ª LINHA"
   },
   {
+    "code": "0304060143",
+    "name": "TRATAMENTO DE LINFOPATIA ANGIO-IMUNOBLASTICA IMUNOPROLIFERATIVA ANGIOC / HISTIOCITOSE MALIGNA",
+    "lastSeenTable": "2008-01"
+  },
+  {
     "code": "0304060151",
     "name": "QUIMIOTERAPIA DE TUMOR GERMINATIVO EXTRA-GONADAL"
   },
@@ -7594,6 +8441,11 @@
   {
     "code": "0304060186",
     "name": "QUIMIOTERAPIA DE NEOPLASIA TROFOBLÁSTICA GESTACIONAL - CORIOCARCINOMA DE BAIXO RISCO PERSISTENTE / ALTO RISCO / RECIDIVA"
+  },
+  {
+    "code": "0304060194",
+    "name": "QUIMIOTERAPIA DE NEOPLASIA TROFOBLÁSTICA GESTACIONAL - CORIOMA / MOLA HIDATIFORME - PERSISTENTE / INVASIVA",
+    "lastSeenTable": "2010-01"
   },
   {
     "code": "0304060208",
@@ -7684,6 +8536,10 @@
     "name": "IMUNOTERAPIA COM MOLÉCULA BISPECÍIFICA ATIVADORA DE CÉLULAS T PARA LEUCEMIA LINFOBLÁSTICA AGUDA (LLA) B DERIVADA PEDIÁTRICA EM PRIMEIRA RECIDIVA MEDULAR DE ALTO RISCO (POR FRASCO AMPOLA)"
   },
   {
+    "code": "0304080098",
+    "name": "HORMONIOTERAPIA DO CARCINOMA DE MAMA COM ANÁLOGO SINTÉTICO DO LHRH / GNRH"
+  },
+  {
     "code": "0304090018",
     "name": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DA TIREÓIDE (150 MCI)"
   },
@@ -7701,11 +8557,35 @@
   },
   {
     "code": "0304090050",
-    "name": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DE TIREOIDE( 30mCi)"
+    "name": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DE TIREOIDE( 30MCI)"
   },
   {
     "code": "0304090069",
-    "name": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DE TIREOIDE( 50mCi)"
+    "name": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DE TIREOIDE( 50MCI)"
+  },
+  {
+    "code": "0304090077",
+    "name": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DA TIREOIDE COM TSH RECOMBINANTE (ALFATIROTROPINA) (30 MCI)"
+  },
+  {
+    "code": "0304090085",
+    "name": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DA TIREOIDE COM TSH RECOMBINANTE (ALFATIROTROPINA) (50 MCI)"
+  },
+  {
+    "code": "0304090093",
+    "name": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DA TIREOIDE COM TSH RECOMBINANTE (ALFATIROTROPINA) (100 MCI)"
+  },
+  {
+    "code": "0304090107",
+    "name": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DA TIREOIDE COM TSH RECOMBINANTE (ALFATIROTROPINA) (150 MCI)"
+  },
+  {
+    "code": "0304090115",
+    "name": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DA TIREOIDE COM TSH RECOMBINANTE (ALFATIROTROPINA) (200 MCI)"
+  },
+  {
+    "code": "0304090123",
+    "name": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DA TIREOIDE COM TSH RECOMBINANTE (ALFATIROTROPINA) (250 MCI)"
   },
   {
     "code": "0304100013",
@@ -7730,6 +8610,26 @@
   {
     "code": "0305010042",
     "name": "HEMODIÁLISE CONTÍNUA"
+  },
+  {
+    "code": "0305010050",
+    "name": "HEMODIÁLISE I (MÁXIMO 1 SESSÃO POR SEMANA - EXCEPCIONALIDADE)",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0305010069",
+    "name": "HEMODIÁLISE I (MÁXIMO 3 SESSÕES POR SEMANA)",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0305010077",
+    "name": "HEMODIÁLISE I EM PORTADOR DE HIV (EXCEPCIONALIDADE - MÁXIMO 1 SESSAO POR SEMANA)",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0305010085",
+    "name": "HEMODIÁLISE I EM PORTADOR DE HIV (MÁXIMO 3 SESSÕES POR SEMANA)",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0305010093",
@@ -7782,6 +8682,11 @@
   {
     "code": "0305010212",
     "name": "IDENTIFICAÇÃO DE PACIENTE SOB TRATAMENTO DIALÍTICO EM TRÂNSITO"
+  },
+  {
+    "code": "0305010220",
+    "name": "COMPLEMENTAÇÃO DE VALOR DE SESSÃO DE HEMODIÁLISE EM PACIENTE COM SUSPEIÇÃO OU CONFIRMAÇÃO DE COVID-19 (MÁXIMO 4 SESSÕES POR SEMANA)",
+    "lastSeenTable": "2023-01"
   },
   {
     "code": "0305020013",
@@ -7904,8 +8809,18 @@
     "name": "CAPEAMENTO PULPAR"
   },
   {
+    "code": "0307010023",
+    "name": "RESTAURAÇÃO DE DENTE DECÍDUO",
+    "lastSeenTable": "2020-01"
+  },
+  {
     "code": "0307010031",
     "name": "RESTAURAÇÃO DE DENTE PERMANENTE ANTERIOR COM RESINA COMPOSTA"
+  },
+  {
+    "code": "0307010040",
+    "name": "RESTAURAÇÃO DE DENTE PERMANENTE POSTERIOR",
+    "lastSeenTable": "2020-01"
   },
   {
     "code": "0307010058",
@@ -7996,6 +8911,11 @@
     "name": "SELAMENTO DE PERFURAÇÃO RADICULAR"
   },
   {
+    "code": "0307030016",
+    "name": "RASPAGEM ALISAMENTO E POLIMENTO SUPRAGENGIVAIS (POR SEXTANTE)",
+    "lastSeenTable": "2016-01"
+  },
+  {
     "code": "0307030024",
     "name": "RASPAGEM ALISAMENTO SUBGENGIVAIS (POR SEXTANTE)"
   },
@@ -8026,6 +8946,26 @@
   {
     "code": "0307040011",
     "name": "COLOCACAO DE PLACA DE MORDIDA"
+  },
+  {
+    "code": "0307040020",
+    "name": "INSTALACAO DE APARELHO/PROTESE EM PACIENTES COM ANOMALIAS CRANIO FACIAIS",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0307040038",
+    "name": "INSTALACAO E ADAPTACAO DE PROTESE DENTARIA",
+    "lastSeenTable": "2013-01"
+  },
+  {
+    "code": "0307040046",
+    "name": "MANUTENCAO / CONSERTO DE APARELHOS ORTODONTICOS",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0307040054",
+    "name": "MANUTENCAO DE APARELHO ORTODONTICO EM PACIENTES C/ ANOMALIAS CRANIO-FACIAIS",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0307040062",
@@ -8070,6 +9010,14 @@
   {
     "code": "0307040178",
     "name": "MOLDAGEM DENTO-GENGIVAL COM FINALIDADE ORTODÔNTICA"
+  },
+  {
+    "code": "0307040186",
+    "name": "ESCANEAMENTO INTRAORAL"
+  },
+  {
+    "code": "0307040194",
+    "name": "PLANEJAMENTO DE PRÓTESE DENTÁRIA E BUCOMAXILOFACIAL EM FLUXO DIGITAL"
   },
   {
     "code": "0307050017",
@@ -8122,6 +9070,16 @@
   {
     "code": "0308040023",
     "name": "TRATAMENTO DE EVENTOS ADVERSOS POS-VACINAIS"
+  },
+  {
+    "code": "0309010012",
+    "name": "CATETERISMO DE VEIA CENTRAL (INCLUI CATETER DE DUPLO LUMEN)",
+    "lastSeenTable": "2009-01"
+  },
+  {
+    "code": "0309010020",
+    "name": "CATETERISMO DE VEIA CENTRAL EM PEDIATRIA (INCLUI CATETER DE DUPLO LUMEN E SEDACAO ANESTESICA)",
+    "lastSeenTable": "2009-01"
   },
   {
     "code": "0309010039",
@@ -8272,6 +9230,11 @@
     "name": "TRATAMENTO QUIROPRÁTICO"
   },
   {
+    "code": "0309050103",
+    "name": "SESSÃO DE REIKI",
+    "lastSeenTable": "2018-01"
+  },
+  {
     "code": "0309050111",
     "name": "SESSÃO DE APITERAPIA"
   },
@@ -8377,15 +9340,48 @@
   },
   {
     "code": "0311010016",
-    "name": "ATENDIMENTO MULTIPROFFISSIONAL EM CUIDADOS PALIATIVO NA ATENÇÃO ESPECIALIZADA"
+    "name": "ATENDIMENTO EM CUIDADOS PALIATIVOS NA ATENÇÃO ESPECIALIZADA"
   },
   {
     "code": "0311010024",
-    "name": "ATENÇÃO MULTIPROFISSIONAL EM CUIDADOS PALIATIVOS NA ATENÇÃO PRIMÁRIA"
+    "name": "ATENDIMENTO EM CUIDADOS PALIATIVOS NA ATENÇÃO PRIMÁRIA À SAÚDE"
+  },
+  {
+    "code": "0311010032",
+    "name": "ATENDIMENTO EM CUIDADOS PALIATIVOS A FAMILIAR E/OU CUIDADOR"
+  },
+  {
+    "code": "0311010040",
+    "name": "INTERCONSULTA EM CUIDADOS PALIATIVOS (SOLICITANTE)"
+  },
+  {
+    "code": "0311010059",
+    "name": "INTERCONSULTA EM CUIDADOS PALIATIVOS (EXECUTANTE)"
+  },
+  {
+    "code": "0311010067",
+    "name": "ATENDIMENTO AO PROCESSO DE LUTO"
+  },
+  {
+    "code": "0311010075",
+    "name": "GRUPO DE APOIO AO LUTO"
+  },
+  {
+    "code": "0311010083",
+    "name": "ATENDIMENTO DE CUIDADOS PALIATIVOS EM PROCESSO ATIVO DE MORTE"
+  },
+  {
+    "code": "0311010091",
+    "name": "REGISTRO DE PLANEJAMENTO ANTECIPADO DE CUIDADOS"
+  },
+  {
+    "code": "0311010105",
+    "name": "REGISTRO DE DIRETIVAS ANTECIPADAS DE VONTADE"
   },
   {
     "code": "0311020011",
-    "name": "ATIVIDADE DE APOIO MATRICIAL EM CUIDADOS PALIATIVOS"
+    "name": "ATIVIDADE DE APOIO MATRICIAL EM CUIDADOS PALIATIVOS",
+    "lastSeenTable": "2026-01"
   },
   {
     "code": "0311020020",
@@ -8400,8 +9396,25 @@
     "name": "ATIVIDADE EDUCATIVA EM CUIDADOS PALIATIVOS COM A COMUNIDADE"
   },
   {
+    "code": "0311020054",
+    "name": "CONTATO COM A REDE DE ATENÇÃO À SAÚDE PARA IDENTIFICAÇÃO DE DEMANDAS EM CUIDADOS PALIATIVOS"
+  },
+  {
+    "code": "0311020062",
+    "name": "CONSULTORIA EM CUIDADOS PALIATIVOS PARA PROFISSIONAIS DE SAÚDE (SOLICITANTE)"
+  },
+  {
+    "code": "0311020070",
+    "name": "CONSULTORIA EM CUIDADOS PALIATIVOS PARA PROFISSIONAIS DE SAÚDE (EXECUTANTE)"
+  },
+  {
     "code": "0401010015",
     "name": "CURATIVO GRAU II C/ OU S/ DEBRIDAMENTO"
+  },
+  {
+    "code": "0401010023",
+    "name": "CURATIVO GRAU I COM OU SEM DEBRIDAMENTO",
+    "lastSeenTable": "2020-01"
   },
   {
     "code": "0401010031",
@@ -8768,6 +9781,11 @@
     "name": "HIPOFISECTOMIA TRANSESFENOIDAL POR TECNICA COMPLEMENTAR"
   },
   {
+    "code": "0403030072",
+    "name": "HIPOFISECTOMIA TRANSESFENOIDAL ENDOSCOPICA",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0403030080",
     "name": "MICROCIRURGIA DE TUMOR INTRADURAL E EXTRAMEDULAR"
   },
@@ -8804,12 +9822,27 @@
     "name": "RESSECÇÃO DE TUMOR RAQUIMEDULAR EXTRADURAL"
   },
   {
+    "code": "0403030170",
+    "name": "TRATAMENTO CONSERVADOR DE TUMOR DO SISTEMA NERVOSO CENTRAL",
+    "lastSeenTable": "2019-01"
+  },
+  {
     "code": "0403040019",
     "name": "ANASTOMOSE VASCULAR EXTRA / INTRACRANIANA"
   },
   {
     "code": "0403040027",
     "name": "DESCOMPRESSÃO NEUROVASCULAR DE NERVOS CRANIANOS"
+  },
+  {
+    "code": "0403040035",
+    "name": "MICROCIRURGIA P/ ANEURISMA DA CIRCULACAO CEREBRAL ANTERIOR",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0403040043",
+    "name": "MICROCIRURGIA P/ ANEURISMA DA CIRCULACAO CEREBRAL POSTERIOR",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0403040051",
@@ -8948,12 +9981,32 @@
     "name": "ANGIOPLASTIA INTRACRANIANA EM VASO-ESPASMO"
   },
   {
+    "code": "0403070023",
+    "name": "EMBOLIZACAO DE ANEURISMA CEREBRAL DE 8 A 15 MM C/ COLO ESTREITO",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0403070031",
+    "name": "EMBOLIZACAO DE ANEURISMA CEREBRAL DE 8 A 15MM C/ COLO LARGO",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0403070040",
     "name": "EMBOLIZAÇÃO DE ANEURISMA CEREBRAL MAIOR QUE 1,5 CM COM COLO ESTREITO"
   },
   {
     "code": "0403070058",
     "name": "EMBOLIZAÇÃO DE ANEURISMA CEREBRAL MAIOR QUE 1,5 CM COM COLO LARGO"
+  },
+  {
+    "code": "0403070066",
+    "name": "EMBOLIZACAO DE ANEURISMA CEREBRAL MENOR QUE 8 MM C/ COLO ESTREITO",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0403070074",
+    "name": "EMBOLIZACAO DE ANEURISMA CEREBRAL MENOR QUE 8 MM C/ COLO LARGO",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0403070082",
@@ -9200,6 +10253,11 @@
     "name": "TURBINECTOMIA"
   },
   {
+    "code": "0404010423",
+    "name": "REDESIGNAÇÃO SEXUAL - 2º TEMPO",
+    "lastSeenTable": "2013-01"
+  },
+  {
     "code": "0404010431",
     "name": "ARITENOIDECTOMIA COM LARINGOFISSURA"
   },
@@ -9296,6 +10354,11 @@
     "name": "ALONGAMENTO DE COLUMELA"
   },
   {
+    "code": "0404020020",
+    "name": "ANTROSTOMIA DE MAXILA INTRANASAL",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0404020038",
     "name": "CORREÇÃO CIRÚRGICA DE FÍSTULA ORO-NASAL / ORO-SINUSAL"
   },
@@ -9332,6 +10395,11 @@
     "name": "EXCISÃO PARCIAL DE LÁBIO COM ENXERTO LIVRE / ROTAÇÃO DE RETALHO"
   },
   {
+    "code": "0404020127",
+    "name": "EXERESE DE CISTO ODONTOGENICO E NAO-ODONTOGENICO",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0404020135",
     "name": "EXPLORAÇÃO/ DESCOMPRESSÃO TOTAL / PARCIAL DO NERVO FACIAL"
   },
@@ -9340,12 +10408,37 @@
     "name": "GLOSSECTOMIA PARCIAL"
   },
   {
+    "code": "0404020151",
+    "name": "GLOSSECTOMIA TOTAL",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0404020160",
+    "name": "LARINGOFISSURA P/ COLOCACAO DE MOLDE NOS TRAUMATISMOS DE LARINGE",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0404020178",
     "name": "MAXILECTOMIA PARCIAL"
   },
   {
+    "code": "0404020186",
+    "name": "PAROTIDECTOMIA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0404020194",
+    "name": "PLASTICA DO CANAL DE STENON",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0404020208",
     "name": "LABIOPLASTIA PARA REDUÇÃO OU CORREÇÃO DA HIPERTROFIA DO LÁBIO"
+  },
+  {
+    "code": "0404020216",
+    "name": "RECONSTRUCAO DE MANDIBULA",
+    "lastSeenTable": "2010-01"
   },
   {
     "code": "0404020224",
@@ -9360,12 +10453,32 @@
     "name": "RECONSTRUÇÃO TOTAL OU PARCIAL DE NARIZ"
   },
   {
+    "code": "0404020259",
+    "name": "RESSECCAO DE LESAO BENIGNA DA BOCA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0404020267",
+    "name": "RESSECCAO DE LESAO MALIGNA DA BOCA",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0404020275",
     "name": "RESSECÇÃO DE LESÃO MALIGNA E BENIGNA DA REGIÃO CRANIO E BUCOMAXILOFACIAL"
   },
   {
+    "code": "0404020283",
+    "name": "RESSECCAO DE TUMOR DO ACUSTICO (PELA FOSSA MEDIA)",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0404020291",
     "name": "RESSECÇÃO DO CÔNDILO MANDIBULAR COM OU SEM RECONSTRUÇÃO"
+  },
+  {
+    "code": "0404020305",
+    "name": "RESSECCAO DO GLOMO JUGULAR",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0404020313",
@@ -9376,12 +10489,27 @@
     "name": "RINOPLASTIA PARA DEFEITOS PÓS-TRAUMÁTICOS"
   },
   {
+    "code": "0404020330",
+    "name": "SEPTOPLASTIA  P/ CORRECAO DE DESVIO",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0404020348",
     "name": "TRATAMENTO CIRÚRGICO DE ATRESIA NARINÁRIA"
   },
   {
     "code": "0404020356",
     "name": "TRATAMENTO CIRÚRGICO DE FÍSTULA E CISTOS ORO-MAXILARES"
+  },
+  {
+    "code": "0404020364",
+    "name": "TRATAMENTO CIRURGICO DE IMPERFURACAO COANAL (UNI / BILATERAL)",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0404020372",
+    "name": "TRATAMENTO CIRURGICO DE MACROSTOMIA",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0404020380",
@@ -9392,8 +10520,23 @@
     "name": "TRATAMENTO CIRÚRGICO DE PARALISIA FACIAL (SUSPENSÃO DE HEMIFACE)"
   },
   {
+    "code": "0404020402",
+    "name": "TRATAMENTO CIRURGICO DE PERFURACAO DO SEPTO NASAL",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0404020410",
+    "name": "TRATAMENTO CIRURGICO DE RINOFIMA",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0404020429",
     "name": "TRATAMENTO CIRÚRGICO DO SOALHO DA ÓRBITA"
+  },
+  {
+    "code": "0404020437",
+    "name": "TRATAMENTO DE AVANCOS FRONTO-ORBITARIOS",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0404020445",
@@ -9528,6 +10671,11 @@
     "name": "ALONGAMENTO DE COLUMELA EM PACIENTE COM ANOMALIAS CRÂNIO E BUCOMAXILOFACIAL"
   },
   {
+    "code": "0404030025",
+    "name": "ARITENOIDECTOMIA C/ LARINGOFISSURA",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0404030033",
     "name": "OSTEOTOMIA DE MAXILA EM PACIENTES COM ANOMALIA CRANIO E BUCOMAXILOFACIAL"
   },
@@ -9552,8 +10700,18 @@
     "name": "ALVEOLOPLASTIA COM ENXERTO ÓSSEO EM PACIENTE COM ANOMALIA CRÂNIOFACIAL"
   },
   {
+    "code": "0404030092",
+    "name": "PALATOPLASTIA PARCIAL / TOTAL",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0404030106",
     "name": "PALATOPLASTIA PRIMÁRIA EM PACIENTE COM ANOMALIA CRÂNIO E BUCOMAXILOFACIAL"
+  },
+  {
+    "code": "0404030114",
+    "name": "PLASTICA TRANSPALATINA P/ ATRESIA COANAL",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0404030122",
@@ -9562,6 +10720,11 @@
   {
     "code": "0404030130",
     "name": "RINOSEPTOPLASTIA EM PACIENTE COM ANOMALIA CRÂNIO E BUCOMAXILOFACIAL"
+  },
+  {
+    "code": "0404030149",
+    "name": "RECONSTRUCAO DO SULCO GENGIVO LABIAL",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0404030157",
@@ -9576,8 +10739,23 @@
     "name": "SEPTOPLASTIA EM PACIENTE COM ANOMALIA CRÂNIO E BUCOMAXILOFACIAL"
   },
   {
+    "code": "0404030181",
+    "name": "SINUSOTOMIA TRANSMAXILAR",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0404030190",
     "name": "TIMPANOPLASTIA EM PACIENTE COM ANOMALIA CRÂNIO E BUCOMAXILOFACIAL (UNI / BILATERAL)"
+  },
+  {
+    "code": "0404030203",
+    "name": "TRATAMENTO CIRURGICO DE LABIO LEPORINO (INCLUI FISSURA LABIO-PALATAL)",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0404030211",
+    "name": "TRATAMENTO CIRURGICO REPARADOR NAO ESTETICO DO NARIZ EM PACIENTE C/ DEFORMIDADE CRANIO-FACIAL",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0404030220",
@@ -9728,6 +10906,11 @@
     "name": "RETINOPEXIA COM INTROFLEXÃO ESCLERAL"
   },
   {
+    "code": "0405030088",
+    "name": "RETINOPEXIA PRIMARIA",
+    "lastSeenTable": "2008-01"
+  },
+  {
     "code": "0405030096",
     "name": "SUTURA DE ESCLERA"
   },
@@ -9796,6 +10979,11 @@
     "name": "CRIOTERAPIA DE TUMORES INTRA-OCULARES"
   },
   {
+    "code": "0405040032",
+    "name": "DENERVACAO QUIMICA",
+    "lastSeenTable": "2008-01"
+  },
+  {
     "code": "0405040040",
     "name": "DESCOMPRESSÃO DE NERVO ÓPTICO"
   },
@@ -9824,6 +11012,11 @@
     "name": "EXPLANTE DE LENTE INTRA OCULAR"
   },
   {
+    "code": "0405040121",
+    "name": "IMPLANTE SECUNDARIO DE LENTE INTRA-OCULAR",
+    "lastSeenTable": "2016-01"
+  },
+  {
     "code": "0405040130",
     "name": "INJECAO RETROBULBAR / PERIBULBAR"
   },
@@ -9838,6 +11031,11 @@
   {
     "code": "0405040164",
     "name": "RECONSTITUIÇÃO DE PAREDE DA ORBITA"
+  },
+  {
+    "code": "0405040172",
+    "name": "RETIRADA DE CISTICERCO INTRA-OCULAR",
+    "lastSeenTable": "2008-01"
   },
   {
     "code": "0405040180",
@@ -9980,6 +11178,11 @@
     "name": "TRABECULECTOMIA"
   },
   {
+    "code": "0405050348",
+    "name": "TRATAMENTO CIRURGICO CICLODESTRUTIVO",
+    "lastSeenTable": "2008-01"
+  },
+  {
     "code": "0405050356",
     "name": "TRATAMENTO CIRÚRGICO DE GLAUCOMA CONGENITO"
   },
@@ -10054,6 +11257,11 @@
   {
     "code": "0406010137",
     "name": "CORREÇÃO DE ANEURISMA / DISSECÇÃO DA AORTA TORACO-ABDOMINAL"
+  },
+  {
+    "code": "0406010145",
+    "name": "CORRECAO DE ATRESIA MITRAL",
+    "lastSeenTable": "2010-01"
   },
   {
     "code": "0406010153",
@@ -10420,6 +11628,11 @@
     "name": "TROCA DE ELETRODOS DE MARCAPASSO EM CARDIO-DESFIBRILADOR DE CAMARA DUPLA TRANSVENOSO"
   },
   {
+    "code": "0406011060",
+    "name": "TROCA DE ELETRODOS DE MARCAPASSO MULTI-SITIO",
+    "lastSeenTable": "2010-01"
+  },
+  {
     "code": "0406011079",
     "name": "TROCA DE ELETRODOS DE MARCAPASSO NO CARDIO-DESFIBRILADOR MULTI-SITIO"
   },
@@ -10600,6 +11813,11 @@
     "name": "CORRECAO DE COARCTACAO DA AORTA COM CEC (CRIANÇA E ADOLESCENTE)"
   },
   {
+    "code": "0406011524",
+    "name": "IMPLANTE TRANSCATETER DE VÁLVULA AÓRTICA (ITVA)",
+    "lastSeenTable": "2024-01"
+  },
+  {
     "code": "0406020019",
     "name": "ANASTOMOSE ESPLENO-RENAL / OUTRA DERIVAÇÃO CENTRAL"
   },
@@ -10618,6 +11836,11 @@
   {
     "code": "0406020051",
     "name": "ANEURISMECTOMIA TORACO-ABDOMINAL"
+  },
+  {
+    "code": "0406020060",
+    "name": "CATETERISMO DE ARTERIA P/ TROMBOEMBOLECTOMIA",
+    "lastSeenTable": "2010-01"
   },
   {
     "code": "0406020078",
@@ -10658,6 +11881,11 @@
   {
     "code": "0406020167",
     "name": "FASCIOTOMIA P/ DESCOMPRESSÃO"
+  },
+  {
+    "code": "0406020175",
+    "name": "INSTALACAO DE CATETER VENOSO DE LONGA PERMANENCIA TOTALMENTE IMPLANTAVEL",
+    "lastSeenTable": "2009-01"
   },
   {
     "code": "0406020183",
@@ -11816,6 +13044,11 @@
     "name": "REDUÇÃO INCRUENTA DE LUXAÇÃO / FRATURA-LUXAÇÃO DO COTOVELO"
   },
   {
+    "code": "0408020237",
+    "name": "REDUCAO INCRUENTA DE LUXACAO / FRATURA-LUXACAO E METACARPO-FALANGIANA / METATARSO-FALANGIANA / INTER-FALANGIANA",
+    "lastSeenTable": "2014-01"
+  },
+  {
     "code": "0408020245",
     "name": "REDUÇÃO INCRUENTA DE LUXAÇÃO OU FRATURA / LUXACAO NO PUNHO"
   },
@@ -12476,6 +13709,11 @@
     "name": "TRATAMENTO CIRURGICO DE LUXACAO ESPONTANEA / PROGRESSIVA / PARALITICA DO QUADRIL"
   },
   {
+    "code": "0408040351",
+    "name": "TRATAMENTO DE ARTICULACAO COXO-FEMORAL C/ IMOBILIZACAO GESSADA",
+    "lastSeenTable": "2014-01"
+  },
+  {
     "code": "0408050012",
     "name": "AMPUTACAO / DESARTICULACAO DE MEMBROS INFERIORES"
   },
@@ -12542,6 +13780,11 @@
   {
     "code": "0408050179",
     "name": "RECONSTRUÇÃO LIGAMENTAR INTRA-ARTICULAR DO JOELHO (CRUZADO POSTERIOR COM OU SEM ANTERIOR)"
+  },
+  {
+    "code": "0408050187",
+    "name": "RECONSTRUCAO OSTEOPLASTICA DO JOELHO",
+    "lastSeenTable": "2014-01"
   },
   {
     "code": "0408050195",
@@ -13448,6 +14691,10 @@
     "name": "RESSECÇÃO ENDOSCÓPICA DE PRÓSTATA"
   },
   {
+    "code": "0409030058",
+    "name": "PROSTATECTOMIA RADICAL ASSISTIDA POR ROBÔ"
+  },
+  {
     "code": "0409040010",
     "name": "DRENAGEM DE ABSCESSO DA BOLSA ESCROTAL"
   },
@@ -13586,6 +14833,11 @@
   {
     "code": "0409050113",
     "name": "TRATAMENTO CIRÚRGICO DE PRIAPRISMO"
+  },
+  {
+    "code": "0409050121",
+    "name": "REDESIGNAÇÃO SEXUAL - 1º TEMPO",
+    "lastSeenTable": "2013-01"
   },
   {
     "code": "0409050130",
@@ -13881,7 +15133,8 @@
   },
   {
     "code": "0410010090",
-    "name": "PLASTICA MAMÁRIA RECONSTRUTIVA PÓS MASTECTOMIA C/ IMPLANTE DE PRÓTESE"
+    "name": "PLASTICA MAMÁRIA RECONSTRUTIVA PÓS MASTECTOMIA C/ IMPLANTE DE PRÓTESE",
+    "lastSeenTable": "2026-01"
   },
   {
     "code": "0410010103",
@@ -13912,6 +15165,16 @@
     "name": "RETIRADA DE PRÓTESE MAMÁRIA BILATERAL EM CASOS DE COMPLICAÇÃO DE IMPLANTAÇÃO DA PRÓTESE, COM IMPLANTAÇÃO DE NOVA PRÓTESE NO MESMO ATO CIRÚRGICO"
   },
   {
+    "code": "0410010170",
+    "name": "IMPLANTE DE PRÓTESE MAMÁRIA UNILATERAL PÓS TRATAMENTO DE COMPLICAÇÃO DE IMPLANTE MAMÁRIO ANTERIOR",
+    "lastSeenTable": "2016-01"
+  },
+  {
+    "code": "0410010189",
+    "name": "IMPLANTE  DE PRÓTESE MAMÁRIA BILATERAL PÓS TRATAMENTO DE COMPLICAÇÃO DE IMPLANTE MAMÁRIO ANTERIOR",
+    "lastSeenTable": "2016-01"
+  },
+  {
     "code": "0410010197",
     "name": "MASTECTOMIA SIMPLES BILATERAL SOB PROCESSO TRANSEXUALIZADOR"
   },
@@ -13921,7 +15184,12 @@
   },
   {
     "code": "0410010219",
-    "name": "RECONSTRUÇÃO MAMÁRIA PÓS-MASTECTOMIA TOTAL"
+    "name": "RECONSTRUÇÃO MAMÁRIA PÓS-MASTECTOMIA TOTAL",
+    "lastSeenTable": "2026-01"
+  },
+  {
+    "code": "0410010227",
+    "name": "PLÁSTICA MAMÁRIA RECONSTRUTIVA (UNILATERAL) COM/SEM IMPLANTE DE PRÓTESE APÓS MUTILAÇÃO TOTAL OU PARCIAL COM SIMETRIZAÇÃO CONTRALATERAL"
   },
   {
     "code": "0411010018",
@@ -13972,6 +15240,11 @@
     "name": "TRATAMENTO CIRURGICO DE GRAVIDEZ ECTOPICA"
   },
   {
+    "code": "0411020056",
+    "name": "TRATAMENTO DE OUTROS TRANSTORNOS MATERNOS RELACIONADOS PREDOMINANTEMENTE A GRAVIDEZ",
+    "lastSeenTable": "2018-01"
+  },
+  {
     "code": "0412010011",
     "name": "BRONCOTOMIA E/OU BRONCORRAFIA"
   },
@@ -13986,6 +15259,11 @@
   {
     "code": "0412010046",
     "name": "COLOCACAO DE PRÓTESE LARINGO TRAQUEAL/ TRAQUEO-BRÔNQUICA (INCLUI PRÓTESE)"
+  },
+  {
+    "code": "0412010054",
+    "name": "FECHAMENTO DE FISTULA TRAQUEO-CUTANEA",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0412010062",
@@ -14036,6 +15314,11 @@
     "name": "MEDIASTINOTOMIA P/ DRENAGEM"
   },
   {
+    "code": "0412020041",
+    "name": "PLEUROSTOMIA",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0412020050",
     "name": "RESSECÇÃO DE TUMOR DO MEDIASTINO"
   },
@@ -14054,6 +15337,16 @@
   {
     "code": "0412030012",
     "name": "DESCORTICAÇÃO PULMONAR"
+  },
+  {
+    "code": "0412030020",
+    "name": "DRENAGEM DE PLEURA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0412030039",
+    "name": "DRENAGEM DE PNEUMOTORAX",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0412030047",
@@ -14116,8 +15409,18 @@
     "name": "PLUMBAGEM EXTRAFASCIAL"
   },
   {
+    "code": "0412040077",
+    "name": "PNEUMOTOMIA C/ RESSECCAO COSTAL P/ DRENAGEM CAVITARIA / RETIRADA DE CORPO ESTRANHO",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0412040085",
     "name": "REDUÇÃO CIRÚRGICA DE FRATURA DE COSTELA"
+  },
+  {
+    "code": "0412040093",
+    "name": "REDUÇÃO CIRURGICA DE FRATURA DO ESTERNO",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0412040107",
@@ -14134,6 +15437,11 @@
   {
     "code": "0412040131",
     "name": "TORACECTOMIA SEM RECONSTRUÇÃO PARIETAL"
+  },
+  {
+    "code": "0412040140",
+    "name": "TORACOCENTESE",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0412040158",
@@ -14172,12 +15480,22 @@
     "name": "BULECTOMIA UNI OU BILATERAL"
   },
   {
+    "code": "0412050021",
+    "name": "DRENAGEM TUBULAR ABERTA DE CAVIDADE PULMONAR",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0412050030",
     "name": "LIGADURA DE ARTÉRIAS BRÔNQUICAS POR TORACOTOMIA PARA CONTROLE DE HEMOPTISE"
   },
   {
     "code": "0412050048",
     "name": "LOBECTOMIA PULMONAR"
+  },
+  {
+    "code": "0412050056",
+    "name": "PLEURODESE",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0412050064",
@@ -14192,12 +15510,22 @@
     "name": "PNEUMORRAFIA"
   },
   {
+    "code": "0412050099",
+    "name": "PNEUMOTOMIA C/ RETIRADA DE CORPO ESTRANHO",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0412050102",
     "name": "RESSECÇÃO EM CUNHA, TUMORECTOMIA / BIOPSIA DE PULMAO A CEU ABERTO"
   },
   {
     "code": "0412050110",
     "name": "RESSECÇÃO PULMONAR ASSOCIADA A BRONCOPLASTIA/ ARTERIOPLASTIA"
+  },
+  {
+    "code": "0412050129",
+    "name": "RETIRADA DE DRENO TUBULAR TORACICO",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0412050137",
@@ -14392,6 +15720,11 @@
     "name": "RECONSTRUÇÃO POR MICROCIRURGIA QUALQUER PARTE"
   },
   {
+    "code": "0414010019",
+    "name": "CONTENCAO DE DENTES POR SPLINTAGEM",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0414010027",
     "name": "MOLDAGEM / IMPLANTE EM MUCOSA (POR TRATAMENTO COMPLETO)"
   },
@@ -14400,16 +15733,151 @@
     "name": "MOLDAGEM / IMPLANTE EM PELE / MUCOSA (POR TRATAMENTO COMPLETO)"
   },
   {
+    "code": "0414010043",
+    "name": "OSTEOTOMIA DE MAXILAR SUPERIOR",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010051",
+    "name": "OSTEOTOMIA DO MAXILAR INFERIOR",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010060",
+    "name": "OSTEOTOMIA ETMOIDEO-ORBITARIA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010078",
+    "name": "REDUCAO CRUENTA  DE AFUNDAMENTO DO MALAR C/ FIXACAO",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010086",
+    "name": "REDUCAO CRUENTA DE FRATURA ALVEOLO-DENTARIA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010094",
+    "name": "REDUCAO CRUENTA DE FRATURA BILATERAL DA MANDIBULA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010108",
+    "name": "REDUCAO CRUENTA DE FRATURA COMINUTIVA DA MANDIBULA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010116",
+    "name": "REDUCAO CRUENTA DE FRATURA DO MALAR C/ APARELHO DE CONTENCAO",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010124",
+    "name": "REDUCAO CRUENTA DE FRATURA DO MAXILAR SUPERIOR - LE FORT III",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010132",
+    "name": "REDUCAO CRUENTA DE FRATURA DO MAXILAR SUPERIOR - LE FORT III C/ APARELHO DE CONTENCAO",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010140",
+    "name": "REDUCAO CRUENTA DE FRATURA DOS OSSOS PROPRIOS DO NARIZ",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010159",
+    "name": "REDUCAO CRUENTA DE FRATURA UNILATERAL DE MANDIBULA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010167",
+    "name": "REDUCAO CRUENTA DE LUXACAO DA ARTICULACAO TEMPORO-MANDIBULAR (RECIDIVANTE OU NAO)",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010175",
+    "name": "REDUCAO INCRUENTA DE FRATURA ALVEOLO-DENTARIA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010183",
+    "name": "REDUCAO INCRUENTA DE FRATURA DO MAXILAR SUPERIOR - LE FORT I",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010191",
+    "name": "REDUCAO INCRUENTA DE FRATURA DO MAXILAR SUPERIOR - LE FORT II",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010205",
+    "name": "REDUCAO INCRUENTA DE FRATURA UNILATERAL DA MANDIBULA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010213",
+    "name": "REDUCAO INCRUENTA DE LUXACAO TEMPORO-MANDIBULAR",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010221",
+    "name": "REVISAO E TROCA DE APARELHO GESSADO EM LESAO DE OSSOS DA FACE",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010230",
+    "name": "SEPTOPLASTIA REPARADORA NAO ESTETICA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010248",
+    "name": "TRATAMENTO CIRURGICO DE ANQUILOSE DA ARTICULACAO TEMPORO-MANDIBULAR",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0414010256",
     "name": "TRATAMENTO CIRÚRGICO DE FÍSTULA ORO-SINUSAL / ORO-NASAL"
+  },
+  {
+    "code": "0414010264",
+    "name": "TRATAMENTO CIRURGICO DE FISTULA BUCO-SINUSAL EM PACIENTE C/ DEFORMIDADES CRANIO-FACIAIS",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0414010272",
     "name": "TRATAMENTO CIRÚRGICO DE FÍSTULA CUTÂNEA DE ORIGEM DENTÁRIA"
   },
   {
+    "code": "0414010280",
+    "name": "TRATAMENTO CIRURGICO DE OSTEOMA, ODONTOMA /OUTROS TUMORES",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010299",
+    "name": "TRATAMENTO CIRURGICO EM OSSOS DA FACE",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010302",
+    "name": "TRATAMENTO CIRURGICO EM OSSOS DO NARIZ",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414010310",
+    "name": "TRATAMENTO CIRURGICO NO ARCO ZIGOMATICO",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0414010329",
     "name": "TRATAMENTO CIRÚRGICO DE CISTO DO COMPLEXO MAXILO-MANDIBULAR"
+  },
+  {
+    "code": "0414010337",
+    "name": "TRATAMENTO DE FRATURA DA MANDIBULA (POR HEMIFACE)",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0414010345",
@@ -14426,6 +15894,11 @@
   {
     "code": "0414010388",
     "name": "TRATAMENTO CIRÚRGICO DE FÍSTULA INTRA / EXTRAORAL"
+  },
+  {
+    "code": "0414020014",
+    "name": "ALVEOLOTOMIA / ALVEOLECTOMIA (POR ARCO DENTARIO)",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0414020022",
@@ -14460,6 +15933,16 @@
     "name": "ENXERTO ÓSSEO DE ÁREA DOADORA INTRABUCAL"
   },
   {
+    "code": "0414020103",
+    "name": "EXCISAO DE CALCULO DE GLANDULA SALIVAR",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414020111",
+    "name": "EXCISAO DE GLANDULA SUBMANDIBULAR / SUBMAXILAR / SUBLINGUAL",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0414020120",
     "name": "EXODONTIA DE DENTE DECÍDUO"
   },
@@ -14484,6 +15967,16 @@
     "name": "GLOSSORRAFIA"
   },
   {
+    "code": "0414020189",
+    "name": "IMPLANTE DENTARIO OSTEOINTEGRADO EM PACIENTE C/ ANOMALIAS CRANIO-FACIAIS (POR UNIDADE)",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414020197",
+    "name": "IMPLANTE OSTEOINTEGRADO EXTRA-ORAL BUCO-MAXILO-FACIAL",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0414020200",
     "name": "MARSUPIALIZAÇÃO DE CISTOS E PSEUDOCISTOS"
   },
@@ -14492,16 +15985,66 @@
     "name": "ODONTOSECÇÃO / RADILECTOMIA / TUNELIZAÇÃO"
   },
   {
+    "code": "0414020227",
+    "name": "RECONSTRUCAO DE SULCO GENGIVO-LABIAL",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414020235",
+    "name": "RECONSTRUCAO PARCIAL DO LABIO TRAUMATIZADO",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0414020243",
     "name": "REIMPLANTE E TRANSPLANTE DENTAL (POR ELEMENTO)"
+  },
+  {
+    "code": "0414020251",
+    "name": "REMOCAO DE CISTO",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414020260",
+    "name": "REMOCAO DE CORPO ESTRANHO DA REGIAO BUCO-MAXILO-FACIAL",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0414020278",
     "name": "REMOÇÃO DE DENTE RETIDO (INCLUSO / IMPACTADO)"
   },
   {
+    "code": "0414020286",
+    "name": "REMOCAO DE FOCO RESIDUAL",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0414020294",
     "name": "REMOÇÃO DE TORUS E EXOSTOSES"
+  },
+  {
+    "code": "0414020308",
+    "name": "RETIRADA DE MATERIAL DE SINTESE OSSEA / DENTARIA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414020316",
+    "name": "SELAMENTO DE FISTULA CUTANEA ODONTOGENICA",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414020324",
+    "name": "SINUSOTOMIA MAXILAR UNILATERAL",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414020332",
+    "name": "TRATAMENTO CIRURGICO DE DENTE INCLUSO EM PACIENTE C/ ANOMALIA CRANIO-FACIAL",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0414020340",
+    "name": "TRATAMENTO CIRURGICO DE FISTULA INTRA / EXTRA-ORAL",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0414020359",
@@ -14518,6 +16061,11 @@
   {
     "code": "0414020383",
     "name": "TRATAMENTO DE ALVEOLITE"
+  },
+  {
+    "code": "0414020391",
+    "name": "TRATAMENTO EMERGENCIAL P/ REDUCAO DE FRATURA ALVEOLO-DENTARIA",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0414020405",
@@ -14542,6 +16090,11 @@
   {
     "code": "0415020018",
     "name": "PROCEDIMENTOS SEQUENCIAIS DE CIRURGIA PLÁSTICA REPARADORA PÓS -CIRURGIA BARIATRICA"
+  },
+  {
+    "code": "0415020026",
+    "name": "PROCEDIMENTOS SEQUENCIAIS EM NEUROCIRURGIA E/OU ORTOPEDIA",
+    "lastSeenTable": "2014-01"
   },
   {
     "code": "0415020034",
@@ -14572,6 +16125,11 @@
     "name": "TRATAMENTO CIRURGICO EM POLITRAUMATIZADO"
   },
   {
+    "code": "0415040019",
+    "name": "CATETERISMO DE VEIA CENTRAL (POR PUNCAO)",
+    "lastSeenTable": "2009-01"
+  },
+  {
     "code": "0415040027",
     "name": "DEBRIDAMENTO DE FASCEITE NECROTIZANTE"
   },
@@ -14596,16 +16154,41 @@
     "name": "CISTECTOMIA COM DERIVACAO EM 1SÓ TEMPO EM ONCOLOGIA"
   },
   {
+    "code": "0416010032",
+    "name": "CISTECTOMIA TOTAL COM DERIVAÇÃO SIMPLES EM ONCOLOGIA",
+    "lastSeenTable": "2023-01"
+  },
+  {
     "code": "0416010040",
     "name": "CISTOENTEROPLASTIA EM ONCOLOGIA"
+  },
+  {
+    "code": "0416010059",
+    "name": "EPIDIDIMECTOMIA C/ ESVAZIAMENTO GANGLIONAR EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416010067",
+    "name": "EPIDIDIMECTOMIA EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416010075",
     "name": "NEFRECTOMIA TOTAL EM ONCOLOGIA"
   },
   {
+    "code": "0416010083",
+    "name": "NEFROPIELOSTOMIA EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0416010091",
     "name": "NEFROURETERECTOMIA TOTAL EM ONCOLOGIA"
+  },
+  {
+    "code": "0416010105",
+    "name": "ORQUIECTOMIA UNI OU BILATERAL C/ ESVAZIAMENTO GANGLIONAR EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416010113",
@@ -14617,7 +16200,17 @@
   },
   {
     "code": "0416010130",
-    "name": "PROSTATOVESICULECTOMIA RADICAL EM ONCOLOGIA"
+    "name": "PROSTATECTOMIA RADICAL EM ONCOLOGIA"
+  },
+  {
+    "code": "0416010148",
+    "name": "RESSECCAO DE COLO VESICAL A CEU ABERTO EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416010156",
+    "name": "RESSECCAO DE TUMOR VESICAL A CEU ABERTO EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416010164",
@@ -14648,8 +16241,77 @@
     "name": "AMPUTAÇÃO TOTAL AMPLIADA DE PENIS EM ONCOLOGIA"
   },
   {
+    "code": "0416010237",
+    "name": "PROSTATECTOMIA RADICAL ASSISTIDA POR ROBÔ EM ONCOLOGIA"
+  },
+  {
+    "code": "0416020011",
+    "name": "ESTADIAMENTO CIRURGICO DA DOENCA DE HODGKIN",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0416020020",
     "name": "LINFADENECTOMIA PELVICA EM ONCOLOGIA"
+  },
+  {
+    "code": "0416020038",
+    "name": "LINFADENECTOMIA DE TRONCO CELIACO EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416020046",
+    "name": "LINFADENECTOMIA ILEO-LOMBAR EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416020054",
+    "name": "LINFADENECTOMIA RADICAL AXILAR BILATERAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416020062",
+    "name": "LINFADENECTOMIA RADICAL AXILAR UNILATERAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416020070",
+    "name": "LINFADENECTOMIA RADICAL CERVICAL BILATERAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416020089",
+    "name": "LINFADENECTOMIA RADICAL CERVICAL UNILATERAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416020097",
+    "name": "LINFADENECTOMIA RADICAL INGUINAL BILATERAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416020100",
+    "name": "LINFADENECTOMIA RADICAL INGUINAL UNILATERAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416020119",
+    "name": "LINFADENECTOMIA RADICAL VULVAR EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416020127",
+    "name": "LINFADENECTOMIA RETROPERITONIAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416020135",
+    "name": "LINFADENECTOMIA SUPRACLAVICULAR BILATERAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416020143",
+    "name": "LINFADENECTOMIA SUPRACLAVICULAR UNILATERAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416020151",
@@ -14696,6 +16358,11 @@
     "name": "LINFADENECTOMIA INGUINO-ILIACA UNILATERAL EM ONCOLOGIA"
   },
   {
+    "code": "0416030017",
+    "name": "PAROTIDECTOMIA PARCIAL EM ONCOLOGIA",
+    "lastSeenTable": "2023-01"
+  },
+  {
     "code": "0416030025",
     "name": "RESSECÇÃO DE GLÂNDULA SALIVAR MENOR EM ONCOLOGIA"
   },
@@ -14706,6 +16373,11 @@
   {
     "code": "0416030041",
     "name": "RESSECÇÃO DE GLÂNDULA SUBMANDIBULAR EM ONCOLOGIA"
+  },
+  {
+    "code": "0416030050",
+    "name": "EXTIRPACAO DE BOCIO INTRATORACICO POR VIA TRANSESTERNAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416030068",
@@ -14722,6 +16394,26 @@
   {
     "code": "0416030092",
     "name": "PAROTIDECTOMIA EM ONCOLOGIA"
+  },
+  {
+    "code": "0416030106",
+    "name": "RESSECCAO DE LESAO MALIGNA EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416030114",
+    "name": "RESSECCAO DE LESAO MALIGNA C/ ESVAZIAMENTO GANGLIONAR EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416030122",
+    "name": "TIREOIDECTOMIA TOTAL C/ ESVAZIAMENTO CERVICAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416030130",
+    "name": "TIREOIDECTOMIA TOTAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416030149",
@@ -14836,8 +16528,23 @@
     "name": "ESOFAGOGASTRECTOMIA TRANS -HIATAL EM ONCOLOGIA"
   },
   {
+    "code": "0416040063",
+    "name": "ESPLENECTOMIA EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0416040071",
     "name": "GASTRECTOMIA TOTAL EM ONCOLOGIA"
+  },
+  {
+    "code": "0416040080",
+    "name": "GASTROENTEROANASTOMOSE EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416040098",
+    "name": "GASTROSTOMIA EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416040101",
@@ -14852,8 +16559,23 @@
     "name": "DUODENOPANCREATECTOMIA EM ONCOLOGIA"
   },
   {
+    "code": "0416040136",
+    "name": "PANCREATO-ENTEROSTOMIA EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0416040144",
     "name": "RESSECÇÃO DE TUMOR RETROPERITONIAL COM RESSECÇÃO DE ÓRGÃOS CONTÍGUOS EM ONCOLOGIA"
+  },
+  {
+    "code": "0416040152",
+    "name": "RESSECCAO MULTIPLA DE SEGMENTOS DO TUBO DIGESTIVO (ESOFAGO, ESTOMAGO E INTESTINO DELGADO) EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416040160",
+    "name": "SUPRARRENALECTOMIA  EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416040179",
@@ -14940,12 +16662,27 @@
     "name": "COLECTOMIA TOTAL EM ONCOLOGIA"
   },
   {
+    "code": "0416050042",
+    "name": "COLOSTOMIA EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0416050050",
     "name": "EXCISÃO LOCAL DE TUMOR DO RETO EM ONCOLOGIA"
   },
   {
+    "code": "0416050069",
+    "name": "PROCTOCOLECTOMIA TOTAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0416050077",
     "name": "RETOSSIGMOIDECTOMIA ABDOMINAL EM ONCOLOGIA"
+  },
+  {
+    "code": "0416050085",
+    "name": "RETOSSIGMOIDECTOMIA ABDOMINO-PERINEAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416050093",
@@ -14976,12 +16713,22 @@
     "name": "COLPECTOMIA EM ONCOLOGIA"
   },
   {
+    "code": "0416060048",
+    "name": "HISTERECTOMIA C/ ANEXECTOMIA (UNI / BILATERAL) EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0416060056",
     "name": "HISTERECTOMIA COM RESSECÇÃO DE ÓRGÃOS CONTÍGUOS EM ONCOLOGIA"
   },
   {
     "code": "0416060064",
     "name": "HISTERECTOMIA TOTAL AMPLIADA EM ONCOLOGIA"
+  },
+  {
+    "code": "0416060072",
+    "name": "HISTERECTOMIA TOTAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416060080",
@@ -15008,12 +16755,52 @@
     "name": "HISTERECTOMIA VIDEOLAPAROSCÓPICA CO OU SEM ANEXECTOMIA (UNI/BILATERAL) EM ONCOLOGIA"
   },
   {
+    "code": "0416070019",
+    "name": "PARACENTESE DE CAMARA ANTERIOR POR TUMOR",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0416070027",
+    "name": "RESSECCAO DE ESCLERA EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416070035",
+    "name": "TRATAMENTO DE NEOPLASIA DA ORBITA POR TUMOR",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0416080014",
     "name": "EXCISÂO E ENXERTO DE PELE EM ONCOLOGIA"
   },
   {
+    "code": "0416080022",
+    "name": "EXCISAO E RECONSTRUCAO TOTAL DE LABIO EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0416080030",
     "name": "EXCISÃO E SUTURA DE LESÃO NA PELE COM PLASTICA EM Z OU ROTAÇÃO DE RETALHO EM ONCOLOGIA"
+  },
+  {
+    "code": "0416080049",
+    "name": "EXCISAO EM CUNHA DE LABIO E SUTURA EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416080057",
+    "name": "EXCISAO PARCIAL DE LABIO C/ ENXERTO LIVRE EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416080065",
+    "name": "EXTIRPACAO E SUPRESSAO MULTIPLA DE LESAO DA PELE E TECIDO CELULAR SUBCUTANEO EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416080073",
+    "name": "MAXILECTOMIA C/ OU S/ ESVAZIAMENTO ORBITARIO EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416080081",
@@ -15022,6 +16809,11 @@
   {
     "code": "0416080090",
     "name": "RECONSTRUÇÃO POR MICROCIRURGIA (QUALQUER PARTE) EM ONCOLOGIA"
+  },
+  {
+    "code": "0416080103",
+    "name": "RESSECCAO AMPLIADA DE TUMORES DE PARTES MOLES EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416080111",
@@ -15044,8 +16836,33 @@
     "name": "HEMIPELVECTOMIA EM ONCOLOGIA"
   },
   {
+    "code": "0416090044",
+    "name": "DESARTICULACAO INTERESCAPULO-MAMO-TORACICA EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416090052",
+    "name": "DESARTICULACAO INTERESCAPULO-TORACICA EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416090060",
+    "name": "RESSECCAO DE PARTES MOLES DAS EXTREMIDADES C/ RECONSTRUCAO EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0416090079",
     "name": "SACRALECTOMIA (ENDOPELVECTOMIA) EM ONCOLOGIA"
+  },
+  {
+    "code": "0416090087",
+    "name": "RESSECCAO DE TUMOR E RECONSTRUCAO C/ ENXERTO EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416090095",
+    "name": "RESSECCAO DE TUMOR MALIGNO DO OSSO TEMPORAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0416090109",
@@ -15096,6 +16913,11 @@
     "name": "TIMECTOMIA EM ONCOLOGIA"
   },
   {
+    "code": "0416120016",
+    "name": "EXTIRPACAO DE MAMILO EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
     "code": "0416120024",
     "name": "MASTECTOMIA RADICAL COM LINFADENECTOMIA AXILAR EM ONCOLOGIA"
   },
@@ -15110,6 +16932,36 @@
   {
     "code": "0416120059",
     "name": "SEGMENTECTOMIA/QUADRANTECTOMIA/SETORECTOMIA DE MAMA EM ONCOLOGIA"
+  },
+  {
+    "code": "0416130011",
+    "name": "EXTIRPACAO DE TUMOR DA FARINGE EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416130020",
+    "name": "EXTIRPACAO DE TUMOR DO CAVUM EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416130038",
+    "name": "LARINGECTOMIA PARCIAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416130046",
+    "name": "LARINGECTOMIA TOTAL C/ ESVAZIAMENTO CERVICAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416130054",
+    "name": "LARINGECTOMIA TOTAL EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
+  },
+  {
+    "code": "0416130062",
+    "name": "MANDIBULECTOMIA PELVI-GLOSO EM ONCOLOGIA",
+    "lastSeenTable": "2012-01"
   },
   {
     "code": "0417010010",
@@ -15192,6 +17044,16 @@
     "name": "IDENTIFICACAO DE DOADOR APARENTADO DE CELULAS-TRONCO HEMATOPOETICAS 1A FASE (POR DOADOR TIPADO)"
   },
   {
+    "code": "0501010033",
+    "name": "IDENTIFICACAO DE DOADOR APARENTADO DE CELULAS-TRONCO HEMATOPOETICAS 2A FASE (POR DOADOR TIPADO)",
+    "lastSeenTable": "2021-01"
+  },
+  {
+    "code": "0501010041",
+    "name": "IDENTIFICACAO DE DOADOR APARENTADO DE CELULAS-TRONCO HEMATOPOETICAS 3A FASE (POR DOADOR TIPADO)",
+    "lastSeenTable": "2021-01"
+  },
+  {
     "code": "0501010050",
     "name": "IDENTIFICACAO DE DOADOR VOLUNTÁRIO DE CÉLULAS TRONCO HEMATOPOÉTICAS PARA CADASTRO NO REDOME (POR DOADOR TIPADO)"
   },
@@ -15204,12 +17066,27 @@
     "name": "CONFIRMAÇÃO DE IDENTIFICAÇÃO DE DOADOR NÃO APARENTADO DE CÉLULAS TRONCO HEMATOPOÉTICAS (POR DOADOR TIPADO)"
   },
   {
+    "code": "0501010084",
+    "name": "IDENTIFICACAO DE DOADOR VOLUNTARIO DE CELULAS TRONCO HEMATOPOETICA DE DOADORES CADASTRADOS NO REDOME/INCA- COMPLEMENTACAO DA 2ª FASE",
+    "lastSeenTable": "2021-01"
+  },
+  {
     "code": "0501010092",
     "name": "CONFIRMACAO DE TIPIFICACAO DE DOADOR NÃO APARENTADO DE CÉLULAS TRONCO HEMATOPOÉTICAS (POR DOADOR TIPADO)"
   },
   {
     "code": "0501010106",
     "name": "IDENTIFICAÇÃO DE DOADOR APARENTADO DE CÉLULAS TRONCO HEMATOPOETICAS 2ª FASE (POR DOADOR TIPADO)"
+  },
+  {
+    "code": "0501020012",
+    "name": "IDENTIFICACAO DE RECEPTOR DE CELULAS-TRONCO HEMATOPOETICAS 1A FASE",
+    "lastSeenTable": "2021-01"
+  },
+  {
+    "code": "0501020020",
+    "name": "IDENTIFICACAO DE RECEPTOR DE CELULAS-TRONCO HEMATOPOETICAS 2A FASE",
+    "lastSeenTable": "2021-01"
   },
   {
     "code": "0501020039",
@@ -15272,8 +17149,33 @@
     "name": "AUTO-PROVA CRUZADA EM RECEPTOR DE RIM (AUTO CROSS-MATCH)"
   },
   {
+    "code": "0501040021",
+    "name": "IDENTIFICACAO DE DOADOR FALECIDO DE RIM / PANCREAS E RIM-PANCREAS",
+    "lastSeenTable": "2021-01"
+  },
+  {
+    "code": "0501040030",
+    "name": "IDENTIFICACAO DE DOADOR VIVO DE RIM 1A FASE (POR DOADOR TIPADO)",
+    "lastSeenTable": "2021-01"
+  },
+  {
+    "code": "0501040048",
+    "name": "IDENTIFICACAO DE DOADOR VIVO DE RIM 2A FASE (POR DOADOR TIPADO)",
+    "lastSeenTable": "2021-01"
+  },
+  {
+    "code": "0501040056",
+    "name": "PROVA CRUZADA EM DOADOR VIVO CONTRA LINFOCITOS T OU B C/ ABSORCAO DE PLAQUETAS (CROSS MATCH)",
+    "lastSeenTable": "2021-01"
+  },
+  {
     "code": "0501040064",
     "name": "PROVAS CRUZADAS EM RECEPTORES DE DOADORES FALECIDOS (CROSS MATCH)"
+  },
+  {
+    "code": "0501040072",
+    "name": "PROVAS CRUZADAS EM DOADOR VIVO DE RIM (CROSS MATCH)",
+    "lastSeenTable": "2021-01"
   },
   {
     "code": "0501040080",
@@ -15282,6 +17184,11 @@
   {
     "code": "0501040099",
     "name": "IDENTIFICAÇÃO DE DOADOR VIVO DE RIM- (POR DOADOR TIPADO)"
+  },
+  {
+    "code": "0501040102",
+    "name": "PROVAS CRUZADAS EM DOADORES DE ÓRGÃOS E DE MEDULA ÓSSEA (APARENTADO NÃO IDÊNTICO)",
+    "lastSeenTable": "2023-01"
   },
   {
     "code": "0501040110",
@@ -15294,6 +17201,16 @@
   {
     "code": "0501050019",
     "name": "AVALIAÇÃO DE REATIVIDADE DO RECEPTOR CONTRA PAINEL EM RECEPTORES HIPERSENSIBILIZADOS DE ÓRGÃOS"
+  },
+  {
+    "code": "0501050027",
+    "name": "IDENTIFICACAO DE RECEPTOR DE RIM / PANCREAS E RIM-PANCREAS",
+    "lastSeenTable": "2021-01"
+  },
+  {
+    "code": "0501050035",
+    "name": "AVALIAÇÃO DE REATIVIDADE EM RECEPTORES NÂO SENSIBILIZADOS",
+    "lastSeenTable": "2025-01"
   },
   {
     "code": "0501050043",
@@ -15342,6 +17259,16 @@
   {
     "code": "0501070052",
     "name": "EXAMES PARA INCLUSÃO EM LISTA DE CANDIDATOS A TRANSPLANTE DE FIGADO"
+  },
+  {
+    "code": "0501070060",
+    "name": "EXAMES PARA INCLUSÃO EM LISTA DE CANDIDATOS A TRANSPLANTE DE PÂNCREAS, PULMÃO OU RIM",
+    "lastSeenTable": "2023-01"
+  },
+  {
+    "code": "0501070079",
+    "name": "EXAMES PARA INCLUSAO EM LISTA DE CANDIDATOS A TRANSPLANTE CONJUGADO DE PANCREAS E RIM",
+    "lastSeenTable": "2023-01"
   },
   {
     "code": "0501070087",
@@ -15438,6 +17365,11 @@
   {
     "code": "0503010022",
     "name": "AÇÕES RELACIONADAS A DOAÇÃO DE ÓRGÃOS E TECIDOS REALIZADAS POR EQUIPE DE OUTRO ESTABELECIMENTO DE SAUDE"
+  },
+  {
+    "code": "0503010030",
+    "name": "CAPTACÃO DE ORGAO EFETIVAMENTE TRANSPLANTADO",
+    "lastSeenTable": "2010-01"
   },
   {
     "code": "0503020010",
@@ -15552,6 +17484,11 @@
     "name": "PROCESSAMENTO DE TECIDO MUSCULOESQUELETICO (51-100 GR)"
   },
   {
+    "code": "0504030019",
+    "name": "PROCESSAMENTO DE TUBO VALVADO CARDIACO HUMANO",
+    "lastSeenTable": "2018-01"
+  },
+  {
     "code": "0504030027",
     "name": "PROCESSAMENTO DE VALVULA CARDIACA HUMANA"
   },
@@ -15604,6 +17541,16 @@
     "name": "TRANSPLANTE DE CORNEA OU LAMELA"
   },
   {
+    "code": "0505010100",
+    "name": "TRANSPLANTE DE CORNEA (EM CIRURGIAS COMBINADAS)",
+    "lastSeenTable": "2021-01"
+  },
+  {
+    "code": "0505010119",
+    "name": "TRANSPLANTE DE CORNEA (EM REOPERACOES)",
+    "lastSeenTable": "2021-01"
+  },
+  {
     "code": "0505010127",
     "name": "TRANSPLANTE DE ESCLERA"
   },
@@ -15622,6 +17569,11 @@
   {
     "code": "0505020025",
     "name": "PARTICIPACAO DE EQUIPE NEFROLOGICA EM TRANSPLANTE RENAL DE DOADOR VIVO"
+  },
+  {
+    "code": "0505020033",
+    "name": "PARTICIPACAO DE EQUIPE NEFROLOGICA EM TRANSPLANTE SIMULTANEO DE PANCREAS E RIM",
+    "lastSeenTable": "2023-01"
   },
   {
     "code": "0505020041",
@@ -15652,6 +17604,11 @@
     "name": "TRANSPLANTE DE RIM (ORGAO DE DOADOR VIVO)"
   },
   {
+    "code": "0505020114",
+    "name": "TRANSPLANTE SIMULTANEO DE PANCREAS E RIM",
+    "lastSeenTable": "2023-01"
+  },
+  {
     "code": "0505020122",
     "name": "TRANSPLANTE DE PULMÃO BILATERAL"
   },
@@ -15662,6 +17619,21 @@
   {
     "code": "0506010015",
     "name": "ACOMPANHAMENTO DE PACIENTE POS-TRANSPLANTE DE CORNEA"
+  },
+  {
+    "code": "0506010023",
+    "name": "ACOMPANHAMENTO DE PACIENTE POS-TRANSPLANTE DE RIM FIGADO CORACAO PULMAO CELULAS-TRONCO HEMATOPOETICAS E/OU PANCREAS",
+    "lastSeenTable": "2023-01"
+  },
+  {
+    "code": "0506010031",
+    "name": "ACOMPANHAMENTO DE DOADOR VIVO POS-DOAÇAO DE FIGADO, PULMAO OU RIM",
+    "lastSeenTable": "2023-01"
+  },
+  {
+    "code": "0506010040",
+    "name": "ACOMPANHAMENTO DE PACIENTES NO PRÉ TRANSPLANTE DE ÓRGÃOS",
+    "lastSeenTable": "2023-01"
   },
   {
     "code": "0506010058",
@@ -15768,6 +17740,11 @@
     "name": "TRATAMENTO DE INTERCORRÊNCIA PÓS TRANSPLANTE DE PULMÃO UNI/BILATERAL - PÓS TRANSPLANTE CRÍTICO"
   },
   {
+    "code": "0506020088",
+    "name": "TRATAMENTO DE INTERCORRENCIA PÓS TRANSPLANTE SIMULTANEO DE RIM/PÃNCREAS OU PÂNCREAS ISOLADO- PÓS TRANSPLANTE CRÍTICO",
+    "lastSeenTable": "2023-01"
+  },
+  {
     "code": "0506020096",
     "name": "TRATAMENTO DE INTERCORRENCIA PÓS TRANSPLANTE DE FIGADO- PÓS TRANSPLANTE CRÍTICO"
   },
@@ -15782,6 +17759,1256 @@
   {
     "code": "0506020134",
     "name": "TRATAMENTO DE INTERCORRENCIA PÓS TRANSPLANTE DE PÂNCREAS - PÓS TRANSPLANTE CRÍTICO"
+  },
+  {
+    "code": "0601010019",
+    "name": "ADALIMUMABE (A) 40 MG INJETAVEL- SERINGA PREENCHIDA (POR TRATAMENTO MENSAL)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601010027",
+    "name": "ETANERCEPTE (A)25 MG INJETAVEL -FRASCO-AMPOLA (POR TRATAMENTO MENSAL)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601010035",
+    "name": "INFLIXIMABE (A)10 MG/ML  10 ML INJETAVEL  (FRASCO-AMPOLA- POR TRATAMENTO MENSAL)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601010043",
+    "name": "INFLIXIMABE 10 MG/ML INJETAVEL (POR FRASCO-AMPOLA 10 ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601010051",
+    "name": "ETANERCEPTE 50MG INJETAVEL- FRASCO AMPOLA (POR TRATAMENTO MENSAL)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601020014",
+    "name": "RILUZOL 50 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601030010",
+    "name": "HIDROXIUREIA 500 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601030028",
+    "name": "SACARATO DE HIDROXIDO FERRICO 100 MG INJETAVEL (POR FRASCO DE 5 ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601040015",
+    "name": "ALFAEPOETINA 1.000 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601040023",
+    "name": "ALFAEPOETINA 10.000 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601040031",
+    "name": "ALFAEPOETINA 2.000 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601040040",
+    "name": "ALFAEPOETINA 3.000 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601040058",
+    "name": "ALFAEPOETINA 4.000 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050010",
+    "name": "BECLOMETASONA (C) 200 MCG (POR CAPSULA INALANTE)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050029",
+    "name": "BECLOMETASONA (C) 200 MCG PO INALANTE (POR FRASCO  DE 100 DOSES)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050037",
+    "name": "BECLOMETASONA (C) 250 MCG SPRAY (POR FRASCO  DE 200 DOSES)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050045",
+    "name": "BECLOMETASONA (C) 400 MCG  (POR CAPSULA INALANTE)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050053",
+    "name": "BECLOMETASONA (C) 400 MCG PO INALANTE (POR FRASCO DE 100 DOSES)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050061",
+    "name": "BUDESONIDA (C) 200 MCG (POR CAPSULA INALANTE)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050070",
+    "name": "BUDESONIDA (C) 200 MCG PO INALANTE OU AEROSSOL BUCAL (POR FRASCO C/ 100 DOSES)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050088",
+    "name": "FENOTEROL (B) 200 MCG AEROSSOL (POR FRASCO DE 300 DOSES)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050096",
+    "name": "FORMOTEROL (D) 12 MCG (POR CAPSULA INALANTE)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050100",
+    "name": "FORMOTEROL (D) 12 MCG PO INALANTE (POR FRASCO DE 60 DOSES)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050118",
+    "name": "FORMOTEROL 12 MCG + BUDESONIDA 400 MCG  (POR CAPSULA INALANTE)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050126",
+    "name": "FORMOTEROL 12 MCG + BUDESONIDA 400 MCG PO INALANTE (POR FRASCO DE 60 DOSES)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050134",
+    "name": "FORMOTEROL 6 MCG + BUDESONIDA 200 MCG PO INALANTE (POR FRASCO DE 60 DOSES)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050142",
+    "name": "FORMOTEROL 6MCG + BUDESONIDA 200 MCG (POR CAPSULA INALANTE)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050150",
+    "name": "SALBUTAMOL (B)100 MCG AEROSSOL (POR FRASCO DE 200 DOSES)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601050169",
+    "name": "SALMETEROL (D) 50 MCG PO INALANTE OU AEROSSOL BUCAL (POR FRASCO DE 60 DOSES)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601060016",
+    "name": "CIPROFLOXACINA 250 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601060024",
+    "name": "CIPROFLOXACINA 500 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601070011",
+    "name": "GABAPENTINA 300 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601070020",
+    "name": "GABAPENTINA 400 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601070038",
+    "name": "LAMOTRIGINA 100 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601070046",
+    "name": "LAMOTRIGINA 25 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601070054",
+    "name": "TOPIRAMATO 100 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601070062",
+    "name": "TOPIRAMATO 25 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601070070",
+    "name": "TOPIRAMATO 50 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601070089",
+    "name": "VIGABATRINA 500 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601080017",
+    "name": "CLOROQUINA (E) 150 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601080025",
+    "name": "HIDROXICLOROQUINA (E) 400 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601080033",
+    "name": "METILPREDNISOLONA 500 MG INJETAVEL (POR AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601090012",
+    "name": "MESALAZINA 1 G + DILUENTE 100 ML (ENEMA) -POR DOSE",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601090020",
+    "name": "MESALAZINA 1000 MG (POR SUPOSITORIO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601090039",
+    "name": "MESALAZINA 250 MG (POR SUPOSITORIO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601090047",
+    "name": "MESALAZINA 3 G + DILUENTE 100 ML (ENEMA) - POR DOSE",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601090055",
+    "name": "MESALAZINA 400 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601090063",
+    "name": "MESALAZINA 500 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601090080",
+    "name": "MESALAZINA 800 MG - POR COMPRIMIDO",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601090098",
+    "name": "SULFASSALAZINA 500 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601090101",
+    "name": "MESALAZINA 500 MG (POR SUPOSITORIO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100018",
+    "name": "AMANTADINA 100 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100026",
+    "name": "BIPERIDENO 2 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100034",
+    "name": "BIPERIDENO 4 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100042",
+    "name": "ENTACAPONA (F) 200 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100050",
+    "name": "LEVODOPA 100 MG + BENSERAZIDA 25 MG (POR CAPSULA OU COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100069",
+    "name": "LEVODOPA 200 MG + BENSERAZIDA 50 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100077",
+    "name": "LEVODOPA 200 MG + CARBIDOPA 50 MG (POR CAPSULA OU COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100085",
+    "name": "LEVODOPA 250MG + CARBIDOPA 25 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100093",
+    "name": "PRAMIPEXOL 0,125 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100107",
+    "name": "PRAMIPEXOL 0,25 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100115",
+    "name": "PRAMIPEXOL 1 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100123",
+    "name": "SELEGILINA 10 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100131",
+    "name": "SELEGILINA 5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100140",
+    "name": "TOLCAPONA (F) 100 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100158",
+    "name": "TOLCAPONA (F) 200 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601100166",
+    "name": "TRIEXIFENIDILA 5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601110013",
+    "name": "CLOZAPINA 100 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601110021",
+    "name": "CLOZAPINA 25 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601110030",
+    "name": "OLANZAPINA (G) 10 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601110048",
+    "name": "OLANZAPINA (G) 5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601110056",
+    "name": "QUETIAPINA  (G) 100 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601110064",
+    "name": "QUETIAPINA  (G) 25 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601110072",
+    "name": "QUETIAPINA (G) 200 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601110080",
+    "name": "RISPERIDONA 1 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601110099",
+    "name": "RISPERIDONA 2 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601110102",
+    "name": "ZIPRASIDONA (G)  80 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601110110",
+    "name": "ZIPRASIDONA (G) 40 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601120019",
+    "name": "LAMIVUDINA 10 MG/ML SOLUCAO ORAL (FRASCO DE 240 ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601120027",
+    "name": "LAMIVUDINA 150 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601120035",
+    "name": "RIBAVIRINA 250 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601120051",
+    "name": "ADEFOVIR 10MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601120060",
+    "name": "ENTECAVIR 0,5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601120078",
+    "name": "TENOFOVIR 300 MG (1000MG)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601130014",
+    "name": "TOXINA BOTULINICA TIPO A (H) 100 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601130022",
+    "name": "TOXINA BOTULINICA TIPO A (H) 500 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601140010",
+    "name": "ACITRETINA 10 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601140028",
+    "name": "ACITRETINA 25 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601140036",
+    "name": "ISOTRETINOINA 10 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601140044",
+    "name": "ISOTRETINOINA 20 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601150015",
+    "name": "COMPLEMENTO ALIMENTAR P/ PACIENTE FENILCETONURICO MAIOR DE 1 ANO - FORMULA DE AMINO-ACIDOS ISENTA DE FENILALANINA  (LATA - POR GRAMA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601150023",
+    "name": "COMPLEMENTO ALIMENTAR P/ PACIENTE FENILCETONURICO MENOR DE 1 ANO - FORMULA DE AMINO-ACIDOS ISENTA DE FENILALANINA (LATA - POR GRAMA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601160010",
+    "name": "FILGRASTIM  (I) 300 MCG INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601160029",
+    "name": "LENOGRASTIM (I) 33,6 MUI INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601160037",
+    "name": "MOLGRAMOSTIM (I) 300 MCG INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170016",
+    "name": "CODEINA 3 MG/ML SOLUCAO ORAL (POR FRASCO DE 120 ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170024",
+    "name": "CODEINA 30 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170032",
+    "name": "CODEINA 30 MG/ML (POR AMPOLA DE 2 ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170040",
+    "name": "CODEINA 60 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170059",
+    "name": "METADONA 10 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170067",
+    "name": "METADONA 10 MG/ML INJETAVEL (POR AMPOLA DE 1 ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170075",
+    "name": "METADONA 5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170083",
+    "name": "MORFINA  DE LIBERACAO CONTROLADA 100 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170091",
+    "name": "MORFINA  DE LIBERACAO CONTROLADA 60 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170105",
+    "name": "MORFINA 10 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170113",
+    "name": "MORFINA 10 MG/ML (POR AMPOLA DE 1 ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170121",
+    "name": "MORFINA 10 MG/ML SOLUCAO ORAL (POR FRASCO DE 60 ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170130",
+    "name": "MORFINA 30 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601170148",
+    "name": "MORFINA DE LIBERACAO CONTROLADA 30 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180011",
+    "name": "ATORVASTATINA (J) 10 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180020",
+    "name": "ATORVASTATINA (J) 20 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180038",
+    "name": "BEZAFIBRATO (K) 200 MG (POR DRAGEA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180046",
+    "name": "BEZAFIBRATO (K) 400 MG (POR DRAGEA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180054",
+    "name": "CIPROFIBRATO (K) 100 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180062",
+    "name": "ETOFIBRATO (K) 500 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180070",
+    "name": "FENOFIBRATO (K) 200 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180089",
+    "name": "FENOFIBRATO (K) 250 MG LIBERACAO RETARDADA (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180097",
+    "name": "FLUVASTATINA (J) 20 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180100",
+    "name": "FLUVASTATINA (J) 40 MG  (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180119",
+    "name": "GENFIBROZILA (K) 600 MG (POR CAPSULA OU COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180127",
+    "name": "GENFIBROZILA (K) 900 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180135",
+    "name": "LOVASTATINA (J) 10 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180143",
+    "name": "LOVASTATINA (J) 20 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180151",
+    "name": "LOVASTATINA (J) 40 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180160",
+    "name": "PRAVASTATINA (J) 10 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180178",
+    "name": "PRAVASTATINA (J) 20MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180186",
+    "name": "PRAVASTATINA (J) 40 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180194",
+    "name": "SINVASTATINA (J) 10 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180208",
+    "name": "SINVASTATINA (J) 20 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180216",
+    "name": "SINVASTATINA (J) 40 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180224",
+    "name": "SINVASTATINA (J) 5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601180232",
+    "name": "SINVASTATINA (J) 80 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601190017",
+    "name": "ALFAINTERFERONA 2B 10.000.000 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601190025",
+    "name": "ALFAINTERFERONA 2B 3.000.000 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601190033",
+    "name": "ALFAINTERFERONA 2B 5.000.000 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601190041",
+    "name": "ALFAPEGINTERFERON 2B 80MCG POR FRASCO AMPOLA",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601190050",
+    "name": "ALFAPEGINTERFERON 2A 180MCG POR SERINGA PREENCHIDA",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601190068",
+    "name": "BETAINTERFERONA (L) 1A 12.000.000 UI (44 MCG) INJETAVEL (POR SERINGA PREENCHIDA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601190076",
+    "name": "BETAINTERFERONA (L) 1A 6.000.000 UI (22 MCG) INJETAVEL (POR SERINGA PREENCHIDA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601190084",
+    "name": "BETAINTERFERONA (L) 1A 6.000.000 UI (30 MCG) INJETAVEL (POR FRASCO-AMPOLA OU SERINGA PREENCHIDA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601190092",
+    "name": "BETAINTERFERONA (L) 1B 9.600.000 UI (300MCG) INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601190106",
+    "name": "GLATIRAMER 20 MG INJETAVEL (POR FRASCO-AMPOLA  OU SERINGA PREENCHIDA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601190114",
+    "name": "ALFAPEGINTERFERON 2B 100MCG POR FRASCO-AMPOLA",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601190122",
+    "name": "ALFAPEGINTERFERON 2B 120MCG POR FRASCO-AMPOLA",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200012",
+    "name": "AZATIOPRINA 50 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200020",
+    "name": "CICLOSPORINA 10 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200039",
+    "name": "CICLOSPORINA 100 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200047",
+    "name": "CICLOSPORINA 100 MG/ML SOLUCAO ORAL (POR FRASCO DE 50 ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200055",
+    "name": "CICLOSPORINA 25 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200063",
+    "name": "CICLOSPORINA 50 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200071",
+    "name": "LEFLUNOMIDA 20 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200080",
+    "name": "METOTREXATO 25 MG/ML INJETAVEL (POR AMPOLA DE 2 ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200098",
+    "name": "METOTREXATO 25 MG/ML INJETAVEL (POR AMPOLA DE 20 ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200101",
+    "name": "MICOFENOLATO DE MOFETILA (M) 500 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200110",
+    "name": "MICOFENOLATO DE SODIO (M) 180 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200128",
+    "name": "MICOFENOLATO DE SODIO (M) 360 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200136",
+    "name": "SIROLIMO 1 MG (POR DRAGEA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200144",
+    "name": "SIROLIMO 1MG/ML SOLUCAO ORAL (POR FRASCO DE 60ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200152",
+    "name": "SIROLIMO 2 MG (POR DRAGEA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200160",
+    "name": "TACROLIMO 1 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200179",
+    "name": "TACROLIMO 5 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200187",
+    "name": "CICLOFOSFAMIDA 50 MG (POR DRAGEA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200195",
+    "name": "EVEROLIMO 0,5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601200209",
+    "name": "EVEROLIMO 1 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601210018",
+    "name": "IMUNOGLOBULINA ANTI-HEPATITE B 100 UI INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601210026",
+    "name": "IMUNOGLOBULINA ANTI-HEPATITE B 1000 UI INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601210034",
+    "name": "IMUNOGLOBULINA ANTI-HEPATITE B 500 UI INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601210042",
+    "name": "IMUNOGLOBULINA HUMANA 0,5 G INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601210050",
+    "name": "IMUNOGLOBULINA HUMANA 1,0 G INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601210069",
+    "name": "IMUNOGLOBULINA HUMANA 2,5 G INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601210077",
+    "name": "IMUNOGLOBULINA HUMANA 3,0 G INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601210085",
+    "name": "IMUNOGLOBULINA HUMANA 5,0 G INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601210093",
+    "name": "IMUNOGLOBULINA HUMANA 6,0 G INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601220013",
+    "name": "DONEPEZILA (N) 10MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601220021",
+    "name": "DONEPEZILA (N) 5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601220030",
+    "name": "RIVASTIGMINA (N) 1,5 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601220048",
+    "name": "RIVASTIGMINA (N) 2,0 MG/ML SOLUCAO ORAL (POR FRASCO DE 120ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601220056",
+    "name": "RIVASTIGMINA (N) 3 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601220064",
+    "name": "RIVASTIGMINA (N) 4,5 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601220072",
+    "name": "RIVASTIGMINA (N) 6 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601220080",
+    "name": "GALANTAMINA (N) 8 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601220099",
+    "name": "GALANTAMINA (N) 16 MG (POR CÁPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601220102",
+    "name": "GALANTAMINA (N) 24MG (POR CÁPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601230019",
+    "name": "ALFADORNASE 2,5 MG (POR AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601240014",
+    "name": "DEFERIPRONA 500 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601240022",
+    "name": "DESFERROXAMINA 500 MG INJETAVEL (POR FRASCO- AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601240030",
+    "name": "DEFERASIROX 125 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601240049",
+    "name": "DEFERASIROX   250 MG  (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601240057",
+    "name": "DEFERASIROX 500 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601250010",
+    "name": "PENICILAMINA 250 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601250028",
+    "name": "SEVELAMER 400 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601250036",
+    "name": "SEVELAMER 800 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601260015",
+    "name": "DESMOPRESSINA 0,1 MG/ML APLICACAO NASAL (POR FRASCO DE 2,5 ML)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601270010",
+    "name": "GOSSERELINA (O) 3,60 MG INJETAVEL (POR SERINGA PREENCHIDA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601270029",
+    "name": "GOSSERRELINA (P) 10,80 MG INJETAVEL (POR SERINGA PREENCHIDA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601270037",
+    "name": "LEUPRORRELINA (O) 3,75 MG INJETAVEL ( POR FRASCO AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601270045",
+    "name": "LEUPRORRELINA (P) 11,25 MG INJETAVEL (POR SERINGA PREENCHIDA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601270053",
+    "name": "TRIPTORRELINA (O) 3,75 MG INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601280016",
+    "name": "CIPROTERONA 50 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601280024",
+    "name": "FLUTAMIDA 250 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601290011",
+    "name": "DANAZOL 100 MG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601300017",
+    "name": "OCTREOTIDA  LAR 10 MG/ML INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601300025",
+    "name": "OCTREOTIDA  LAR 30 MG/ML INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601300033",
+    "name": "OCTREOTIDA 0,1 MG/ML INJETAVEL (POR AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601300041",
+    "name": "OCTREOTIDA LAR 20 MG/ML INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601310012",
+    "name": "BROMOCRIPTINA 2,5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601310020",
+    "name": "CABERGOLINA 0,5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601320018",
+    "name": "SOMATROPINA 12 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601320026",
+    "name": "SOMATROPINA 4 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601330013",
+    "name": "LEVOTIROXINA 100 MCG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601330021",
+    "name": "LEVOTIROXINA 150 MCG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601330030",
+    "name": "LEVOTIROXINA 25 MCG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601330048",
+    "name": "LEVOTIROXINA 50 MCG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601340019",
+    "name": "FLUDROCORTISONA 0,1 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350014",
+    "name": "ALENDRONATO (Q) 10 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350022",
+    "name": "ALENDRONATO (Q) 70 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350030",
+    "name": "ALFACALCIDOL (R) 0,25 MCG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350049",
+    "name": "ALFACALCIDOL (R) 1,0 MCG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350057",
+    "name": "CALCITONINA 100 UI INJETAVEL (POR AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350065",
+    "name": "CALCITONINA 200 UI SPRAY NASAL (POR FRASCO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350073",
+    "name": "CALCITRIOL (R) 0,25 MCG (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350081",
+    "name": "CALCITRIOL 1,0 MCG INJETAVEL (POR AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350090",
+    "name": "PAMIDRONATO (Q) 30MG INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350103",
+    "name": "PAMIDRONATO (Q) 60 MG INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350111",
+    "name": "PAMIDRONATO (Q) 90 MG INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350120",
+    "name": "RALOXIFENO 60 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350138",
+    "name": "RISEDRONATO (Q) 35 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601350146",
+    "name": "RISEDRONATO (Q) 5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601360010",
+    "name": "IMIGLUCERASE 200 UI INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601360028",
+    "name": "PANCRELIPASE 10.000 UI (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601360036",
+    "name": "PANCRELIPASE 12.000 UI (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601360044",
+    "name": "PANCRELIPASE 18.000 UI (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601360052",
+    "name": "PANCRELIPASE 20.000 UI (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601360060",
+    "name": "PANCRELIPASE 25000 UI (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0601360079",
+    "name": "PANCRELIPASE 4500 UI (POR CAPSULA)",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0602010012",
+    "name": "ACIDO TRANEXAMICO 500 MG - POR COMPRIMIDO EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010020",
+    "name": "COMPLEXO PROTROMBINICO FRASCO DE 500 A 600 UI EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010039",
+    "name": "COMPLEXO PROTROMBINICO PARCIALMENTE ATIVADO FRASCO DE 1000 UI EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010047",
+    "name": "COMPLEXO PROTROMBINICO PARCIALMENTE ATIVADO FRASCO DE 500 UI EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010055",
+    "name": "CONCENTRADO DE FATOR IX FRASCO DE 250 UI EM COGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010063",
+    "name": "CONCENTRADO DE FATOR IX FRASCO DE 500 UI EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010071",
+    "name": "CONCENTRADO DE FATOR VII ATIVADO (RECOMBINANTE) FRASCO DE 120 KUI EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010080",
+    "name": "CONCENTRADO DE FATOR VII ATIVADO (RECOMBINANTE) FRASCO DE 240 KUI EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010098",
+    "name": "CONCENTRADO DE FATOR VII ATIVADO (RECOMBINANTE) FRASCO DE 60 KUI EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010110",
+    "name": "CONCENTRADO DE FATOR VIII P/ TRATAMENTO DA DOENCA VAN WILLEBRAND FRASCO DE 500 UI EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010128",
+    "name": "CONCENTRADO FATOR VIII DERIVADO DE PLASMA HUMANO 250 UI EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010136",
+    "name": "DESMOPRESSINA (DDAVP) - FRASCO AMPOLA DE 4 MCG/ML EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010144",
+    "name": "SELANTE DE FIBRINA FRASCO DE 0,5 ML EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010152",
+    "name": "SELANTE DE FIBRINA FRASCO DE 1 ML EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
+  },
+  {
+    "code": "0602010160",
+    "name": "CONCENTRADO DE FATOR VIII - FRASCO DE 500 UI EM COAGULOPATIAS HEREDITARIAS",
+    "lastSeenTable": "2018-01"
   },
   {
     "code": "0603010016",
@@ -15808,16 +19035,46 @@
     "name": "CICLOSPORINA 50 MG INJETAVEL (POR FRASCO-AMPOLA)"
   },
   {
+    "code": "0603020062",
+    "name": "IMUNOGLOBULINA EQUINA ANTITIMOCITOS HUMANOS 100 MG INJETAVEL (POR FRASCO-AMPOLA 0,5 ML)",
+    "lastSeenTable": "2020-01"
+  },
+  {
+    "code": "0603020070",
+    "name": "IMUNOGLOBULINA OBTIDA/COELHO ANTITIMOCITOS 200 MG INJETAVEL (POR FRASCO-AMPOLA DE 10 ML)",
+    "lastSeenTable": "2020-01"
+  },
+  {
+    "code": "0603020089",
+    "name": "IMUNOGLOBULINA OBTIDA/COELHO ANTITIMOCITOS HUMANOS 100 MG INJETAVEL (POR FRASCO-AMPOLA 0,5 ML)",
+    "lastSeenTable": "2020-01"
+  },
+  {
     "code": "0603020097",
     "name": "IMUNOGLOBULINA OBTIDA/COELHO ANTITIMÓCITOS HUMANOS 25 MG INJETÁVEL (POR FRASCO-AMPOLA)"
+  },
+  {
+    "code": "0603020100",
+    "name": "MUROMONABE CD3 5 MG INJETAVEL (POR AMPOLA DE 0,5 ML)",
+    "lastSeenTable": "2021-01"
   },
   {
     "code": "0603030017",
     "name": "IMUNOGLOBULINA ANTI-RHO (D) (FRASCO AMPOLA DE 2 ML E 1.250 UI)"
   },
   {
+    "code": "0603030025",
+    "name": "IMUNOGLOBULINA G 250 MG INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2020-01"
+  },
+  {
     "code": "0603030033",
     "name": "IMUNOGLOBULINA HUMANA 1,0 G INJETAVEL (POR FRASCO)"
+  },
+  {
+    "code": "0603030041",
+    "name": "IMUNOGLOBULINA HUMANA 320 MG INJETAVEL(POR FRASCO)",
+    "lastSeenTable": "2020-01"
   },
   {
     "code": "0603040012",
@@ -15848,6 +19105,11 @@
     "name": "ALTEPLASE 50MG INJETÁVEL (POR FRASCO AMPOLA)"
   },
   {
+    "code": "0603050077",
+    "name": "TENECTEPLASE- TNK 30 MG INJETÁVEL ( POR FRASCO AMPOLA)",
+    "lastSeenTable": "2021-01"
+  },
+  {
     "code": "0603050085",
     "name": "TENECTEPLASE - TNK 40 MG INJETÁVEL (POR FRASCO AMPOLA)"
   },
@@ -15876,6 +19138,26 @@
     "name": "ALBUMINA HUMANA 20 POR CENTO (FRASCO-AMPOLA DE 50 ML)"
   },
   {
+    "code": "0603070027",
+    "name": "CONCENTRADO DE COMPLEXO PROTROMBINICO 500UI",
+    "lastSeenTable": "2021-01"
+  },
+  {
+    "code": "0603070035",
+    "name": "CONCENTRADO DE COMPLEXO PROTROMBINICO ATIVADO 250 UI",
+    "lastSeenTable": "2021-01"
+  },
+  {
+    "code": "0603070043",
+    "name": "CONCENTRADO DE FATOR IX DERIVADO DE PLASMA HUMANO 500 UI",
+    "lastSeenTable": "2021-01"
+  },
+  {
+    "code": "0603070051",
+    "name": "CONCENTRADO FATOR VIII - FRASCO DE 250 UI",
+    "lastSeenTable": "2021-01"
+  },
+  {
     "code": "0603080014",
     "name": "BASILIXIMABE 20 MG INJETAVEL (POR FRASCO-AMPOLA) P/ TRANSPLANTE"
   },
@@ -15897,15 +19179,31 @@
   },
   {
     "code": "0603080065",
-    "name": "DACLIZUMABE 5 MG/ ML INJETAVEL P/ TRANSPLANTE (POR FRASCO DE 5 ML)"
+    "name": "DACLIZUMABE 5 MG/ ML INJETAVEL P/ TRANSPLANTE (POR FRASCO DE 5 ML)",
+    "lastSeenTable": "2026-01"
+  },
+  {
+    "code": "0603080073",
+    "name": "IMUNOGLOBULINA EQUINA ANTILINFOCITOS 100 MG INJETAVEL P/TRANSPLANTE (POR FRASCO-AMPOLA 0,5 ML)",
+    "lastSeenTable": "2020-01"
   },
   {
     "code": "0603080081",
     "name": "IMUNOGLOBULINA HUMANA ANTI-HEPATITE B (POR DOSE DE 500 UI)"
   },
   {
+    "code": "0603080090",
+    "name": "IMUNOGLOBULINA OBTIDA/COELHO ANTITIMOCITOS HUMANOS 100 MG INJETAVEL P/ TRANSPLANTE (POR FRASCO-AMPOLA 0,5 ML)",
+    "lastSeenTable": "2020-01"
+  },
+  {
     "code": "0603080103",
     "name": "IMUNOGLOBULINA OBTIDA/COELHO ANTITIMÓCITOS HUMANOS 25 MG INJETÁVEL P/TRANSPLANTE (POR FRASCO-AMPOLA)"
+  },
+  {
+    "code": "0603080111",
+    "name": "IMUNOGLOBULINA OBTIDA/COELHOANTITIMOCITOS HUMANOS 200 MG INJETAVEL P/ TRANSPLANTE (POR FRASCO-AMPOLA 10ML)",
+    "lastSeenTable": "2020-01"
   },
   {
     "code": "0603080120",
@@ -15918,6 +19216,11 @@
   {
     "code": "0603080146",
     "name": "MICOFENOLATO DE SODIO 360MG P/ TRANSPLANTE (POR COMPRIMIDO)"
+  },
+  {
+    "code": "0603080154",
+    "name": "MUROMONABE CD3 5 MG INJETAVEL P/TRANSPLANTE (POR FRASCO AMPOLA DE 0,5 ML)",
+    "lastSeenTable": "2021-01"
   },
   {
     "code": "0603080162",
@@ -16036,6 +19339,11 @@
     "name": "BROMOCRIPTINA 2,5 MG (POR COMPRIMIDO)"
   },
   {
+    "code": "0604030029",
+    "name": "BROMOCRIPTINA 5 MG (POR COMPRIMIDO OU CÁPSULA DE LIBERAÇÃO RETARDADA",
+    "lastSeenTable": "2014-01"
+  },
+  {
     "code": "0604030037",
     "name": "CABERGOLINA 0,5 MG (POR COMPRIMIDO)"
   },
@@ -16078,6 +19386,11 @@
   {
     "code": "0604040075",
     "name": "FORMOTEROL 6MCG + BUDESONIDA 200 MCG (POR CAPSULA INALANTE)"
+  },
+  {
+    "code": "0604040083",
+    "name": "SALBUTAMOL 100 MCG AEROSSOL (POR FRASCO DE 200 DOSES)",
+    "lastSeenTable": "2014-01"
   },
   {
     "code": "0604040091",
@@ -16256,6 +19569,11 @@
     "name": "RIVASTIGMINA 18 MG ADESIVO TRANSDÉRMICO"
   },
   {
+    "code": "0604140010",
+    "name": "DANAZOL 50 MG (POR CAPSULA)",
+    "lastSeenTable": "2014-01"
+  },
+  {
     "code": "0604140029",
     "name": "DANAZOL 100 MG (POR CAPSULA)"
   },
@@ -16278,6 +19596,11 @@
   {
     "code": "0604160020",
     "name": "PAMIDRONATO 60 MG INJETAVEL (POR FRASCO-AMPOLA)"
+  },
+  {
+    "code": "0604160038",
+    "name": "PAMIDRONATO 90 MG INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2014-01"
   },
   {
     "code": "0604160046",
@@ -16318,6 +19641,11 @@
   {
     "code": "0604180020",
     "name": "CLOBAZAM 20 MG (POR COMPRIMIDO)"
+  },
+  {
+    "code": "0604180039",
+    "name": "NITRAZEPAM 5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0604190018",
@@ -16372,12 +19700,22 @@
     "name": "CLOZAPINA 100 MG (POR COMPRIMIDO)"
   },
   {
+    "code": "0604240015",
+    "name": "IMIGLUCERASE 200 U INJETAVEL (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2022-01"
+  },
+  {
     "code": "0604240023",
     "name": "ALFATALIGLICERASE 200 U INJETÁVEL (POR FRASCO AMPOLA)"
   },
   {
     "code": "0604240031",
     "name": "IMIGLUCERASE 400 U INJETÁVEL (POR FRASCO-AMPOLA)"
+  },
+  {
+    "code": "0604240040",
+    "name": "ALFAVELAGLICERASE 200 U INJETAVEL (POR FRASCO AMPOLA)",
+    "lastSeenTable": "2022-01"
   },
   {
     "code": "0604240058",
@@ -16414,6 +19752,11 @@
   {
     "code": "0604250010",
     "name": "FILGRASTIM 300 MCG INJETAVEL (POR FRASCO AMPOLA OU SERINGA PREENCHIDA)"
+  },
+  {
+    "code": "0604250029",
+    "name": "MOLGRAMOSTIM 300 MCG INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2016-01"
   },
   {
     "code": "0604250037",
@@ -16472,6 +19815,31 @@
     "name": "ÁCIDO NICOTÍNICO 750 MG (POR COMPRIMIDO DE LIBERAÇÃO PROLONGADA)"
   },
   {
+    "code": "0604280017",
+    "name": "BECLOMETASONA 200 MCG (POR CAPSULA INALANTE)",
+    "lastSeenTable": "2014-01"
+  },
+  {
+    "code": "0604280025",
+    "name": "BECLOMETASONA 200 MCG PO INALANTE (POR FRASCO  DE 100 DOSES)",
+    "lastSeenTable": "2014-01"
+  },
+  {
+    "code": "0604280033",
+    "name": "BECLOMETASONA 250 MCG SPRAY (POR FRASCO  DE 200 DOSES)",
+    "lastSeenTable": "2014-01"
+  },
+  {
+    "code": "0604280041",
+    "name": "BECLOMETASONA 400 MCG  (POR CAPSULA INALANTE)",
+    "lastSeenTable": "2014-01"
+  },
+  {
+    "code": "0604280050",
+    "name": "BECLOMETASONA 400 MCG PO INALANTE (POR FRASCO DE 100 DOSES)",
+    "lastSeenTable": "2014-01"
+  },
+  {
     "code": "0604280068",
     "name": "BUDESONIDA 200 MCG (POR CAPSULA INALANTE)"
   },
@@ -16508,6 +19876,11 @@
     "name": "OCTREOTIDA 0,1 MG/ML INJETAVEL (POR AMPOLA)"
   },
   {
+    "code": "0604290055",
+    "name": "OCTREOTIDA 0,5 MG/ML INJETAVEL (POR AMPOLA)",
+    "lastSeenTable": "2014-01"
+  },
+  {
     "code": "0604290063",
     "name": "LANREOTIDA 60 MG INJETÁVEL (POR SERINGA PREENCHIDA)"
   },
@@ -16518,6 +19891,26 @@
   {
     "code": "0604290080",
     "name": "LANREOTIDA 120 MG INJETÁVEL (POR SERINGA PREENCHIDA)"
+  },
+  {
+    "code": "0604300018",
+    "name": "IMUNOGLOBULINA ANTI-HEPATITE B 100 UI INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604300026",
+    "name": "IMUNOGLOBULINA ANTI-HEPATITE B 500 UI INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604300034",
+    "name": "IMUNOGLOBULINA ANTI-HEPATITE B 600 UI INJETAVEL (POR FRASCO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604300042",
+    "name": "IMUNOGLOBULINA ANTI-HEPATITE B 1000 UI INJETÁVEL (POR FRASCO)",
+    "lastSeenTable": "2022-01"
   },
   {
     "code": "0604310013",
@@ -16578,6 +19971,11 @@
   {
     "code": "0604320094",
     "name": "SIROLIMO 2 MG (POR DRAGEA)"
+  },
+  {
+    "code": "0604320108",
+    "name": "SIROLIMO 1MG/ML SOLUCAO ORAL (POR FRASCO DE 60ML)",
+    "lastSeenTable": "2014-01"
   },
   {
     "code": "0604320116",
@@ -16860,6 +20258,26 @@
     "name": "ALFAINTERFERONA 2B 10.000.000 UI INJETAVEL (POR FRASCO-AMPOLA)"
   },
   {
+    "code": "0604390041",
+    "name": "ALFAPEGINTERFERONA 2A 180MCG (POR SERINGA PREENCHIDA)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604390050",
+    "name": "ALFAPEGINTERFERONA 2B 80MCG (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604390068",
+    "name": "ALFAPEGINTERFERONA 2B 100MCG (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604390076",
+    "name": "ALFAPEGINTERFERONA 2B 120MCG (POR FRASCO-AMPOLA)",
+    "lastSeenTable": "2022-01"
+  },
+  {
     "code": "0604390084",
     "name": "BETAINTERFERONA 1A 6.000.000 UI (22 MCG) INJETAVEL (POR SERINGA PREENCHIDA)"
   },
@@ -16902,6 +20320,41 @@
   {
     "code": "0604440014",
     "name": "ALFADORNASE 2,5 MG (POR AMPOLA)"
+  },
+  {
+    "code": "0604450010",
+    "name": "RIBAVIRINA 250 MG (POR CAPSULA)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604460015",
+    "name": "ADEFOVIR 10 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2017-01"
+  },
+  {
+    "code": "0604460023",
+    "name": "ENTECAVIR 0,5 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604460031",
+    "name": "LAMIVUDINA 10 MG/ML SOLUCAO ORAL (FRASCO DE 240 ML)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604460040",
+    "name": "LAMIVUDINA 150 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604460058",
+    "name": "TENOFOVIR 300 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604460066",
+    "name": "ENTECAVIR 1.0 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2022-01"
   },
   {
     "code": "0604470010",
@@ -17032,6 +20485,11 @@
     "name": "METOTREXATO 25 MG/ML INJETAVEL (POR AMPOLA DE 2 ML)"
   },
   {
+    "code": "0604530048",
+    "name": "METOTREXATO 25 MG/ML INJETAVEL (POR AMPOLA DE 20 ML)",
+    "lastSeenTable": "2015-01"
+  },
+  {
     "code": "0604540019",
     "name": "RILUZOL 50 MG (POR COMPRIMIDO)"
   },
@@ -17090,6 +20548,26 @@
   {
     "code": "0604580029",
     "name": "PANCREATINA 25000 UI (POR CAPSULA)"
+  },
+  {
+    "code": "0604580037",
+    "name": "PANCRELIPASE 4500 UI (POR CAPSULA)",
+    "lastSeenTable": "2016-01"
+  },
+  {
+    "code": "0604580045",
+    "name": "PANCRELIPASE 12.000 UI (POR CAPSULA)",
+    "lastSeenTable": "2016-01"
+  },
+  {
+    "code": "0604580053",
+    "name": "PANCRELIPASE 18.000 UI (POR CAPSULA)",
+    "lastSeenTable": "2016-01"
+  },
+  {
+    "code": "0604580061",
+    "name": "PANCRELIPASE 20.000 UI (POR CAPSULA)",
+    "lastSeenTable": "2016-01"
   },
   {
     "code": "0604590016",
@@ -17164,6 +20642,21 @@
     "name": "TRIENTINA 250 MG (POR CÁPSULA)"
   },
   {
+    "code": "0604640013",
+    "name": "BOCEPREVIR 200 MG (POR CÁPSULA)",
+    "lastSeenTable": "2016-01"
+  },
+  {
+    "code": "0604640021",
+    "name": "TELAPREVIR 375 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2016-01"
+  },
+  {
+    "code": "0604640030",
+    "name": "SIMEPREVIR 150 MG (POR CÁPSULA)",
+    "lastSeenTable": "2020-01"
+  },
+  {
     "code": "0604650019",
     "name": "BIMATOPROSTA 0,3 MG/ML SOLUÇÃO OFTÁLMICA (POR FRASCO DE 3 ML)"
   },
@@ -17228,8 +20721,17 @@
     "name": "USTEQUINUMABE 45 MG/0,5ML SOLUÇÂO INJETÀVEL (POR SERINGA PREENCHIDA)"
   },
   {
+    "code": "0604690045",
+    "name": "RISANQUIZUMABE 75 MG/0,83ML -SOLUÇÃO INJETÁVEL",
+    "lastSeenTable": "2026-01"
+  },
+  {
     "code": "0604690053",
     "name": "RISANQUIZUMABE 150 MG/ML CANETA APLICADORA COM 1 ML"
+  },
+  {
+    "code": "0604690061",
+    "name": "USTEQUINUMABE 45 MG/0,5ML SOLUÇÃO INJETÁVEL (POR SERINGA PREENCHIDA) (BIOSSIMILAR A)"
   },
   {
     "code": "0604700016",
@@ -17280,6 +20782,46 @@
     "name": "BOSENTANA 125MG (POR COMRIMIDO REVESTIDO)"
   },
   {
+    "code": "0604760019",
+    "name": "SOFOSBUVIR 400 MG (POR COMPRIMIDO REVESTIDO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604760027",
+    "name": "DACLATASVIR 60 MG (POR COMPRIMIDO REVESTIDO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604760035",
+    "name": "DACLATASVIR 30 MG (POR COMPRIMIDO REVESTIDO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604760043",
+    "name": "OMBITASVIR - 12,5 MG/VERUPREVIR 75 MG/ RITONAVIR 50 MG POR COMPRIMIDO (COM 02 COMPRIMIDOS REVESTIDOS) + DASABUVIR 250 MG POR COMPRIMIDO (COM 02 COMPRIMIDOS REVESTIDOS).",
+    "lastSeenTable": "2020-01"
+  },
+  {
+    "code": "0604760051",
+    "name": "LEDIPASVIR 90 MG / SOFOSBUVIR 400 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604760060",
+    "name": "ELBASVIR 50 MG / GRAZOPREVIR 100 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604760078",
+    "name": "GLECAPREVIR 100MG + PIBRENTASVIR 40 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0604760086",
+    "name": "SOFOSBUVIR 400MG + VELPATASVIR 100 MG (POR COMPRIMIDO)",
+    "lastSeenTable": "2022-01"
+  },
+  {
     "code": "0604770014",
     "name": "CINACALCETE 30 MG (POR COMPRIMIDO)"
   },
@@ -17294,6 +20836,11 @@
   {
     "code": "0604780010",
     "name": "INSULINA ANÁLOGA DE AÇÃO RÁPIDA 100 UI/ML (TUBETES COM SISTEMAS DE APLICAÇÃO REUTILIZÁVEL)"
+  },
+  {
+    "code": "0604780028",
+    "name": "INSULINA ANÁLOGA DE AÇÃO RÁPIDA 100 UI/ML (TUBETES DE 3ML) (CRIANÇAS MENORES DE 4 ANOS E GRÁVIDAS)",
+    "lastSeenTable": "2024-01"
   },
   {
     "code": "0604780036",
@@ -17356,6 +20903,18 @@
     "name": "MEPOLIZUMABE 100 MG/ML SOLUÇÃO INJETÁVEL"
   },
   {
+    "code": "0604840063",
+    "name": "BENRALIZUMABE 30 MG/ML SOLUÇÃO INJETÁVEL (POR SERINGA PREENCHIDA)"
+  },
+  {
+    "code": "0604840071",
+    "name": "OMALIZUMABE 75 MG SOLUÇÃO INJETÁVEL"
+  },
+  {
+    "code": "0604840098",
+    "name": "MEPOLIZUMABE 40 MG/0,4 ML SOLUÇÃO INJETÁVEL"
+  },
+  {
     "code": "0604850018",
     "name": "BROMETO DE UMECLIDÍNIO 62,5 MCG + TRIFENATATO DE VILANTEROL 25 MCG (PÓ INALANTE)"
   },
@@ -17402,6 +20961,50 @@
   {
     "code": "0604880014",
     "name": "ROMIPLOSTIM 250 MCG PÓ PARA SOLUÇÃO INJETÁVEL (POR FRASCO)"
+  },
+  {
+    "code": "0605010030",
+    "name": "MESILATO DE IMATINIBE 100 MG (POR COMPRIMIDO)"
+  },
+  {
+    "code": "0605010048",
+    "name": "TRASTUZUMABE (POR MG)"
+  },
+  {
+    "code": "0605010056",
+    "name": "DASATINIBE 20 MG (POR COMPRIMIDO)"
+  },
+  {
+    "code": "0605010064",
+    "name": "DASATINIBE 100 MG (POR COMPRIMIDO)"
+  },
+  {
+    "code": "0605010072",
+    "name": "NILOTINIBE 200 MG (POR CÁPSULA)"
+  },
+  {
+    "code": "0605010080",
+    "name": "MESILATO DE IMATINIBE 400 MG (POR COMPRIMIDO)"
+  },
+  {
+    "code": "0605010099",
+    "name": "PERTUZUMABE (POR MG)"
+  },
+  {
+    "code": "0605010137",
+    "name": "RITUXIMABE (POR MG)"
+  },
+  {
+    "code": "0605010145",
+    "name": "ACETATO DE LANREOTIDA 120 MG (SERINGA PREENCHIDA)"
+  },
+  {
+    "code": "0605010153",
+    "name": "CLORIDRATO DE PAZOPANIBE 200 MG (POR COMPRIMIDO"
+  },
+  {
+    "code": "0605010161",
+    "name": "CLORIDRATO DE PAZOPANIBE 400 MG (POR COMPRIMIDO)"
   },
   {
     "code": "0701010010",
@@ -17956,6 +21559,16 @@
     "name": "PRÓTESE OCULAR"
   },
   {
+    "code": "0701040076",
+    "name": "ÓCULOS MONOFOCAL - PROJETO OLHAR BRASIL",
+    "lastSeenTable": "2016-01"
+  },
+  {
+    "code": "0701040084",
+    "name": "ÓCULOS BIFOCAL - PROJETO OLHAR BRASIL",
+    "lastSeenTable": "2016-01"
+  },
+  {
     "code": "0701040092",
     "name": "ÓCULOS COM LENTE FILTRANTE PARA ALBINOS"
   },
@@ -18080,8 +21693,50 @@
     "name": "APARELHO ORTODÔNTICO FIXO"
   },
   {
+    "code": "0701070188",
+    "name": "PRÓTESE TOTAL MAXILAR EM FLUXO DIGITAL"
+  },
+  {
+    "code": "0701070196",
+    "name": "PRÓTESE TOTAL MANDIBULAR EM FLUXO DIGITAL"
+  },
+  {
+    "code": "0701070200",
+    "name": "PRÓTESE PARCIAL MAXILAR REMOVÍVEL EM FLUXO DIGITAL"
+  },
+  {
+    "code": "0701070218",
+    "name": "PRÓTESE PARCIAL MANDIBULAR REMOVÍVEL EM FLUXO DIGITAL"
+  },
+  {
+    "code": "0701070226",
+    "name": "PRÓTESE PARCIAL REMOVÍVEL TEMPORÁRIA EM FLUXO DIGITAL"
+  },
+  {
+    "code": "0701070234",
+    "name": "PRÓTESES CORONÁRIAS/INTRARRADICULARES FIXAS/ADESIVAS/SOBRE IMPLANTE (POR ELEMENTO) EM FLUXO DIGITAL"
+  },
+  {
+    "code": "0701070242",
+    "name": "PRÓTESE PARCIAL FIXA, PROTOCOLO E OVERDENTURE SOBRE IMPLANTE EM FLUXO DIGITAL (POR ARCADA"
+  },
+  {
+    "code": "0701070250",
+    "name": "PLACA OCLUSAL EM FLUXO DIGITAL"
+  },
+  {
+    "code": "0701080019",
+    "name": "APARELHO ORTODONTICO EM ANOMALIAS CRANIO-FACIAIS",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0701080027",
     "name": "PRÓTESE AURICULAR"
+  },
+  {
+    "code": "0701080035",
+    "name": "PRÓTESE EXTENSA / COMBINADA (2/3 DA FACE)",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0701080043",
@@ -18106,6 +21761,11 @@
   {
     "code": "0701080094",
     "name": "PRÓTESE REMOVÍVEL EM PACIENTES COM ANOMALIAS CRÂNIO E BUCOMAXILOFACIAL"
+  },
+  {
+    "code": "0701080108",
+    "name": "PROTESE ZIGOMATICA",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0701080116",
@@ -18300,6 +21960,11 @@
     "name": "CATETER VENTRICULAR ISOLADO"
   },
   {
+    "code": "0702010073",
+    "name": "CLIP DE COBALTO DEFINITIVO P/ ANEURISMA",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0702010081",
     "name": "CONECTOR EM Y / RETO"
   },
@@ -18322,6 +21987,11 @@
   {
     "code": "0702010138",
     "name": "ESPIRAIS DE PLATINA"
+  },
+  {
+    "code": "0702010146",
+    "name": "FIO GUIA HIDROFILICO 0,035",
+    "lastSeenTable": "2010-01"
   },
   {
     "code": "0702010154",
@@ -18364,6 +22034,11 @@
     "name": "RESERVATÓRIO COM CATETER PARA INFUSÃO DE FÁRMACOS"
   },
   {
+    "code": "0702020010",
+    "name": "AUTOMOBILIZADOR",
+    "lastSeenTable": "2011-01"
+  },
+  {
     "code": "0702020028",
     "name": "GOTEIRAS DENTAIS"
   },
@@ -18374,6 +22049,16 @@
   {
     "code": "0702020044",
     "name": "PLACA DE CONTENÇÃO"
+  },
+  {
+    "code": "0702020052",
+    "name": "PROTESE MANDIBULAR",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0702020060",
+    "name": "PROTESE P/ GRANDES PERDAS MAXILARES",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0702020214",
@@ -18684,6 +22369,11 @@
     "name": "PARAFUSO P/ COMPONENTE ACETABULAR"
   },
   {
+    "code": "0702030775",
+    "name": "PARAFUSO ASSOCIAVEL A PLACA TORACO-LOMBO-SACRA TIPO PEDICULAR POLI-AXIAL",
+    "lastSeenTable": "2009-01"
+  },
+  {
     "code": "0702030783",
     "name": "PARAFUSO CANULADO DE TITANIO AUTO-ROSCANTE PARA FIXACAO DE ODONTOIDE"
   },
@@ -18816,6 +22506,11 @@
     "name": "PLACAS TÓRACO-LOMBO-SACRAL ASSOCIADA A PARAFUSOS INTRA-SOMÁTICOS DE TITÂNIO"
   },
   {
+    "code": "0702031119",
+    "name": "PORCAS DE TITÂNIO P/ CIRURGIA DE COLUNA",
+    "lastSeenTable": "2017-01"
+  },
+  {
     "code": "0702031127",
     "name": "PROTESE DE CABECA DE RADIO"
   },
@@ -18914,6 +22609,11 @@
   {
     "code": "0702031364",
     "name": "MINI PLACA EM T OU L (INCLUI PARAFUSO)"
+  },
+  {
+    "code": "0702031372",
+    "name": "PARAFUSO ASSOCIADO A PLACA TORACO-LOMBO-SACRA TIPO PEDICULAR POLI-AXIAL",
+    "lastSeenTable": "2010-01"
   },
   {
     "code": "0702031380",
@@ -19116,8 +22816,23 @@
     "name": "STENT FARMACOLÓGICO PARA ARTÉRIA PERIFÉRICA"
   },
   {
+    "code": "0702040495",
+    "name": "PROTESE INTRALUMINAL ARTERIAL AORTICA TUBULAR C/ STENT NAO RECOBERTO",
+    "lastSeenTable": "2010-01"
+  },
+  {
+    "code": "0702040509",
+    "name": "PROTESE INTRALUMINAL ARTERIAL P/ TIPS",
+    "lastSeenTable": "2010-01"
+  },
+  {
     "code": "0702040517",
     "name": "STENT PARA ARTÉRIA PERIFÉRICA"
+  },
+  {
+    "code": "0702040525",
+    "name": "PROTESE INTRALUMIAL ARTERIAL PERIFERICA C/ STENT RECOBERTO",
+    "lastSeenTable": "2011-01"
   },
   {
     "code": "0702040533",
@@ -19196,6 +22911,11 @@
     "name": "CIANOACRILATO (FRASCO)"
   },
   {
+    "code": "0702050113",
+    "name": "CIMENTO S/ ANTIBIOTICO",
+    "lastSeenTable": "2009-01"
+  },
+  {
     "code": "0702050121",
     "name": "CONJUNTO DESCARTAVEL DE BALAO INTRA-AORTICO"
   },
@@ -19228,6 +22948,16 @@
     "name": "FIO MALEAVEL DE CERCLAGEM, DE TITANIO, P/ COLUNA, METAFISE E DIAFISE"
   },
   {
+    "code": "0702050202",
+    "name": "FIXADOR DINAMICO P/ BUCO-MAXILO-FACIAL",
+    "lastSeenTable": "2011-01"
+  },
+  {
+    "code": "0702050210",
+    "name": "SISTEMA PARA FIXAÇÃO DE PARAFUSO AS HASTES DE TITÂNIO",
+    "lastSeenTable": "2017-01"
+  },
+  {
     "code": "0702050229",
     "name": "GANCHO LAMINAR INFERIOR DE DISTRACAO-SISTEMA HARRINGTON (TODOS)"
   },
@@ -19238,6 +22968,11 @@
   {
     "code": "0702050245",
     "name": "GANCHO LAMINAR DE COMPRESSAO-SISTEMA HARRINGTON (TODOS)"
+  },
+  {
+    "code": "0702050253",
+    "name": "GANCHO PEDICULAR",
+    "lastSeenTable": "2017-01"
   },
   {
     "code": "0702050261",
@@ -19286,6 +23021,16 @@
   {
     "code": "0702050377",
     "name": "PARAFUSO ASSOCIÁVEL A PLACA TÓRACO-LOMBO-SACRA TIPO PEDICULAR MONO-AXIAL."
+  },
+  {
+    "code": "0702050385",
+    "name": "PARAFUSO DE TITÂNIO ASSOCIÁVEL A HASTE, TIPO PEDICULAR, MONOAXIAL.",
+    "lastSeenTable": "2017-01"
+  },
+  {
+    "code": "0702050393",
+    "name": "PARAFUSO DE TITÂNIO ASSOCIÁVEL, A HASTE TIPO PEDICULAR, POLI AXIAL",
+    "lastSeenTable": "2017-01"
   },
   {
     "code": "0702050407",
@@ -19404,6 +23149,21 @@
     "name": "PROTESE TESTICULAR EM GEL DE SILICONE"
   },
   {
+    "code": "0702070017",
+    "name": "LENTE P/ FACECTOMIA C/ FIXACAO ESCLERAL",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0702070025",
+    "name": "LENTE P/ FACECTOMIA DE CAMARA ANTERIOR",
+    "lastSeenTable": "2008-01"
+  },
+  {
+    "code": "0702070033",
+    "name": "LENTE P/ FACECTOMIA DE CAMARA POSTERIOR",
+    "lastSeenTable": "2008-01"
+  },
+  {
     "code": "0702070041",
     "name": "ESFERA DE MÜLLER"
   },
@@ -19428,6 +23188,11 @@
     "name": "PROTESE DE ACO-TEFLON"
   },
   {
+    "code": "0702090026",
+    "name": "PROTESE P/ IMPLANTE COCLEAR MONOCANAL",
+    "lastSeenTable": "2010-01"
+  },
+  {
     "code": "0702090034",
     "name": "PRÓTESE P/ IMPLANTE COCLEAR MULTICANAL"
   },
@@ -19442,6 +23207,11 @@
   {
     "code": "0702090069",
     "name": "PILAR DA PRÓTESE AUDITIVA ANCORADA NO OSSO"
+  },
+  {
+    "code": "0702090077",
+    "name": "ÁUDIO PROCESSADOR DA PRÓTESE AUDITIVA ANCORADA NO OSSO",
+    "lastSeenTable": "2017-01"
   },
   {
     "code": "0702090085",
@@ -19584,6 +23354,11 @@
     "name": "DIARIA DE UNIDADE DE TERAPIA INTENSIVA ADULTO (UTI III)"
   },
   {
+    "code": "0802010105",
+    "name": "DIARIA DE UNIDADE DE TERAPIA INTENSIVA DE ADULTO (UTI I)",
+    "lastSeenTable": "2025-01"
+  },
+  {
     "code": "0802010113",
     "name": "DIARIA DE UNIDADE DE TERAPIA INTENSIVA DE QUEIMADOS"
   },
@@ -19594,6 +23369,11 @@
   {
     "code": "0802010130",
     "name": "DIARIA DE UNIDADE DE TERAPIA INTENSIVA NEONATAL - UTIN (TIPO III)"
+  },
+  {
+    "code": "0802010148",
+    "name": "DIARIA DE UNIDADE DE TERAPIA INTENSIVA EM PEDIATRIA (UTI I)",
+    "lastSeenTable": "2025-01"
   },
   {
     "code": "0802010156",
@@ -19638,6 +23418,21 @@
   {
     "code": "0802010288",
     "name": "DIÁRIA DE UNIDADE DE CUIDADOS INTERMEDIÁRIO PEDIÁTRICO"
+  },
+  {
+    "code": "0802010296",
+    "name": "DIÁRIA DE UTI II ADULTO - SÍNDROME RESPIRATÓRIA AGUDA GRAVE (SRAG) - COVID19",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0802010300",
+    "name": "DIÁRIA UTI II PEDIÁTRICA - SÍNDROME RESPIRATÓRIA AGUDA GRAVE (SRAG) - COVID19",
+    "lastSeenTable": "2022-01"
+  },
+  {
+    "code": "0802010318",
+    "name": "DIÁRIA DE LEITO DE SUPORTE VENTILATÓRIO PULMONAR",
+    "lastSeenTable": "2021-01"
   },
   {
     "code": "0802010326",
@@ -19725,7 +23520,11 @@
   },
   {
     "code": "0803010150",
-    "name": "AJUDA DE CUSTO PARA TRANSPORTE SANITÁRIO INTERESTADUAL PARA PACIENTES EM TRATAMENTO DE RADIOTERAPIA"
+    "name": "CUSTEIO PARA TRANSPORTE SANITÁRIO PARA USUÁRIOS EM TRATAMENTO DE RADIOTERAPIA"
+  },
+  {
+    "code": "0803010168",
+    "name": "CUSTEIO PARA TRANSPORTE SANITÁRIO PARA USUÁRIOS EM HEMODIÁLISE"
   },
   {
     "code": "0804010013",
@@ -19752,6 +23551,10 @@
     "name": "TELEINTERCONSULTA - EXECUTANTE"
   },
   {
+    "code": "0804010072",
+    "name": "TELEDIAGNÓSTICO SÍNCRONO PARA DERMATOSCOPIA"
+  },
+  {
     "code": "0804020019",
     "name": "TELETRIAGEM"
   },
@@ -19770,6 +23573,14 @@
   {
     "code": "0804020051",
     "name": "TELEATENDIMENTO EM GRUPO"
+  },
+  {
+    "code": "0804020060",
+    "name": "SOLICITAÇÃO DE TELEDIAGNÓSTICO ASSÍNCRONO EM DERMATOLOGIA"
+  },
+  {
+    "code": "0804020078",
+    "name": "SOLICITAÇÃO DE TELEDIAGNÓSTICO ASSÍNCRONO PARA ECG"
   },
   {
     "code": "0804030014",
@@ -19852,6 +23663,10 @@
     "name": "OCI AVALIAÇÃO DIAGNÓSTICA - INSUFICIÊNCIA CARDÍACA"
   },
   {
+    "code": "0902010077",
+    "name": "OCI GESTÃO DO PRÉ-OPERATÓRIO"
+  },
+  {
     "code": "0903010011",
     "name": "OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA"
   },
@@ -19926,5 +23741,69 @@
   {
     "code": "0906010055",
     "name": "OCI - GIN3 - PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SAÚDE DA MULHER (GINECOLOGIA)- ENDOMETRIOSE PROFUNDA- CASOS COMPLEXOS E PROGRAMAÇÃO CIRÚRGICA"
+  },
+  {
+    "code": "0907010016",
+    "name": "OCI - ATENÇÃO EM SAÚDE BUCAL NA ATENÇÃO ESPECIALIZADA PARA MULHERES EM SITUAÇÃO DE VIOLÊNCIA"
+  },
+  {
+    "code": "0907010024",
+    "name": "OCI- REABILITAÇÃO PROTÉTICA EM SAÚDE BUCAL NA ATENÇÃO ESPECIALIZADA PARA MULHERES EM SITUAÇÃO DE VIOLÊNCIA"
+  },
+  {
+    "code": "0908010010",
+    "name": "OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE SÍNDROMES RESPIRATÓRIAS"
+  },
+  {
+    "code": "0908010028",
+    "name": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SÍNDROMES RESPIRATÓRIAS"
+  },
+  {
+    "code": "0908010036",
+    "name": "OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE SÍNDROME NEUROLÓGICA"
+  },
+  {
+    "code": "0908010044",
+    "name": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SÍNDROME NEUROLÓGICA"
+  },
+  {
+    "code": "0908010052",
+    "name": "OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE SÍNDROME MUCOCUTÂNEA"
+  },
+  {
+    "code": "0908010060",
+    "name": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SÍNDROME MUCOCUTÂNEA"
+  },
+  {
+    "code": "0908010079",
+    "name": "OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE SÍNDROME CONSUMPTIVA"
+  },
+  {
+    "code": "0908010087",
+    "name": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SÍNDROME CONSUMPTIVA"
+  },
+  {
+    "code": "0909010013",
+    "name": "OCI AVALIAÇÃO INICIAL ESPECIALIZADA DO PACIENTE COMDOENÇA RENAL CRÔNICA"
+  },
+  {
+    "code": "0909010021",
+    "name": "OCI PROGRESSÃO DA AVALIAÇÃO ESPECIALIZADA DO PACIENTE COM DOENÇA RENAL CRÔNICA I"
+  },
+  {
+    "code": "0909010030",
+    "name": "OCI PROGRESSÃO DA AVALIAÇÃO ESPECIALIZADA DO PACIENTE COM DOENÇA RENAL CRÔNICA II"
+  },
+  {
+    "code": "0909010048",
+    "name": "OCI PROGRESSÃO DA AVALIAÇÃO ESPECIALIZADA DO PACIENTE COM DOENÇA RENAL CRÔNICA - III"
+  },
+  {
+    "code": "0909010056",
+    "name": "OCI PREPARAÇÃO DE PACIENTE COM DOENÇA RENAL CRÔNICA PARA DIÁLISE PERITONEAL - IMPLANTE DE CATETER"
+  },
+  {
+    "code": "0909010064",
+    "name": "OCI PREPARAÇÃO DE PACIENTES COM DOENÇA RENAL CRÔNICA PARA HEMODIÁLISE - FÍSTULA ARTERIOVENOSA"
   }
 ]

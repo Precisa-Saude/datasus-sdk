@@ -70,6 +70,13 @@ export interface LoincMapping {
 export interface SigtapProcedure {
   /** Código SIGTAP de 10 dígitos (ex: "0202010279"). */
   code: string;
+  /**
+   * Só para procedimento que saiu da tabela vigente: competência (AAAA-MM)
+   * da tabela SIGTAP mais recente, entre as consultadas, que ainda o trazia,
+   * e de onde veio o `name`. O SIA-SUS histórico fatura esses códigos, mas a
+   * tabela vigente não os lista. Ausente nos procedimentos vigentes.
+   */
+  lastSeenTable?: string;
   /** Nome oficial do procedimento na tabela SIGTAP. */
   name: string;
 }
